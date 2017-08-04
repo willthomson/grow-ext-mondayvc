@@ -1,0 +1,13 @@
+localization:
+  default_locale: en
+
+extensions:
+  preprocessors:
+  - extensions.greenhouse.GreenhousePreprocessor
+
+preprocessors:
+- kind: greenhouse
+  autorun: true
+  board_token: vaulttec
+  jobs_collection: /content/jobs
+  departments_collection: /content/departments

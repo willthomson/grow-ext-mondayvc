@@ -1,0 +1,4 @@
+dependencies:
+  /content/pages/index.yaml:
+  - /content/partials/form.yaml
+objects: {}
