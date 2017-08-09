@@ -46,6 +46,9 @@ class GreenhousePreprocessor(grow.Preprocessor):
             new_basenames.append(os.path.basename(path))
         basenames_to_delete = set(existing_basenames) - set(new_basenames)
         for basename in basenames_to_delete:
+            # Skip deleting _blueprint, etc.
+            if basename.startswith('_'):
+                continue
             path = os.path.join(collection_path, basename)
             self.pod.delete_file(path)
             self.pod.logger.info('Deleting -> {}'.format(path))
