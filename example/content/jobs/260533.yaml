@@ -1,8 +1,22 @@
+$title: Awkward Cop
 absolute_url: https://boards.greenhouse.io/vaulttec/jobs/260533
+content: '&lt;p&gt;The Rule Enforcement team is dedicated to keeping all employees in line.  Rule enforcers use various tactics such as physical intimidation, awkward pauses, and dramatic coffee sips in order to make sure everyone does what they&#39;re told.&lt;/p&gt;
+
+  &lt;p&gt;As a Good Cop, you&#39;ll work closely with Bad Cops in order to extract information from employees. Don&#39;t let the name of the role fool you however -- you are going to be just as &#39;bad&#39; as Bad Cops, but you&#39;ll preferably have experience playing the part of the kind, compassionate and fair cop.&lt;/p&gt;'
+departments:
+- child_ids: []
+  id: 13585
+  name: Rule Enforcement
+  parent_id: null
 id: 260533
 internal_job_id: 287334
 location:
   name: NYC
 metadata: []
-title: Awkward Cop
+offices:
+- child_ids: []
+  id: 8787
+  location: New York, NY, United States
+  name: New York City
+  parent_id: null
 updated_at: '2017-01-10T14:59:04-05:00'

@@ -11,7 +11,7 @@ class Error(Exception):
 
 class GreenhousePreprocessor(grow.Preprocessor):
     KIND = 'greenhouse'
-    JOBS_URL = 'https://api.greenhouse.io/v1/boards/{board_token}/jobs'
+    JOBS_URL = 'https://api.greenhouse.io/v1/boards/{board_token}/jobs?content=true'
     DEPARTMENTS_URL = 'https://api.greenhouse.io/v1/boards/{board_token}/departments'
 
     class Config(messages.Message):
