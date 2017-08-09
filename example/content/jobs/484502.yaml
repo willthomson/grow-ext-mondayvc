@@ -1,5 +1,6 @@
 $title: Indifferent Cop
 absolute_url: https://boards.greenhouse.io/vaulttec/jobs/484502
+compliance: null
 content: '&lt;p&gt;The Rule Enforcement team is dedicated to keeping all employees in line.  Rule enforcers use various tactics such as physical intimidation, awkward pauses, and dramatic coffee sips in order to make sure everyone does what they&#39;re told.&lt;/p&gt;
 
   &lt;p&gt;As a Bad Cop, you&#39;ll work closely with Good Cops in order to extract information from employees.  In this role, we want you to be the biggest jerk ever.  &lt;/p&gt;
@@ -14,6 +15,25 @@ id: 484502
 internal_job_id: 325569
 location:
   name: NYC
+location_questions:
+- fields:
+  - name: location
+    type: input_text
+    values: []
+  label: Location
+  required: false
+- fields:
+  - name: latitude
+    type: input_hidden
+    values: []
+  label: Latitude
+  required: false
+- fields:
+  - name: longitude
+    type: input_hidden
+    values: []
+  label: Longitude
+  required: false
 metadata: null
 offices:
 - child_ids: []
@@ -21,4 +41,71 @@ offices:
   location: New York, NY, United States
   name: New York City
   parent_id: null
+questions:
+- fields:
+  - name: first_name
+    type: input_text
+    values: []
+  label: First Name
+  required: true
+- fields:
+  - name: last_name
+    type: input_text
+    values: []
+  label: Last Name
+  required: true
+- fields:
+  - name: email
+    type: input_text
+    values: []
+  label: Email
+  required: true
+- fields:
+  - name: phone
+    type: input_text
+    values: []
+  label: Phone
+  required: false
+- fields:
+  - name: resume
+    type: input_file
+    values: []
+  - name: resume_text
+    type: textarea
+    values: []
+  label: Resume/CV
+  required: false
+- fields:
+  - name: cover_letter
+    type: input_file
+    values: []
+  - name: cover_letter_text
+    type: textarea
+    values: []
+  label: Cover Letter
+  required: false
+- fields:
+  - name: question_3478554
+    type: input_text
+    values: []
+  label: LinkedIn Profile
+  required: false
+- fields:
+  - name: question_3478555
+    type: input_text
+    values: []
+  label: Website
+  required: false
+- fields:
+  - name: question_3478556
+    type: input_text
+    values: []
+  label: How did you hear about this job?
+  required: false
+- fields:
+  - name: question_3478557
+    type: input_text
+    values: []
+  label: Potato?
+  required: false
 updated_at: '2017-03-28T16:47:12-04:00'

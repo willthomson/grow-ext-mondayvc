@@ -12,6 +12,7 @@ class Error(Exception):
 class GreenhousePreprocessor(grow.Preprocessor):
     KIND = 'greenhouse'
     JOBS_URL = 'https://api.greenhouse.io/v1/boards/{board_token}/jobs?content=true'
+    JOB_URL = 'https://api.greenhouse.io/v1/boards/{board_token}/jobs/{job_id}?questions=true'
     DEPARTMENTS_URL = 'https://api.greenhouse.io/v1/boards/{board_token}/departments'
 
     class Config(messages.Message):
@@ -35,13 +36,28 @@ class GreenhousePreprocessor(grow.Preprocessor):
         content = resp.json()
         self._bind(collection_path, content['departments'])
 
+    def _parse_entry(self, item):
+        if item.get('title'):
+            item['$title'] = item.pop('title')
+        return item
+
+    def _get_single_job(self, item):
+        board_token = self.config.board_token
+        url = GreenhousePreprocessor.JOB_URL.format(
+                board_token=board_token, job_id=item['id'])
+        resp = requests.get(url)
+	if resp.status_code != 200:
+            raise Error('Error requesting -> {}'.format(url))
+        content = resp.json()
+        return content
+
     def _bind(self, collection_path, items):
         existing_paths = self.pod.list_dir(collection_path)
         existing_basenames = [path.lstrip('/') for path in existing_paths]
         new_basenames = []
         for item in items:
-            if item['title']:
-                item['$title'] = item.pop('title')
+            item = self._get_single_job(item)
+            item = self._parse_entry(item)
             path = os.path.join(collection_path, '{}.yaml'.format(item['id']))
             self.pod.write_yaml(path, item)
             self.pod.logger.info('Saving -> {}'.format(path))
@@ -56,10 +72,6 @@ class GreenhousePreprocessor(grow.Preprocessor):
             self.pod.logger.info('Deleting -> {}'.format(path))
 
     def run(self, *args, **kwargs):
-        if self.config.departments_collection:
-            self.bind_jobs(
-                self.config.board_token,
-                self.config.departments_collection)
         if self.config.jobs_collection:
             self.bind_jobs(
                 self.config.board_token,
