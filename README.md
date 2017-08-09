@@ -1,6 +1,7 @@
 # grow-ext-greenhouse
 
-[![Build Status](https://travis-ci.org/grow/grow-ext-greenhouse.svg?branch=master)](https://travis-ci.org/grow/grow-ext-greenhouse)
+[![Build
+Status](https://travis-ci.org/grow/grow-ext-greenhouse.svg?branch=master)](https://travis-ci.org/grow/grow-ext-greenhouse)
 
 (WIP) An extension to integrate Greenhouse data with Grow. Provides a way to
 serialize Greenhouse jobs into YAML files and a backend proxy for submitting
@@ -28,7 +29,6 @@ preprocessors:
 - kind: greenhouse
   board_token: <token>
   jobs_collection: /content/jobs
-  departments_collection: /content/departments
 ```
 
 ### Configuration
@@ -36,3 +36,9 @@ preprocessors:
 1. Acquire the `board_token` from the
    [https://app.greenhouse.io/configure/dev_center/config/](Greenhouse Dev
    Center).
+
+### Developer notes
+
+- See [Greenhouse Job Board API
+  documentation](https://developers.greenhouse.io/job-board.html) for more
+  details.

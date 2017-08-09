@@ -1,50 +1,36 @@
-from protorpc.wsgi import service
-from protorpc import messages
-from protorpc import remote
+from google.appengine.ext import vendor
+vendor.add('lib')
+
+import logging
+import os
+import requests
+import webapp2
+
+SUBMIT_URL = 'https://api.greenhouse.io/v1/boards/{board_token}/jobs/{job_id}'
 
 
-class FieldMessage(messages.Message):
-    key = messages.StringField(1)
-    value = messages.StringField(2)
+def submit_application(board_token, job_id, data):
+    url = SUBMIT_URL.format(board_token=board_token, job_id=job_id)
+    auth = (os.getenv('GREENHOUSE_API_KEY'), '')
+    resp = requests.post(url, auth=auth, data=data)
+    return resp
 
 
-class SubmitApplicationRequest(messages.Message):
-    fields = messages.MessageField(FieldMessage, 1, repeated=True)
+class SubmitApplicationHandler(webapp2.RequestHandler):
+
+    def post(self):
+        board_token = self.request.get('board_token')
+        job_id = self.request.get('job_id')
+        # TODO: Handle file uploads.
+        content = []
+        for key, val in self.request.POST.iteritems():
+            content.append((key, val))
+        resp = submit_application(board_token, job_id, content)
+        self.response.headers['Content-Type'] = 'application/json'
+        self.response.set_status(resp.status_code)
+        self.response.out.write(resp.text)
 
 
-class SubmitApplicationResponse(messages.Message):
-    pass
-
-
-class ApplicationService(remote.Service):
-
-    @remote.method(SubmitApplicationRequest, SubmitApplicationResponse)
-    def submit(self, request):
-        if not request.query:
-            raise remote.ApplicationError('Missing: query')
-        docs, cursor = execute_search(request.query)
-        resp = SearchResponse()
-        resp.documents = docs
-        resp.cursor = cursor
-        return resp
-
-
-class CorsMiddleware(object):
-
-    def __init__(self, app):
-        self.app = app
-
-    def __call__(self, environ, start_response):
-        def custom_start_response(status, headers, exc_info=None):
-            headers.append(('Access-Control-Allow-Origin', '*'))
-            headers.append(('Access-Control-Request-Headers', 'Content-Type'))
-            return start_response(status, headers, exc_info)
-        if environ.get('REQUEST_METHOD') == 'OPTIONS':
-            status = '200 OK'
-            return custom_start_response(status, [])
-        return self.app(environ, custom_start_response)
-
-
-api = CorsMiddleware(service.service_mappings((
-    ('/_grow/api/applications.*', ApplicationService),
-)))
+app = webapp2.WSGIApplication([
+    ('/_grow/api/submit-application', SubmitApplicationHandler),
+])
