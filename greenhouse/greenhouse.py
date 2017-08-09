@@ -40,6 +40,8 @@ class GreenhousePreprocessor(grow.Preprocessor):
         existing_basenames = [path.lstrip('/') for path in existing_paths]
         new_basenames = []
         for item in items:
+            if item['title']:
+                item['$title'] = item.pop('title')
             path = os.path.join(collection_path, '{}.yaml'.format(item['id']))
             self.pod.write_yaml(path, item)
             self.pod.logger.info('Saving -> {}'.format(path))
