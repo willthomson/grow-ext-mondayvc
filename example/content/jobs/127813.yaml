@@ -89,16 +89,16 @@ compliance:
 
     &lt;p&gt;Federal law requires employers to provide reasonable accommodation to qualified individuals with disabilities.    Please tell us if you require a reasonable accommodation to apply for a job or to perform your job.  Examples of reasonable accommodation include making a change to the application process or work procedures, providing documents in an alternate format, using a sign language interpreter, or using specialized equipment.&lt;/p&gt;
 
-    &lt;p&gt;&lt;sup&gt;1&lt;/sup&gt;Section 503 of the Rehabilitation Act of 1973, as amended.  For more information about this form or the equal employment obligations of Federal contractors, visit the U.S. Department of Labor’s Office of Federal Contract Compliance Programs (OFCCP) website at &lt;a href=&quot;http://www.dol.gov/ofccp&quot; target=&quot;_blank&quot;&gt;www.dol.gov/ofccp&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;&lt;sup&gt;1&lt;/sup&gt;Section 503 of the Rehabilitation Act of 1973, as amended.  For more information about this form or the equal employment obligations of Federal contractors, visit the U.S. Department of Labors Office of Federal Contract Compliance Programs (OFCCP) website at &lt;a href=&quot;http://www.dol.gov/ofccp&quot; target=&quot;_blank&quot;&gt;www.dol.gov/ofccp&lt;/a&gt;.&lt;/p&gt;
 
     &lt;p&gt;PUBLIC BURDEN STATEMENT:  According to the Paperwork Reduction Act of 1995 no persons are required to respond to a collection of information unless such collection displays a valid OMB control number. This survey should take about 5 minutes to complete.&lt;/p&gt;
 
     '
-  questions: []
+  questions: null
   type: eeoc
-content: '&lt;p&gt;The Rule Enforcement team is dedicated to keeping all employees in line.  Rule enforcers use various tactics such as physical intimidation, awkward pauses, and dramatic coffee sips in order to make sure everyone does what they&#39;re told.&lt;/p&gt;
+content: '<p>The Rule Enforcement team is dedicated to keeping all employees in line.  Rule enforcers use various tactics such as physical intimidation, awkward pauses, and dramatic coffee sips in order to make sure everyone does what they''re told.</p>
 
-  &lt;p&gt;As a Good Cop, you&#39;ll work closely with Bad Cops in order to extract information from employees. Don&#39;t let the name of the role fool you however -- you are going to be just as &#39;bad&#39; as Bad Cops, but you&#39;ll preferably have experience playing the part of the kind, compassionate and fair cop.&lt;/p&gt;'
+  <p>As a Good Cop, you''ll work closely with Bad Cops in order to extract information from employees. Don''t let the name of the role fool you however -- you are going to be just as ''bad'' as Bad Cops, but you''ll preferably have experience playing the part of the kind, compassionate and fair cop.</p>'
 departments:
 - child_ids: []
   id: 13585
@@ -127,7 +127,7 @@ location_questions:
     values: []
   label: Longitude
   required: true
-metadata: []
+metadata: null
 offices:
 - child_ids: []
   id: 8787
@@ -247,4 +247,4 @@ questions:
     values: []
   label: Passport?
   required: true
-updated_at: '2017-01-10T14:59:04-05:00'
+updated_at: '2017-08-15T04:35:35-04:00'

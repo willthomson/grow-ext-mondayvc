@@ -11,3 +11,14 @@ preprocessors:
   board_token: vaulttec
   jobs_collection: /content/jobs
   departments_collection: /content/departments
+  allowed_html_tags:
+  - b
+  - br
+  - em
+  - i
+  - li
+  - ol
+  - p
+  - strong
+  - u
+  - ul

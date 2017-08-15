@@ -1,8 +1,13 @@
 from protorpc import messages
 from protorpc import protojson
+import bleach
 import grow
 import os
 import requests
+try:
+    from HTMLParser import HTMLParser
+except ImportError:
+    from html.parser import HTMLParser
 
 
 class Error(Exception):
@@ -19,6 +24,7 @@ class GreenhousePreprocessor(grow.Preprocessor):
         board_token = messages.StringField(1)
         jobs_collection = messages.StringField(2)
         departments_collection = messages.StringField(3)
+        allowed_html_tags = messages.StringField(4, repeated=True)
 
     def bind_jobs(self, board_token, collection_path):
         url = GreenhousePreprocessor.JOBS_URL.format(board_token=board_token)
@@ -39,7 +45,17 @@ class GreenhousePreprocessor(grow.Preprocessor):
     def _parse_entry(self, item):
         if item.get('title'):
             item['$title'] = item.pop('title')
+        if item.get('content'):
+            item['content'] = self._parse_content(item.get('content'))
         return item
+
+    def _parse_content(self, content):
+        parser = HTMLParser()
+        content = parser.unescape(content)
+        tags = self.config.allowed_html_tags
+        if tags:
+            content = bleach.clean(content, tags=tags, strip=True)
+        return content
 
     def _get_single_job(self, item):
         board_token = self.config.board_token

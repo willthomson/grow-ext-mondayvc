@@ -1,11 +1,11 @@
 $title: Indifferent Cop
 absolute_url: https://boards.greenhouse.io/vaulttec/jobs/484502
 compliance: null
-content: '&lt;p&gt;The Rule Enforcement team is dedicated to keeping all employees in line.  Rule enforcers use various tactics such as physical intimidation, awkward pauses, and dramatic coffee sips in order to make sure everyone does what they&#39;re told.&lt;/p&gt;
+content: '<p>The Rule Enforcement team is dedicated to keeping all employees in line.  Rule enforcers use various tactics such as physical intimidation, awkward pauses, and dramatic coffee sips in order to make sure everyone does what they''re told.</p>
 
-  &lt;p&gt;As a Bad Cop, you&#39;ll work closely with Good Cops in order to extract information from employees.  In this role, we want you to be the biggest jerk ever.  &lt;/p&gt;
+  <p>As a Bad Cop, you''ll work closely with Good Cops in order to extract information from employees.  In this role, we want you to be the biggest jerk ever.  </p>
 
-  &lt;p&gt;Here&#39;s a link: &lt;a href=&quot;http://www.purple.com&quot;&gt;to purple!&lt;/a&gt;&lt;/p&gt;'
+  <p>Here''s a link: to purple!</p>'
 departments:
 - child_ids: []
   id: 13585
@@ -108,4 +108,4 @@ questions:
     values: []
   label: Potato?
   required: false
-updated_at: '2017-03-28T16:47:12-04:00'
+updated_at: '2017-08-15T04:35:44-04:00'
