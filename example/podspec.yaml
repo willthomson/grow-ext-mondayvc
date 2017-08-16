@@ -22,3 +22,6 @@ preprocessors:
   - strong
   - u
   - ul
+  allowed_html_attributes:
+  - tag: a
+    attributes: [href, src]

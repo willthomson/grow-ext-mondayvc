@@ -14,6 +14,11 @@ class Error(Exception):
     pass
 
 
+class AttributeMessage(messages.Message):
+    tag = messages.StringField(1)
+    attributes = messages.StringField(2, repeated=True)
+
+
 class GreenhousePreprocessor(grow.Preprocessor):
     KIND = 'greenhouse'
     JOBS_URL = 'https://api.greenhouse.io/v1/boards/{board_token}/jobs?content=true'
@@ -25,6 +30,7 @@ class GreenhousePreprocessor(grow.Preprocessor):
         jobs_collection = messages.StringField(2)
         departments_collection = messages.StringField(3)
         allowed_html_tags = messages.StringField(4, repeated=True)
+        allowed_html_attributes = messages.MessageField(AttributeMessage, 5, repeated=True)
 
     def bind_jobs(self, board_token, collection_path):
         url = GreenhousePreprocessor.JOBS_URL.format(board_token=board_token)
@@ -54,7 +60,12 @@ class GreenhousePreprocessor(grow.Preprocessor):
         content = parser.unescape(content)
         tags = self.config.allowed_html_tags
         if tags:
-            content = bleach.clean(content, tags=tags, strip=True)
+            attributes = {}
+            if self.config.allowed_html_attributes:
+                for attribute in self.config.allowed_html_attributes:
+                    attributes[attribute.tag] = attribute.attributes
+            content = bleach.clean(
+                    content, tags=tags, attributes=attributes, strip=True)
         return content
 
     def _get_single_job(self, item):
