@@ -53,6 +53,10 @@ class GreenhousePreprocessor(grow.Preprocessor):
             item['$title'] = item.pop('title')
         if item.get('content'):
             item['content'] = self._parse_content(item.get('content'))
+        if item.get('compliance'):
+            for i, row in enumerate(item['compliance']):
+                item['compliance'][i]['description'] = \
+                        self._parse_content(row['description'])
         return item
 
     def _parse_content(self, content):

@@ -29,6 +29,12 @@ class SubmitApplicationHandler(webapp2.RequestHandler):
             else:
                 content.append((key, val))
         resp = submit_application(board_token, job_id, data=content, files=files)
+        try:
+            resp.raise_for_status()
+        except Exception as e:
+            self.response.set_status(resp.status_code)
+            self.response.out.write(resp.text)
+            return
         self.response.headers['Content-Type'] = 'application/json'
         self.response.set_status(resp.status_code)
         self.response.out.write(resp.text)
