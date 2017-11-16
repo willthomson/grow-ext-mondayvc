@@ -1,0 +1,5174 @@
+degrees:
+  items:
+  - id: 4029475
+    text: High School
+  - id: 4029489
+    text: Associate's Degree
+  - id: 4029501
+    text: Bachelor's Degree
+  - id: 4029520
+    text: Master's Degree
+  - id: 4029533
+    text: Master of Business Administration (M.B.A.)
+  - id: 4029546
+    text: Juris Doctor (J.D.)
+  - id: 4029561
+    text: Doctor of Medicine (M.D.)
+  - id: 4029630
+    text: Doctor of Philosophy (Ph.D.)
+  - id: 4029646
+    text: Engineer's Degree
+  - id: 4029662
+    text: Other
+  meta:
+    per_page: 100
+    total_count: 10
+disciplines:
+  items:
+  - id: 4029754
+    text: Accounting
+  - id: 4029771
+    text: African Studies
+  - id: 4029782
+    text: Agriculture
+  - id: 4029796
+    text: Anthropology
+  - id: 4029811
+    text: Applied Health Services
+  - id: 4029823
+    text: Architecture
+  - id: 4029836
+    text: Art
+  - id: 4029854
+    text: Asian Studies
+  - id: 4029887
+    text: Biology
+  - id: 4029906
+    text: Business
+  - id: 4029918
+    text: Business Administration
+  - id: 4029927
+    text: Chemistry
+  - id: 4029938
+    text: Classical Languages
+  - id: 4029947
+    text: Communications & Film
+  - id: 4029959
+    text: Computer Science
+  - id: 4029981
+    text: Dentistry
+  - id: 4029996
+    text: Developing Nations
+  - id: 4030012
+    text: Discipline Unknown
+  - id: 4030202
+    text: Earth Sciences
+  - id: 4030403
+    text: Economics
+  - id: 4030609
+    text: Education
+  - id: 4030633
+    text: Electronics
+  - id: 4030685
+    text: Engineering
+  - id: 4030700
+    text: English Studies
+  - id: 4030715
+    text: Environmental Studies
+  - id: 4030731
+    text: European Studies
+  - id: 4030747
+    text: Fashion
+  - id: 4030764
+    text: Finance
+  - id: 4030780
+    text: Fine Arts
+  - id: 4030794
+    text: General Studies
+  - id: 4030806
+    text: Health Services
+  - id: 4030820
+    text: History
+  - id: 4030831
+    text: Human Resources Management
+  - id: 4030838
+    text: Humanities
+  - id: 4030858
+    text: Industrial Arts & Carpentry
+  - id: 4030863
+    text: Information Systems
+  - id: 4030874
+    text: International Relations
+  - id: 4030882
+    text: Journalism
+  - id: 4030893
+    text: Languages
+  - id: 4030907
+    text: Latin American Studies
+  - id: 4030919
+    text: Law
+  - id: 4030930
+    text: Linguistics
+  - id: 4030938
+    text: Manufacturing & Mechanics
+  - id: 4030946
+    text: Mathematics
+  - id: 4030957
+    text: Medicine
+  - id: 4030979
+    text: Middle Eastern Studies
+  - id: 4030990
+    text: Naval Science
+  - id: 4031003
+    text: North American Studies
+  - id: 4031067
+    text: Nuclear Technics
+  - id: 4031273
+    text: Operations Research & Strategy
+  - id: 4031467
+    text: Organizational Theory
+  - id: 4031592
+    text: Philosophy
+  - id: 4031793
+    text: Physical Education
+  - id: 4031808
+    text: Physical Sciences
+  - id: 4031825
+    text: Physics
+  - id: 4031840
+    text: Political Science
+  - id: 4031857
+    text: Psychology
+  - id: 4031874
+    text: Public Policy
+  - id: 4031889
+    text: Public Service
+  - id: 4031912
+    text: Religious Studies
+  - id: 4031927
+    text: Russian & Soviet Studies
+  - id: 4031943
+    text: Scandinavian Studies
+  - id: 4031960
+    text: Science
+  - id: 4031976
+    text: Slavic Studies
+  - id: 4031992
+    text: Social Science
+  - id: 4032008
+    text: Social Sciences
+  - id: 4032023
+    text: Sociology
+  - id: 4032039
+    text: Speech
+  - id: 4032056
+    text: Statistics & Decision Theory
+  - id: 4032071
+    text: Urban Studies
+  - id: 4032086
+    text: Veterinary Medicine
+  meta:
+    per_page: 100
+    total_count: 71
+schools:
+  items:
+  - id: 3991274
+    text: Abraham Baldwin Agricultural College
+  - id: 3991289
+    text: Academy of Art University
+  - id: 3991302
+    text: Acadia University
+  - id: 3991317
+    text: Adams State University
+  - id: 3991333
+    text: Adelphi University
+  - id: 3991349
+    text: Adrian College
+  - id: 3991365
+    text: Adventist University of Health Sciences
+  - id: 3991383
+    text: Agnes Scott College
+  - id: 3991400
+    text: AIB College of Business
+  - id: 3991415
+    text: Alaska Pacific University
+  - id: 3991432
+    text: Albany College of Pharmacy and Health Sciences
+  - id: 3991446
+    text: Albany State University
+  - id: 3991461
+    text: Albertus Magnus College
+  - id: 3991471
+    text: Albion College
+  - id: 3991482
+    text: Albright College
+  - id: 3991495
+    text: Alderson Broaddus University
+  - id: 3991501
+    text: Alfred University
+  - id: 3991514
+    text: Alice Lloyd College
+  - id: 3991528
+    text: Allegheny College
+  - id: 3991540
+    text: Allen College
+  - id: 3991551
+    text: Allen University
+  - id: 3991562
+    text: Alliant International University
+  - id: 3991574
+    text: Alma College
+  - id: 3991585
+    text: Alvernia University
+  - id: 3991597
+    text: Alverno College
+  - id: 3991608
+    text: Amberton University
+  - id: 3991620
+    text: American Academy of Art
+  - id: 3991636
+    text: American Indian College of the Assemblies of God
+  - id: 3991650
+    text: American InterContinental University
+  - id: 3991661
+    text: American International College
+  - id: 3991672
+    text: American Jewish University
+  - id: 3991685
+    text: American Public University System
+  - id: 3991698
+    text: American University
+  - id: 3991709
+    text: American University in Bulgaria
+  - id: 3991718
+    text: American University in Cairo
+  - id: 3991732
+    text: American University of Beirut
+  - id: 3991742
+    text: American University of Paris
+  - id: 3991754
+    text: American University of Puerto Rico
+  - id: 3991769
+    text: Amherst College
+  - id: 3991781
+    text: Amridge University
+  - id: 3991793
+    text: Anderson University
+  - id: 3991805
+    text: Andrews University
+  - id: 3991817
+    text: Angelo State University
+  - id: 3991830
+    text: Anna Maria College
+  - id: 3991840
+    text: Antioch University
+  - id: 3991851
+    text: Appalachian Bible College
+  - id: 3991863
+    text: Aquinas College
+  - id: 3991875
+    text: Arcadia University
+  - id: 3991889
+    text: Argosy University
+  - id: 3991901
+    text: Arizona Christian University
+  - id: 3991913
+    text: Arizona State University - West
+  - id: 3991935
+    text: Arkansas Baptist College
+  - id: 3991950
+    text: Arkansas Tech University
+  - id: 3991962
+    text: Armstrong Atlantic State University
+  - id: 3991975
+    text: Art Academy of Cincinnati
+  - id: 3991985
+    text: Art Center College of Design
+  - id: 3991998
+    text: Art Institute of Atlanta
+  - id: 3992010
+    text: Art Institute of Colorado
+  - id: 3992024
+    text: Art Institute of Houston
+  - id: 3992036
+    text: Art Institute of Pittsburgh
+  - id: 3992048
+    text: Art Institute of Portland
+  - id: 3992060
+    text: Art Institute of Seattle
+  - id: 3992071
+    text: Asbury University
+  - id: 3992084
+    text: Ashford University
+  - id: 3992095
+    text: Ashland University
+  - id: 3992106
+    text: Assumption College
+  - id: 3992120
+    text: Athens State University
+  - id: 3992132
+    text: Auburn University - Montgomery
+  - id: 3992154
+    text: Augsburg College
+  - id: 3992167
+    text: Augustana College
+  - id: 3992180
+    text: Aurora University
+  - id: 3992193
+    text: Austin College
+  - id: 3992206
+    text: Alcorn State University
+  - id: 3992219
+    text: Ave Maria University
+  - id: 3992231
+    text: Averett University
+  - id: 3992243
+    text: Avila University
+  - id: 3992254
+    text: Azusa Pacific University
+  - id: 3992268
+    text: Babson College
+  - id: 3992280
+    text: Bacone College
+  - id: 3992291
+    text: Baker College of Flint
+  - id: 3992305
+    text: Baker University
+  - id: 3992318
+    text: Baldwin Wallace University
+  - id: 3992330
+    text: Christian Brothers University
+  - id: 3992344
+    text: Abilene Christian University
+  - id: 3992355
+    text: Arizona State University
+  - id: 3992365
+    text: Auburn University
+  - id: 3992377
+    text: Alabama A&M University
+  - id: 3992389
+    text: Alabama State University
+  - id: 3992401
+    text: Arkansas State University
+  - id: 3992414
+    text: Baptist Bible College
+  - id: 3992424
+    text: Baptist Bible College and Seminary
+  - id: 3992436
+    text: Baptist College of Florida
+  - id: 3992446
+    text: Baptist Memorial College of Health Sciences
+  - id: 3992460
+    text: Baptist Missionary Association Theological Seminary
+  - id: 3992474
+    text: Bard College
+  - id: 3992487
+    text: Bard College at Simon's Rock
+  - id: 3992500
+    text: Barnard College
+  - id: 3992514
+    text: Barry University
+  - id: 3992528
+    text: Barton College
+  - id: 3992543
+    text: Bastyr University
+  - id: 3991274
+    text: Abraham Baldwin Agricultural College
+  - id: 3991289
+    text: Academy of Art University
+  - id: 3991302
+    text: Acadia University
+  - id: 3991317
+    text: Adams State University
+  - id: 3991333
+    text: Adelphi University
+  - id: 3991349
+    text: Adrian College
+  - id: 3991365
+    text: Adventist University of Health Sciences
+  - id: 3991383
+    text: Agnes Scott College
+  - id: 3991400
+    text: AIB College of Business
+  - id: 3991415
+    text: Alaska Pacific University
+  - id: 3991432
+    text: Albany College of Pharmacy and Health Sciences
+  - id: 3991446
+    text: Albany State University
+  - id: 3991461
+    text: Albertus Magnus College
+  - id: 3991471
+    text: Albion College
+  - id: 3991482
+    text: Albright College
+  - id: 3991495
+    text: Alderson Broaddus University
+  - id: 3991501
+    text: Alfred University
+  - id: 3991514
+    text: Alice Lloyd College
+  - id: 3991528
+    text: Allegheny College
+  - id: 3991540
+    text: Allen College
+  - id: 3991551
+    text: Allen University
+  - id: 3991562
+    text: Alliant International University
+  - id: 3991574
+    text: Alma College
+  - id: 3991585
+    text: Alvernia University
+  - id: 3991597
+    text: Alverno College
+  - id: 3991608
+    text: Amberton University
+  - id: 3991620
+    text: American Academy of Art
+  - id: 3991636
+    text: American Indian College of the Assemblies of God
+  - id: 3991650
+    text: American InterContinental University
+  - id: 3991661
+    text: American International College
+  - id: 3991672
+    text: American Jewish University
+  - id: 3991685
+    text: American Public University System
+  - id: 3991698
+    text: American University
+  - id: 3991709
+    text: American University in Bulgaria
+  - id: 3991718
+    text: American University in Cairo
+  - id: 3991732
+    text: American University of Beirut
+  - id: 3991742
+    text: American University of Paris
+  - id: 3991754
+    text: American University of Puerto Rico
+  - id: 3991769
+    text: Amherst College
+  - id: 3991781
+    text: Amridge University
+  - id: 3991793
+    text: Anderson University
+  - id: 3991805
+    text: Andrews University
+  - id: 3991817
+    text: Angelo State University
+  - id: 3991830
+    text: Anna Maria College
+  - id: 3991840
+    text: Antioch University
+  - id: 3991851
+    text: Appalachian Bible College
+  - id: 3991863
+    text: Aquinas College
+  - id: 3991875
+    text: Arcadia University
+  - id: 3991889
+    text: Argosy University
+  - id: 3991901
+    text: Arizona Christian University
+  - id: 3991913
+    text: Arizona State University - West
+  - id: 3991935
+    text: Arkansas Baptist College
+  - id: 3991950
+    text: Arkansas Tech University
+  - id: 3991962
+    text: Armstrong Atlantic State University
+  - id: 3991975
+    text: Art Academy of Cincinnati
+  - id: 3991985
+    text: Art Center College of Design
+  - id: 3991998
+    text: Art Institute of Atlanta
+  - id: 3992010
+    text: Art Institute of Colorado
+  - id: 3992024
+    text: Art Institute of Houston
+  - id: 3992036
+    text: Art Institute of Pittsburgh
+  - id: 3992048
+    text: Art Institute of Portland
+  - id: 3992060
+    text: Art Institute of Seattle
+  - id: 3992071
+    text: Asbury University
+  - id: 3992084
+    text: Ashford University
+  - id: 3992095
+    text: Ashland University
+  - id: 3992106
+    text: Assumption College
+  - id: 3992120
+    text: Athens State University
+  - id: 3992132
+    text: Auburn University - Montgomery
+  - id: 3992154
+    text: Augsburg College
+  - id: 3992167
+    text: Augustana College
+  - id: 3992180
+    text: Aurora University
+  - id: 3992193
+    text: Austin College
+  - id: 3992206
+    text: Alcorn State University
+  - id: 3992219
+    text: Ave Maria University
+  - id: 3992231
+    text: Averett University
+  - id: 3992243
+    text: Avila University
+  - id: 3992254
+    text: Azusa Pacific University
+  - id: 3992268
+    text: Babson College
+  - id: 3992280
+    text: Bacone College
+  - id: 3992291
+    text: Baker College of Flint
+  - id: 3992305
+    text: Baker University
+  - id: 3992318
+    text: Baldwin Wallace University
+  - id: 3992330
+    text: Christian Brothers University
+  - id: 3992344
+    text: Abilene Christian University
+  - id: 3992355
+    text: Arizona State University
+  - id: 3992365
+    text: Auburn University
+  - id: 3992377
+    text: Alabama A&M University
+  - id: 3992389
+    text: Alabama State University
+  - id: 3992401
+    text: Arkansas State University
+  - id: 3992414
+    text: Baptist Bible College
+  - id: 3992424
+    text: Baptist Bible College and Seminary
+  - id: 3992436
+    text: Baptist College of Florida
+  - id: 3992446
+    text: Baptist Memorial College of Health Sciences
+  - id: 3992460
+    text: Baptist Missionary Association Theological Seminary
+  - id: 3992474
+    text: Bard College
+  - id: 3992487
+    text: Bard College at Simon's Rock
+  - id: 3992500
+    text: Barnard College
+  - id: 3992514
+    text: Barry University
+  - id: 3992528
+    text: Barton College
+  - id: 3992543
+    text: Bastyr University
+  - id: 3992555
+    text: Bates College
+  - id: 3992568
+    text: Bauder College
+  - id: 3992581
+    text: Bay Path College
+  - id: 3992597
+    text: Bay State College
+  - id: 3992610
+    text: Bayamon Central University
+  - id: 3992624
+    text: Beacon College
+  - id: 3992635
+    text: Becker College
+  - id: 3992647
+    text: Belhaven University
+  - id: 3992659
+    text: Bellarmine University
+  - id: 3992672
+    text: Bellevue College
+  - id: 3992684
+    text: Bellevue University
+  - id: 3992696
+    text: Bellin College
+  - id: 3992707
+    text: Belmont Abbey College
+  - id: 3992723
+    text: Belmont University
+  - id: 3992735
+    text: Beloit College
+  - id: 3992746
+    text: Bemidji State University
+  - id: 3992759
+    text: Benedict College
+  - id: 3992769
+    text: Benedictine College
+  - id: 3992780
+    text: Benedictine University
+  - id: 3992791
+    text: Benjamin Franklin Institute of Technology
+  - id: 3992802
+    text: Bennett College
+  - id: 3992817
+    text: Bennington College
+  - id: 3992831
+    text: Bentley University
+  - id: 3992844
+    text: Berea College
+  - id: 3992856
+    text: Berkeley College
+  - id: 3992870
+    text: Berklee College of Music
+  - id: 3992884
+    text: Berry College
+  - id: 3992896
+    text: Bethany College
+  - id: 3992910
+    text: Bethany Lutheran College
+  - id: 3992923
+    text: Bethel College
+  - id: 3992937
+    text: Bethel University
+  - id: 3992949
+    text: BI Norwegian Business School
+  - id: 3992960
+    text: Binghamton University - SUNY
+  - id: 3992973
+    text: Biola University
+  - id: 3992983
+    text: Birmingham-Southern College
+  - id: 3992996
+    text: Bismarck State College
+  - id: 3993007
+    text: Black Hills State University
+  - id: 3993021
+    text: Blackburn College
+  - id: 3993033
+    text: Blessing-Rieman College of Nursing
+  - id: 3993046
+    text: Bloomfield College
+  - id: 3993058
+    text: Bloomsburg University of Pennsylvania
+  - id: 3993069
+    text: Blue Mountain College
+  - id: 3993083
+    text: Bluefield College
+  - id: 3993096
+    text: Bluefield State College
+  - id: 3993109
+    text: Bluffton University
+  - id: 3993120
+    text: Boricua College
+  - id: 3993135
+    text: Boston Architectural College
+  - id: 3993147
+    text: Boston Conservatory
+  - id: 3993160
+    text: Boston University
+  - id: 3993174
+    text: Bowdoin College
+  - id: 3993186
+    text: Bowie State University
+  - id: 3993198
+    text: Bradley University
+  - id: 3993209
+    text: Brandeis University
+  - id: 3993231
+    text: Brandman University
+  - id: 3993243
+    text: Brazosport College
+  - id: 3993254
+    text: Brenau University
+  - id: 3993269
+    text: Brescia University
+  - id: 3993285
+    text: Brevard College
+  - id: 3993298
+    text: Brewton-Parker College
+  - id: 3993311
+    text: Briar Cliff University
+  - id: 3993326
+    text: Briarcliffe College
+  - id: 3993339
+    text: Bridgewater College
+  - id: 3993354
+    text: Bridgewater State University
+  - id: 3993366
+    text: Brigham Young University - Hawaii
+  - id: 3993379
+    text: Brigham Young University - Idaho
+  - id: 3993392
+    text: Brock University
+  - id: 3993405
+    text: Bryan College
+  - id: 3993419
+    text: Bryn Athyn College of the New Church
+  - id: 3993432
+    text: Bryn Mawr College
+  - id: 3993443
+    text: Boston College
+  - id: 3993452
+    text: Buena Vista University
+  - id: 3993466
+    text: Burlington College
+  - id: 3993482
+    text: Bowling Green State University
+  - id: 3993496
+    text: Brown University
+  - id: 3993512
+    text: Appalachian State University
+  - id: 3993527
+    text: Brigham Young University - Provo
+  - id: 3993543
+    text: Boise State University
+  - id: 3993558
+    text: Bethune-Cookman University
+  - id: 3993570
+    text: Bryant University
+  - id: 3993584
+    text: Cabarrus College of Health Sciences
+  - id: 3993598
+    text: Cabrini College
+  - id: 3993609
+    text: Cairn University
+  - id: 3993624
+    text: Caldwell College
+  - id: 3993636
+    text: California Baptist University
+  - id: 3993791
+    text: California College of the Arts
+  - id: 3993806
+    text: California Institute of Integral Studies
+  - id: 3993820
+    text: California Institute of Technology
+  - id: 3993836
+    text: California Institute of the Arts
+  - id: 3993851
+    text: California Lutheran University
+  - id: 3993866
+    text: California Maritime Academy
+  - id: 3993886
+    text: California State Polytechnic University - Pomona
+  - id: 3993902
+    text: California State University - Bakersfield
+  - id: 3993923
+    text: California State University - Channel Islands
+  - id: 3993942
+    text: California State University - Chico
+  - id: 3993959
+    text: California State University - Dominguez Hills
+  - id: 3993974
+    text: California State University - East Bay
+  - id: 3993987
+    text: California State University - Fullerton
+  - id: 3994002
+    text: California State University - Los Angeles
+  - id: 3994018
+    text: California State University - Monterey Bay
+  - id: 3994031
+    text: California State University - Northridge
+  - id: 3994045
+    text: California State University - San Bernardino
+  - id: 3994056
+    text: California State University - San Marcos
+  - id: 3994068
+    text: California State University - Stanislaus
+  - id: 3994081
+    text: California University of Pennsylvania
+  - id: 3994095
+    text: Calumet College of St. Joseph
+  - id: 3994108
+    text: Calvary Bible College and Theological Seminary
+  - id: 3994118
+    text: Calvin College
+  - id: 3994133
+    text: Cambridge College
+  - id: 3994146
+    text: Cameron University
+  - id: 3994158
+    text: Campbellsville University
+  - id: 3994171
+    text: Canisius College
+  - id: 3994186
+    text: Capella University
+  - id: 3994198
+    text: Capital University
+  - id: 3994212
+    text: Capitol College
+  - id: 3994225
+    text: Cardinal Stritch University
+  - id: 3994237
+    text: Caribbean University
+  - id: 3994250
+    text: Carleton College
+  - id: 3994265
+    text: Carleton University
+  - id: 3994280
+    text: Carlos Albizu University
+  - id: 3994299
+    text: Carlow University
+  - id: 3994312
+    text: Carnegie Mellon University
+  - id: 3994327
+    text: Carroll College
+  - id: 3994339
+    text: Carroll University
+  - id: 3994353
+    text: Carson-Newman University
+  - id: 3994366
+    text: Carthage College
+  - id: 3994380
+    text: Case Western Reserve University
+  - id: 3994392
+    text: Castleton State College
+  - id: 3994406
+    text: Catawba College
+  - id: 3994421
+    text: Cazenovia College
+  - id: 3994434
+    text: Cedar Crest College
+  - id: 3994447
+    text: Cedarville University
+  - id: 3994459
+    text: Centenary College
+  - id: 3994471
+    text: Centenary College of Louisiana
+  - id: 3994483
+    text: Central Baptist College
+  - id: 3994496
+    text: Central Bible College
+  - id: 3994510
+    text: Central Christian College
+  - id: 3994522
+    text: Central College
+  - id: 3994536
+    text: Central Methodist University
+  - id: 3994549
+    text: Central Penn College
+  - id: 3994562
+    text: Central State University
+  - id: 3994576
+    text: Central Washington University
+  - id: 3994591
+    text: Centre College
+  - id: 3994605
+    text: Chadron State College
+  - id: 3994616
+    text: Chamberlain College of Nursing
+  - id: 3994630
+    text: Chaminade University of Honolulu
+  - id: 3994646
+    text: Champlain College
+  - id: 3994662
+    text: Chancellor University
+  - id: 3994676
+    text: Chapman University
+  - id: 3994690
+    text: Charles R. Drew University of Medicine and Science
+  - id: 3994705
+    text: Charter Oak State College
+  - id: 3994723
+    text: Chatham University
+  - id: 3994737
+    text: Chestnut Hill College
+  - id: 3994750
+    text: Cheyney University of Pennsylvania
+  - id: 3994763
+    text: Chicago State University
+  - id: 3994777
+    text: Chipola College
+  - id: 3994799
+    text: Chowan University
+  - id: 3994818
+    text: Christendom College
+  - id: 3994835
+    text: Baylor University
+  - id: 3994848
+    text: Central Connecticut State University
+  - id: 3994865
+    text: Central Michigan University
+  - id: 3994881
+    text: Charleston Southern University
+  - id: 3994896
+    text: California State University - Sacramento
+  - id: 3994912
+    text: California State University - Fresno
+  - id: 3994927
+    text: Campbell University
+  - id: 3994943
+    text: Christopher Newport University
+  - id: 3994958
+    text: Cincinnati Christian University
+  - id: 3994974
+    text: Cincinnati College of Mortuary Science
+  - id: 3994990
+    text: City University of Seattle
+  - id: 3995006
+    text: Claflin University
+  - id: 3995021
+    text: Claremont McKenna College
+  - id: 3995037
+    text: Clarion University of Pennsylvania
+  - id: 3995055
+    text: Clark Atlanta University
+  - id: 3995071
+    text: Clark University
+  - id: 3995084
+    text: Clarke University
+  - id: 3995099
+    text: Clarkson College
+  - id: 3995112
+    text: Clarkson University
+  - id: 3995126
+    text: Clayton State University
+  - id: 3995140
+    text: Clear Creek Baptist Bible College
+  - id: 3995156
+    text: Clearwater Christian College
+  - id: 3995170
+    text: Cleary University
+  - id: 3995184
+    text: College of William and Mary
+  - id: 3995198
+    text: Cleveland Chiropractic College
+  - id: 3995213
+    text: Cleveland Institute of Art
+  - id: 3995226
+    text: Cleveland Institute of Music
+  - id: 3995242
+    text: Cleveland State University
+  - id: 3995258
+    text: Coe College
+  - id: 3995273
+    text: Cogswell Polytechnical College
+  - id: 3995289
+    text: Coker College
+  - id: 3995301
+    text: Colby College
+  - id: 3995318
+    text: Colby-Sawyer College
+  - id: 3995334
+    text: College at Brockport - SUNY
+  - id: 3995351
+    text: College for Creative Studies
+  - id: 3995368
+    text: College of Charleston
+  - id: 3995388
+    text: College of Idaho
+  - id: 3995406
+    text: College of Mount St. Joseph
+  - id: 3995424
+    text: College of Mount St. Vincent
+  - id: 3995439
+    text: College of New Jersey
+  - id: 3995456
+    text: College of New Rochelle
+  - id: 3995473
+    text: College of Our Lady of the Elms
+  - id: 3995492
+    text: College of Saints John Fisher & Thomas More
+  - id: 3995511
+    text: College of Southern Nevada
+  - id: 3995529
+    text: College of St. Benedict
+  - id: 3995547
+    text: College of St. Elizabeth
+  - id: 3995565
+    text: College of St. Joseph
+  - id: 3995581
+    text: College of St. Mary
+  - id: 3995597
+    text: College of St. Rose
+  - id: 3995613
+    text: College of St. Scholastica
+  - id: 3995631
+    text: College of the Atlantic
+  - id: 3995648
+    text: College of the Holy Cross
+  - id: 3995665
+    text: College of the Ozarks
+  - id: 3995683
+    text: College of Wooster
+  - id: 3995701
+    text: Colorado Christian University
+  - id: 3995721
+    text: Colorado College
+  - id: 3995739
+    text: Colorado Mesa University
+  - id: 3995758
+    text: Colorado School of Mines
+  - id: 3995777
+    text: Colorado State University - Pueblo
+  - id: 3995794
+    text: Colorado Technical University
+  - id: 3995809
+    text: Columbia College
+  - id: 3995826
+    text: Columbia College Chicago
+  - id: 3995841
+    text: Columbia College of Nursing
+  - id: 3995858
+    text: Columbia International University
+  - id: 3995875
+    text: Columbus College of Art and Design
+  - id: 3995891
+    text: Columbus State University
+  - id: 3995908
+    text: Conception Seminary College
+  - id: 3995924
+    text: Concord University
+  - id: 3995944
+    text: Concordia College
+  - id: 3995966
+    text: Concordia College - Moorhead
+  - id: 3995982
+    text: Concordia University
+  - id: 3995995
+    text: Concordia University Chicago
+  - id: 3996004
+    text: Concordia University Texas
+  - id: 3996031
+    text: Concordia University Wisconsin
+  - id: 3996048
+    text: Concordia University - St. Paul
+  - id: 3996071
+    text: Connecticut College
+  - id: 3996082
+    text: Converse College
+  - id: 3996100
+    text: Cooper Union
+  - id: 3996116
+    text: Coppin State University
+  - id: 3996135
+    text: Corban University
+  - id: 3996164
+    text: Corcoran College of Art and Design
+  - id: 3996183
+    text: Cornell College
+  - id: 3996193
+    text: Cornerstone University
+  - id: 3996216
+    text: Cornish College of the Arts
+  - id: 3996241
+    text: Covenant College
+  - id: 3996253
+    text: Cox College
+  - id: 3996267
+    text: Creighton University
+  - id: 3996283
+    text: Criswell College
+  - id: 3996298
+    text: Crown College
+  - id: 3996313
+    text: Culinary Institute of America
+  - id: 3996329
+    text: Culver-Stockton College
+  - id: 3996346
+    text: Cumberland University
+  - id: 3996362
+    text: Columbia University
+  - id: 3996378
+    text: Cornell University
+  - id: 3996395
+    text: Colorado State University
+  - id: 3996411
+    text: University of Virginia
+  - id: 3996428
+    text: Colgate University
+  - id: 3996438
+    text: CUNY - Baruch College
+  - id: 3996455
+    text: CUNY - Brooklyn College
+  - id: 3996470
+    text: CUNY - City College
+  - id: 3996487
+    text: CUNY - College of Staten Island
+  - id: 3996503
+    text: CUNY - Hunter College
+  - id: 3996520
+    text: CUNY - John Jay College of Criminal Justice
+  - id: 3996535
+    text: CUNY - Lehman College
+  - id: 3996551
+    text: CUNY - Medgar Evers College
+  - id: 3996567
+    text: CUNY - New York City College of Technology
+  - id: 3996583
+    text: CUNY - Queens College
+  - id: 3996600
+    text: CUNY - York College
+  - id: 3996617
+    text: Curry College
+  - id: 3996634
+    text: Curtis Institute of Music
+  - id: 3996654
+    text: D'Youville College
+  - id: 3996671
+    text: Daemen College
+  - id: 3996690
+    text: Dakota State University
+  - id: 3996706
+    text: Dakota Wesleyan University
+  - id: 3996717
+    text: Dalhousie University
+  - id: 3996733
+    text: Dallas Baptist University
+  - id: 3996749
+    text: Dallas Christian College
+  - id: 3996767
+    text: Dalton State College
+  - id: 3996782
+    text: Daniel Webster College
+  - id: 3996798
+    text: Davenport University
+  - id: 3996813
+    text: Davis and Elkins College
+  - id: 3996829
+    text: Davis College
+  - id: 3996848
+    text: Daytona State College
+  - id: 3996864
+    text: Dean College
+  - id: 3996880
+    text: Defiance College
+  - id: 3996900
+    text: Delaware Valley College
+  - id: 3996921
+    text: Delta State University
+  - id: 3996937
+    text: Denison University
+  - id: 3996960
+    text: DePaul University
+  - id: 3996980
+    text: DePauw University
+  - id: 3996998
+    text: DEREE - The American College of Greece
+  - id: 3997016
+    text: DeSales University
+  - id: 3997035
+    text: DeVry University
+  - id: 3997055
+    text: Dickinson College
+  - id: 3997074
+    text: Dickinson State University
+  - id: 3997091
+    text: Dillard University
+  - id: 3997106
+    text: Divine Word College
+  - id: 3997123
+    text: Dixie State College of Utah
+  - id: 3997138
+    text: Doane College
+  - id: 3997156
+    text: Dominican College
+  - id: 3997173
+    text: Dominican University
+  - id: 3997188
+    text: Dominican University of California
+  - id: 3997207
+    text: Donnelly College
+  - id: 3997221
+    text: Dordt College
+  - id: 3997236
+    text: Dowling College
+  - id: 3997255
+    text: Drew University
+  - id: 3997263
+    text: Drexel University
+  - id: 3997283
+    text: Drury University
+  - id: 3997299
+    text: Dunwoody College of Technology
+  - id: 3997316
+    text: Earlham College
+  - id: 3997332
+    text: Drake University
+  - id: 3997346
+    text: East Central University
+  - id: 3997363
+    text: East Stroudsburg University of Pennsylvania
+  - id: 3997379
+    text: East Tennessee State University
+  - id: 3997395
+    text: East Texas Baptist University
+  - id: 3997412
+    text: East-West University
+  - id: 3997429
+    text: Eastern Connecticut State University
+  - id: 3997447
+    text: Eastern Mennonite University
+  - id: 3997462
+    text: Eastern Nazarene College
+  - id: 3997479
+    text: Eastern New Mexico University
+  - id: 3997495
+    text: Eastern Oregon University
+  - id: 3997510
+    text: Eastern University
+  - id: 3997528
+    text: Eckerd College
+  - id: 3997549
+    text: ECPI University
+  - id: 3997567
+    text: Edgewood College
+  - id: 3997581
+    text: Edinboro University of Pennsylvania
+  - id: 3997596
+    text: Edison State College
+  - id: 3997612
+    text: Edward Waters College
+  - id: 3997627
+    text: Elizabeth City State University
+  - id: 3997643
+    text: Elizabethtown College
+  - id: 3997657
+    text: Elmhurst College
+  - id: 3997672
+    text: Elmira College
+  - id: 3997687
+    text: Embry-Riddle Aeronautical University
+  - id: 3997703
+    text: Embry-Riddle Aeronautical University - Prescott
+  - id: 3997718
+    text: Emerson College
+  - id: 3997735
+    text: Duquesne University
+  - id: 3997752
+    text: Eastern Washington University
+  - id: 3997766
+    text: Eastern Illinois University
+  - id: 3997783
+    text: Eastern Kentucky University
+  - id: 3997799
+    text: Eastern Michigan University
+  - id: 3997809
+    text: Elon University
+  - id: 3997824
+    text: Delaware State University
+  - id: 3997841
+    text: Duke University
+  - id: 3997856
+    text: California Polytechnic State University - San Luis Obispo
+  - id: 3997870
+    text: Emmanuel College
+  - id: 3997885
+    text: Emmaus Bible College
+  - id: 3997902
+    text: Emory and Henry College
+  - id: 3997920
+    text: Emory University
+  - id: 3997936
+    text: Emporia State University
+  - id: 3997954
+    text: Endicott College
+  - id: 3997971
+    text: Erskine College
+  - id: 3997988
+    text: Escuela de Artes Plasticas de Puerto Rico
+  - id: 3998004
+    text: Eureka College
+  - id: 3998022
+    text: Evangel University
+  - id: 3998038
+    text: Everest College - Phoenix
+  - id: 3998055
+    text: Everglades University
+  - id: 3998072
+    text: Evergreen State College
+  - id: 3998085
+    text: Excelsior College
+  - id: 3998103
+    text: Fairfield University
+  - id: 3998117
+    text: Fairleigh Dickinson University
+  - id: 3998133
+    text: Fairmont State University
+  - id: 3998150
+    text: Faith Baptist Bible College and Theological Seminary
+  - id: 3998166
+    text: Farmingdale State College - SUNY
+  - id: 3998183
+    text: Fashion Institute of Technology
+  - id: 3998202
+    text: Faulkner University
+  - id: 3998217
+    text: Fayetteville State University
+  - id: 3998235
+    text: Felician College
+  - id: 3998252
+    text: Ferris State University
+  - id: 3998267
+    text: Ferrum College
+  - id: 3998282
+    text: Finlandia University
+  - id: 3998297
+    text: Fisher College
+  - id: 3998311
+    text: Fisk University
+  - id: 3998324
+    text: Fitchburg State University
+  - id: 3998338
+    text: Five Towns College
+  - id: 3998351
+    text: Flagler College
+  - id: 3998367
+    text: Florida Christian College
+  - id: 3998384
+    text: Florida College
+  - id: 3998398
+    text: Florida Gulf Coast University
+  - id: 3998414
+    text: Florida Institute of Technology
+  - id: 3998428
+    text: Florida Memorial University
+  - id: 3998444
+    text: Florida Southern College
+  - id: 3998461
+    text: Florida State College - Jacksonville
+  - id: 3998476
+    text: Fontbonne University
+  - id: 3998495
+    text: Fort Hays State University
+  - id: 3998511
+    text: Fort Lewis College
+  - id: 3998524
+    text: Fort Valley State University
+  - id: 3998536
+    text: Framingham State University
+  - id: 3998554
+    text: Francis Marion University
+  - id: 3998571
+    text: Franciscan University of Steubenville
+  - id: 3998587
+    text: Frank Lloyd Wright School of Architecture
+  - id: 3998604
+    text: Franklin and Marshall College
+  - id: 3998618
+    text: Franklin College
+  - id: 3998634
+    text: Franklin College Switzerland
+  - id: 3998651
+    text: Franklin Pierce University
+  - id: 3998666
+    text: Franklin University
+  - id: 3998678
+    text: Franklin W. Olin College of Engineering
+  - id: 3998693
+    text: Freed-Hardeman University
+  - id: 3998707
+    text: Fresno Pacific University
+  - id: 3998724
+    text: Friends University
+  - id: 3998738
+    text: Frostburg State University
+  - id: 3998752
+    text: Gallaudet University
+  - id: 3998770
+    text: Gannon University
+  - id: 3998786
+    text: Geneva College
+  - id: 3998801
+    text: George Fox University
+  - id: 3998817
+    text: George Mason University
+  - id: 3998834
+    text: George Washington University
+  - id: 3998848
+    text: Georgetown College
+  - id: 3998861
+    text: Georgia College & State University
+  - id: 3998881
+    text: Georgia Gwinnett College
+  - id: 3998899
+    text: Georgia Regents University
+  - id: 3998916
+    text: Georgia Southwestern State University
+  - id: 3998936
+    text: Georgian Court University
+  - id: 3998957
+    text: Gettysburg College
+  - id: 3998971
+    text: Glenville State College
+  - id: 3998987
+    text: God's Bible School and College
+  - id: 3999003
+    text: Goddard College
+  - id: 3999018
+    text: Golden Gate University
+  - id: 3999037
+    text: Goldey-Beacom College
+  - id: 3999053
+    text: Goldfarb School of Nursing at Barnes-Jewish College
+  - id: 3999071
+    text: Gonzaga University
+  - id: 3999084
+    text: Gordon College
+  - id: 3999097
+    text: Fordham University
+  - id: 3999110
+    text: Georgia Institute of Technology
+  - id: 3999124
+    text: Gardner-Webb University
+  - id: 3999135
+    text: Georgia Southern University
+  - id: 3999149
+    text: Georgia State University
+  - id: 3999164
+    text: Florida State University
+  - id: 3999334
+    text: Dartmouth College
+  - id: 3999344
+    text: Florida International University
+  - id: 3999354
+    text: Georgetown University
+  - id: 3999362
+    text: Furman University
+  - id: 3999376
+    text: Gordon State College
+  - id: 3999387
+    text: Goshen College
+  - id: 3999399
+    text: Goucher College
+  - id: 3999411
+    text: Governors State University
+  - id: 3999421
+    text: Grace Bible College
+  - id: 3999432
+    text: Grace College and Seminary
+  - id: 3999443
+    text: Grace University
+  - id: 3999454
+    text: Graceland University
+  - id: 3999468
+    text: Grand Canyon University
+  - id: 3999479
+    text: Grand Valley State University
+  - id: 3999491
+    text: Grand View University
+  - id: 3999501
+    text: Granite State College
+  - id: 3999516
+    text: Gratz College
+  - id: 3999527
+    text: Great Basin College
+  - id: 3999538
+    text: Great Lakes Christian College
+  - id: 3999550
+    text: Green Mountain College
+  - id: 3999562
+    text: Greensboro College
+  - id: 3999574
+    text: Greenville College
+  - id: 3999585
+    text: Grinnell College
+  - id: 3999596
+    text: Grove City College
+  - id: 3999608
+    text: Guilford College
+  - id: 3999622
+    text: Gustavus Adolphus College
+  - id: 3999633
+    text: Gwynedd-Mercy College
+  - id: 3999651
+    text: Hamilton College
+  - id: 3999665
+    text: Hamline University
+  - id: 3999681
+    text: Hampden-Sydney College
+  - id: 3999694
+    text: Hampshire College
+  - id: 3999711
+    text: Hannibal-LaGrange University
+  - id: 3999726
+    text: Hanover College
+  - id: 3999742
+    text: Hardin-Simmons University
+  - id: 3999757
+    text: Harding University
+  - id: 3999770
+    text: Harrington College of Design
+  - id: 3999786
+    text: Harris-Stowe State University
+  - id: 3999801
+    text: Harrisburg University of Science and Technology
+  - id: 3999816
+    text: Hartwick College
+  - id: 3999835
+    text: Harvey Mudd College
+  - id: 3999849
+    text: Haskell Indian Nations University
+  - id: 3999863
+    text: Hastings College
+  - id: 3999876
+    text: Haverford College
+  - id: 3999894
+    text: Hawaii Pacific University
+  - id: 3999911
+    text: Hebrew Theological College
+  - id: 3999929
+    text: Heidelberg University
+  - id: 3999946
+    text: Hellenic College
+  - id: 3999962
+    text: Henderson State University
+  - id: 3999977
+    text: Hendrix College
+  - id: 3999999
+    text: Heritage University
+  - id: 4000018
+    text: Herzing University
+  - id: 4000038
+    text: Hesser College
+  - id: 4000053
+    text: High Point University
+  - id: 4000073
+    text: Hilbert College
+  - id: 4000088
+    text: Hillsdale College
+  - id: 4000104
+    text: Hiram College
+  - id: 4000119
+    text: Hobart and William Smith Colleges
+  - id: 4000135
+    text: Hodges University
+  - id: 4000149
+    text: Hofstra University
+  - id: 4000166
+    text: Hollins University
+  - id: 4000180
+    text: Holy Apostles College and Seminary
+  - id: 4000197
+    text: Indiana State University
+  - id: 4000211
+    text: Holy Family University
+  - id: 4000226
+    text: Holy Names University
+  - id: 4000243
+    text: Hood College
+  - id: 4000260
+    text: Hope College
+  - id: 4000275
+    text: Hope International University
+  - id: 4000290
+    text: Houghton College
+  - id: 4000307
+    text: Howard Payne University
+  - id: 4000325
+    text: Hult International Business School
+  - id: 4000341
+    text: Humboldt State University
+  - id: 4000358
+    text: Humphreys College
+  - id: 4000373
+    text: Huntingdon College
+  - id: 4000390
+    text: Huntington University
+  - id: 4000403
+    text: Husson University
+  - id: 4000417
+    text: Huston-Tillotson University
+  - id: 4000435
+    text: Illinois College
+  - id: 4000454
+    text: Illinois Institute of Art at Chicago
+  - id: 4000472
+    text: Illinois Institute of Technology
+  - id: 4000487
+    text: Illinois Wesleyan University
+  - id: 4000502
+    text: Immaculata University
+  - id: 4000516
+    text: Indian River State College
+  - id: 4000533
+    text: Indiana Institute of Technology
+  - id: 4000548
+    text: Indiana University East
+  - id: 4000562
+    text: Indiana University Northwest
+  - id: 4000576
+    text: Indiana University of Pennsylvania
+  - id: 4000589
+    text: Indiana University Southeast
+  - id: 4000603
+    text: Illinois State University
+  - id: 4000617
+    text: Indiana University - Bloomington
+  - id: 4000631
+    text: Davidson College
+  - id: 4000646
+    text: Idaho State University
+  - id: 4000659
+    text: Harvard University
+  - id: 4000676
+    text: Howard University
+  - id: 4000688
+    text: Houston Baptist University
+  - id: 4000701
+    text: Indiana University - Kokomo
+  - id: 4000714
+    text: Indiana University - South Bend
+  - id: 4000726
+    text: Indiana University-Purdue University - Fort Wayne
+  - id: 4000738
+    text: Indiana University-Purdue University - Indianapolis
+  - id: 4000748
+    text: Indiana Wesleyan University
+  - id: 4000759
+    text: Institute of American Indian and Alaska Native Culture and Arts Development
+  - id: 4000770
+    text: Inter American University of Puerto Rico - Aguadilla
+  - id: 4000781
+    text: Inter American University of Puerto Rico - Arecibo
+  - id: 4000794
+    text: Inter American University of Puerto Rico - Barranquitas
+  - id: 4000807
+    text: Inter American University of Puerto Rico - Bayamon
+  - id: 4000820
+    text: Inter American University of Puerto Rico - Fajardo
+  - id: 4000831
+    text: Inter American University of Puerto Rico - Guayama
+  - id: 4000844
+    text: Inter American University of Puerto Rico - Metropolitan Campus
+  - id: 4000854
+    text: Inter American University of Puerto Rico - Ponce
+  - id: 4000877
+    text: Inter American University of Puerto Rico - San German
+  - id: 4000891
+    text: International College of the Cayman Islands
+  - id: 4000902
+    text: Iona College
+  - id: 4000915
+    text: Iowa Wesleyan College
+  - id: 4000928
+    text: Ithaca College
+  - id: 4000940
+    text: Jarvis Christian College
+  - id: 4000954
+    text: Jewish Theological Seminary of America
+  - id: 4000970
+    text: John Brown University
+  - id: 4000987
+    text: John Carroll University
+  - id: 4001001
+    text: John F. Kennedy University
+  - id: 4001016
+    text: Johns Hopkins University
+  - id: 4001030
+    text: Johnson & Wales University
+  - id: 4001042
+    text: Johnson C. Smith University
+  - id: 4001054
+    text: Johnson State College
+  - id: 4001066
+    text: Johnson University
+  - id: 4001079
+    text: Jones International University
+  - id: 4001090
+    text: Judson College
+  - id: 4001106
+    text: Judson University
+  - id: 4001118
+    text: Juilliard School
+  - id: 4001131
+    text: Juniata College
+  - id: 4001145
+    text: Kalamazoo College
+  - id: 4001158
+    text: Kansas City Art Institute
+  - id: 4001171
+    text: Kansas Wesleyan University
+  - id: 4001184
+    text: Kaplan University
+  - id: 4001196
+    text: Kean University
+  - id: 4001209
+    text: Keene State College
+  - id: 4001220
+    text: Keiser University
+  - id: 4001232
+    text: Kendall College
+  - id: 4001243
+    text: Kennesaw State University
+  - id: 4001254
+    text: Kentucky Christian University
+  - id: 4001264
+    text: Kentucky State University
+  - id: 4001273
+    text: Kentucky Wesleyan College
+  - id: 4001282
+    text: Kenyon College
+  - id: 4001291
+    text: Kettering College
+  - id: 4001304
+    text: Kettering University
+  - id: 4001316
+    text: Keuka College
+  - id: 4001327
+    text: Keystone College
+  - id: 4001341
+    text: King University
+  - id: 4001352
+    text: King's College
+  - id: 4001366
+    text: Knox College
+  - id: 4001377
+    text: Kutztown University of Pennsylvania
+  - id: 4001393
+    text: Kuyper College
+  - id: 4001406
+    text: La Roche College
+  - id: 4001422
+    text: La Salle University
+  - id: 4001438
+    text: La Sierra University
+  - id: 4001454
+    text: LaGrange College
+  - id: 4001470
+    text: Laguna College of Art and Design
+  - id: 4001484
+    text: Lake Erie College
+  - id: 4001495
+    text: Lake Forest College
+  - id: 4001508
+    text: Lake Superior State University
+  - id: 4001521
+    text: Lakeland College
+  - id: 4001536
+    text: Lakeview College of Nursing
+  - id: 4001549
+    text: Lancaster Bible College
+  - id: 4001561
+    text: Lander University
+  - id: 4001577
+    text: Lane College
+  - id: 4001593
+    text: Langston University
+  - id: 4001608
+    text: Lasell College
+  - id: 4001621
+    text: Lawrence Technological University
+  - id: 4001638
+    text: Lawrence University
+  - id: 4001652
+    text: Le Moyne College
+  - id: 4001668
+    text: Lebanon Valley College
+  - id: 4001681
+    text: Lee University
+  - id: 4001697
+    text: Lees-McRae College
+  - id: 4001711
+    text: Kansas State University
+  - id: 4001726
+    text: James Madison University
+  - id: 4001741
+    text: Lafayette College
+  - id: 4001756
+    text: Jacksonville University
+  - id: 4001775
+    text: Kent State University
+  - id: 4001787
+    text: Lamar University
+  - id: 4001802
+    text: Jackson State University
+  - id: 4001816
+    text: Lehigh University
+  - id: 4001828
+    text: Jacksonville State University
+  - id: 4001840
+    text: LeMoyne-Owen College
+  - id: 4001853
+    text: Lenoir-Rhyne University
+  - id: 4001865
+    text: Lesley University
+  - id: 4001877
+    text: LeTourneau University
+  - id: 4001890
+    text: Lewis & Clark College
+  - id: 4001904
+    text: Lewis University
+  - id: 4001920
+    text: Lewis-Clark State College
+  - id: 4001934
+    text: Lexington College
+  - id: 4001950
+    text: Life Pacific College
+  - id: 4001966
+    text: Life University
+  - id: 4001980
+    text: LIM College
+  - id: 4001996
+    text: Limestone College
+  - id: 4002011
+    text: Lincoln Christian University
+  - id: 4002021
+    text: Lincoln College
+  - id: 4002038
+    text: Lincoln Memorial University
+  - id: 4002055
+    text: Lincoln University
+  - id: 4002071
+    text: Lindenwood University
+  - id: 4002087
+    text: Lindsey Wilson College
+  - id: 4002100
+    text: Linfield College
+  - id: 4002115
+    text: Lipscomb University
+  - id: 4002130
+    text: LIU Post
+  - id: 4002146
+    text: Livingstone College
+  - id: 4002162
+    text: Lock Haven University of Pennsylvania
+  - id: 4002175
+    text: Loma Linda University
+  - id: 4002186
+    text: Longwood University
+  - id: 4002198
+    text: Loras College
+  - id: 4002211
+    text: Louisiana College
+  - id: 4002220
+    text: Louisiana State University Health Sciences Center
+  - id: 4002232
+    text: Louisiana State University - Alexandria
+  - id: 4002244
+    text: Louisiana State University - Shreveport
+  - id: 4002255
+    text: Lourdes University
+  - id: 4002269
+    text: Loyola Marymount University
+  - id: 4002282
+    text: Loyola University Chicago
+  - id: 4002294
+    text: Loyola University Maryland
+  - id: 4002308
+    text: Loyola University New Orleans
+  - id: 4002322
+    text: Lubbock Christian University
+  - id: 4002335
+    text: Luther College
+  - id: 4002349
+    text: Lycoming College
+  - id: 4002369
+    text: Lyme Academy College of Fine Arts
+  - id: 4002387
+    text: Lynchburg College
+  - id: 4002406
+    text: Lyndon State College
+  - id: 4002424
+    text: Lynn University
+  - id: 4002439
+    text: Lyon College
+  - id: 4002456
+    text: Macalester College
+  - id: 4002471
+    text: MacMurray College
+  - id: 4002485
+    text: Madonna University
+  - id: 4002494
+    text: Maharishi University of Management
+  - id: 4002510
+    text: Maine College of Art
+  - id: 4002522
+    text: Maine Maritime Academy
+  - id: 4002537
+    text: Malone University
+  - id: 4002550
+    text: Manchester University
+  - id: 4002563
+    text: Manhattan Christian College
+  - id: 4002576
+    text: Manhattan College
+  - id: 4002589
+    text: Manhattan School of Music
+  - id: 4002603
+    text: Manhattanville College
+  - id: 4002616
+    text: Mansfield University of Pennsylvania
+  - id: 4002629
+    text: Maranatha Baptist Bible College
+  - id: 4002641
+    text: Marian University
+  - id: 4002654
+    text: Marietta College
+  - id: 4002670
+    text: Marlboro College
+  - id: 4002685
+    text: Marquette University
+  - id: 4002701
+    text: Mars Hill University
+  - id: 4002716
+    text: Martin Luther College
+  - id: 4002730
+    text: Martin Methodist College
+  - id: 4002741
+    text: Martin University
+  - id: 4002757
+    text: Mary Baldwin College
+  - id: 4002774
+    text: Marygrove College
+  - id: 4002789
+    text: Maryland Institute College of Art
+  - id: 4002805
+    text: Marylhurst University
+  - id: 4002823
+    text: Marymount Manhattan College
+  - id: 4002840
+    text: Marymount University
+  - id: 4002855
+    text: Maryville College
+  - id: 4002871
+    text: Maryville University of St. Louis
+  - id: 4002885
+    text: Marywood University
+  - id: 4002898
+    text: Massachusetts College of Art and Design
+  - id: 4002911
+    text: Massachusetts College of Liberal Arts
+  - id: 4002923
+    text: Massachusetts College of Pharmacy and Health Sciences
+  - id: 4002937
+    text: Massachusetts Institute of Technology
+  - id: 4002949
+    text: Massachusetts Maritime Academy
+  - id: 4002962
+    text: Master's College and Seminary
+  - id: 4002978
+    text: Mayville State University
+  - id: 4002994
+    text: McDaniel College
+  - id: 4003009
+    text: McGill University
+  - id: 4003027
+    text: McKendree University
+  - id: 4003043
+    text: McMurry University
+  - id: 4003059
+    text: McPherson College
+  - id: 4003073
+    text: Medaille College
+  - id: 4003091
+    text: Marist College
+  - id: 4003107
+    text: McNeese State University
+  - id: 4003123
+    text: Louisiana Tech University
+  - id: 4003140
+    text: Marshall University
+  - id: 4003158
+    text: Medical University of South Carolina
+  - id: 4003174
+    text: Memorial University of Newfoundland
+  - id: 4003189
+    text: Memphis College of Art
+  - id: 4003203
+    text: Menlo College
+  - id: 4003219
+    text: Mercy College
+  - id: 4003230
+    text: Mercy College of Health Sciences
+  - id: 4003245
+    text: Mercy College of Ohio
+  - id: 4003257
+    text: Mercyhurst University
+  - id: 4003272
+    text: Meredith College
+  - id: 4003286
+    text: Merrimack College
+  - id: 4003302
+    text: Messiah College
+  - id: 4003319
+    text: Methodist University
+  - id: 4003335
+    text: Metropolitan College of New York
+  - id: 4003355
+    text: Metropolitan State University
+  - id: 4003373
+    text: Metropolitan State University of Denver
+  - id: 4003389
+    text: Miami Dade College
+  - id: 4003404
+    text: Miami International University of Art & Design
+  - id: 4003420
+    text: Michigan Technological University
+  - id: 4003435
+    text: Mid-America Christian University
+  - id: 4003452
+    text: Mid-Atlantic Christian University
+  - id: 4003468
+    text: Mid-Continent University
+  - id: 4003484
+    text: MidAmerica Nazarene University
+  - id: 4003500
+    text: Middle Georgia State College
+  - id: 4003516
+    text: Middlebury College
+  - id: 4003529
+    text: Midland College
+  - id: 4003544
+    text: Midland University
+  - id: 4003561
+    text: Midstate College
+  - id: 4003578
+    text: Midway College
+  - id: 4003593
+    text: Midwestern State University
+  - id: 4003609
+    text: Miles College
+  - id: 4003625
+    text: Millersville University of Pennsylvania
+  - id: 4003640
+    text: Milligan College
+  - id: 4003655
+    text: Millikin University
+  - id: 4003670
+    text: Mills College
+  - id: 4003683
+    text: Millsaps College
+  - id: 4003699
+    text: Milwaukee Institute of Art and Design
+  - id: 4003716
+    text: Milwaukee School of Engineering
+  - id: 4003734
+    text: Minneapolis College of Art and Design
+  - id: 4003750
+    text: Minnesota State University - Mankato
+  - id: 4003766
+    text: Minnesota State University - Moorhead
+  - id: 4003779
+    text: Minot State University
+  - id: 4003806
+    text: Misericordia University
+  - id: 4003821
+    text: Mississippi College
+  - id: 4003837
+    text: Mississippi University for Women
+  - id: 4003854
+    text: Missouri Baptist University
+  - id: 4003869
+    text: Missouri Southern State University
+  - id: 4003886
+    text: Missouri University of Science & Technology
+  - id: 4003902
+    text: Missouri Valley College
+  - id: 4003916
+    text: Missouri Western State University
+  - id: 4003930
+    text: Mitchell College
+  - id: 4003945
+    text: Molloy College
+  - id: 4003962
+    text: Monmouth College
+  - id: 4003978
+    text: Monroe College
+  - id: 4003995
+    text: Montana State University - Billings
+  - id: 4004015
+    text: Montana State University - Northern
+  - id: 4004033
+    text: Montana Tech of the University of Montana
+  - id: 4004057
+    text: Montclair State University
+  - id: 4004193
+    text: Monterrey Institute of Technology and Higher Education - Monterrey
+  - id: 4004206
+    text: Montreat College
+  - id: 4004219
+    text: Montserrat College of Art
+  - id: 4004230
+    text: Moody Bible Institute
+  - id: 4004243
+    text: Moore College of Art & Design
+  - id: 4004255
+    text: Moravian College
+  - id: 4004269
+    text: Morehouse College
+  - id: 4004284
+    text: Morningside College
+  - id: 4004297
+    text: Morris College
+  - id: 4004310
+    text: Morrisville State College
+  - id: 4004322
+    text: Mount Aloysius College
+  - id: 4004336
+    text: Mount Angel Seminary
+  - id: 4004349
+    text: Mount Carmel College of Nursing
+  - id: 4004360
+    text: Mount Holyoke College
+  - id: 4004375
+    text: Mount Ida College
+  - id: 4004387
+    text: Mount Marty College
+  - id: 4004401
+    text: Mount Mary University
+  - id: 4004414
+    text: Mount Mercy University
+  - id: 4004427
+    text: Mount Olive College
+  - id: 4004439
+    text: Mississippi State University
+  - id: 4004452
+    text: Montana State University
+  - id: 4004467
+    text: Mississippi Valley State University
+  - id: 4004481
+    text: Monmouth University
+  - id: 4004494
+    text: Morehead State University
+  - id: 4004508
+    text: Miami University - Oxford
+  - id: 4004523
+    text: Morgan State University
+  - id: 4004536
+    text: Missouri State University
+  - id: 4004550
+    text: Michigan State University
+  - id: 4004564
+    text: Mount St. Mary College
+  - id: 4004577
+    text: Mount St. Mary's College
+  - id: 4004592
+    text: Mount St. Mary's University
+  - id: 4004605
+    text: Mount Vernon Nazarene University
+  - id: 4004619
+    text: Muhlenberg College
+  - id: 4004634
+    text: Multnomah University
+  - id: 4004648
+    text: Muskingum University
+  - id: 4004662
+    text: Naropa University
+  - id: 4004687
+    text: National American University
+  - id: 4004701
+    text: National Graduate School of Quality Management
+  - id: 4004716
+    text: National Hispanic University
+  - id: 4004732
+    text: National Labor College
+  - id: 4004745
+    text: National University
+  - id: 4004759
+    text: National-Louis University
+  - id: 4004772
+    text: Nazarene Bible College
+  - id: 4004786
+    text: Nazareth College
+  - id: 4004802
+    text: Nebraska Methodist College
+  - id: 4004817
+    text: Nebraska Wesleyan University
+  - id: 4004830
+    text: Neumann University
+  - id: 4004843
+    text: Nevada State College
+  - id: 4004858
+    text: New College of Florida
+  - id: 4004872
+    text: New England College
+  - id: 4004888
+    text: New England Conservatory of Music
+  - id: 4004904
+    text: New England Institute of Art
+  - id: 4004915
+    text: New England Institute of Technology
+  - id: 4004929
+    text: New Jersey City University
+  - id: 4004944
+    text: New Jersey Institute of Technology
+  - id: 4004958
+    text: New Mexico Highlands University
+  - id: 4004971
+    text: New Mexico Institute of Mining and Technology
+  - id: 4004985
+    text: New Orleans Baptist Theological Seminary
+  - id: 4004999
+    text: New School
+  - id: 4005013
+    text: New York Institute of Technology
+  - id: 4005027
+    text: New York University
+  - id: 4005043
+    text: Newberry College
+  - id: 4005056
+    text: Newbury College
+  - id: 4005070
+    text: Newman University
+  - id: 4005083
+    text: Niagara University
+  - id: 4005097
+    text: Nichols College
+  - id: 4005112
+    text: North Carolina Wesleyan College
+  - id: 4005126
+    text: North Central College
+  - id: 4005140
+    text: North Central University
+  - id: 4005154
+    text: North Greenville University
+  - id: 4005168
+    text: North Park University
+  - id: 4005181
+    text: Northcentral University
+  - id: 4005194
+    text: Northeastern Illinois University
+  - id: 4005208
+    text: Northeastern State University
+  - id: 4005220
+    text: Northeastern University
+  - id: 4005233
+    text: Northern Kentucky University
+  - id: 4005246
+    text: Northern Michigan University
+  - id: 4005260
+    text: Northern New Mexico College
+  - id: 4005275
+    text: Northern State University
+  - id: 4005287
+    text: Northland College
+  - id: 4005300
+    text: Northwest Christian University
+  - id: 4005312
+    text: Northwest Florida State College
+  - id: 4005326
+    text: Northwest Missouri State University
+  - id: 4005339
+    text: Northwest Nazarene University
+  - id: 4005350
+    text: Northwest University
+  - id: 4005361
+    text: Northwestern College
+  - id: 4005387
+    text: Northwestern Health Sciences University
+  - id: 4005401
+    text: Northwestern Oklahoma State University
+  - id: 4005414
+    text: Northwood University
+  - id: 4005427
+    text: Norwich University
+  - id: 4005439
+    text: Notre Dame College of Ohio
+  - id: 4005454
+    text: Notre Dame de Namur University
+  - id: 4005467
+    text: Notre Dame of Maryland University
+  - id: 4005480
+    text: Nova Scotia College of Art and Design
+  - id: 4005491
+    text: Nova Southeastern University
+  - id: 4005504
+    text: Nyack College
+  - id: 4005518
+    text: Oakland City University
+  - id: 4005530
+    text: Oakland University
+  - id: 4005544
+    text: Oakwood University
+  - id: 4005556
+    text: Oberlin College
+  - id: 4005569
+    text: Occidental College
+  - id: 4005582
+    text: Oglala Lakota College
+  - id: 4005595
+    text: North Carolina A&T State University
+  - id: 4005604
+    text: Northern Illinois University
+  - id: 4005620
+    text: North Dakota State University
+  - id: 4005637
+    text: Nicholls State University
+  - id: 4005651
+    text: North Carolina Central University
+  - id: 4005665
+    text: Norfolk State University
+  - id: 4005678
+    text: Northwestern State University of Louisiana
+  - id: 4005689
+    text: Northern Arizona University
+  - id: 4005704
+    text: North Carolina State University - Raleigh
+  - id: 4005716
+    text: Northwestern University
+  - id: 4005730
+    text: Oglethorpe University
+  - id: 4005744
+    text: Ohio Christian University
+  - id: 4005758
+    text: Ohio Dominican University
+  - id: 4005775
+    text: Ohio Northern University
+  - id: 4005791
+    text: Ohio Valley University
+  - id: 4005808
+    text: Ohio Wesleyan University
+  - id: 4005823
+    text: Oklahoma Baptist University
+  - id: 4005837
+    text: Oklahoma Christian University
+  - id: 4005853
+    text: Oklahoma City University
+  - id: 4005866
+    text: Oklahoma Panhandle State University
+  - id: 4005882
+    text: Oklahoma State University Institute of Technology - Okmulgee
+  - id: 4005897
+    text: Oklahoma State University - Oklahoma City
+  - id: 4005914
+    text: Oklahoma Wesleyan University
+  - id: 4005930
+    text: Olivet College
+  - id: 4005945
+    text: Olivet Nazarene University
+  - id: 4005963
+    text: Olympic College
+  - id: 4005978
+    text: Oral Roberts University
+  - id: 4005995
+    text: Oregon College of Art and Craft
+  - id: 4006009
+    text: Oregon Health and Science University
+  - id: 4006024
+    text: Oregon Institute of Technology
+  - id: 4006041
+    text: Otis College of Art and Design
+  - id: 4006058
+    text: Ottawa University
+  - id: 4006072
+    text: Otterbein University
+  - id: 4006089
+    text: Ouachita Baptist University
+  - id: 4006104
+    text: Our Lady of Holy Cross College
+  - id: 4006131
+    text: Our Lady of the Lake College
+  - id: 4006146
+    text: Our Lady of the Lake University
+  - id: 4006162
+    text: Pace University
+  - id: 4006178
+    text: Pacific Lutheran University
+  - id: 4006192
+    text: Pacific Northwest College of Art
+  - id: 4006208
+    text: Pacific Oaks College
+  - id: 4006222
+    text: Pacific Union College
+  - id: 4006237
+    text: Pacific University
+  - id: 4006252
+    text: Paine College
+  - id: 4006268
+    text: Palm Beach Atlantic University
+  - id: 4006281
+    text: Palmer College of Chiropractic
+  - id: 4006297
+    text: Park University
+  - id: 4006314
+    text: Parker University
+  - id: 4006329
+    text: Patten University
+  - id: 4006343
+    text: Paul Smith's College
+  - id: 4006360
+    text: Peirce College
+  - id: 4006368
+    text: Peninsula College
+  - id: 4006385
+    text: Pennsylvania College of Art and Design
+  - id: 4006400
+    text: Pennsylvania College of Technology
+  - id: 4006416
+    text: Pennsylvania State University - Erie, The Behrend College
+  - id: 4006435
+    text: Pennsylvania State University - Harrisburg
+  - id: 4006455
+    text: Pepperdine University
+  - id: 4006471
+    text: Peru State College
+  - id: 4006486
+    text: Pfeiffer University
+  - id: 4006502
+    text: Philadelphia University
+  - id: 4006518
+    text: Philander Smith College
+  - id: 4006533
+    text: Piedmont College
+  - id: 4006549
+    text: Pine Manor College
+  - id: 4006562
+    text: Pittsburg State University
+  - id: 4006576
+    text: Pitzer College
+  - id: 4006589
+    text: Plaza College
+  - id: 4006602
+    text: Plymouth State University
+  - id: 4006613
+    text: Point Loma Nazarene University
+  - id: 4006628
+    text: Point Park University
+  - id: 4006642
+    text: Point University
+  - id: 4006656
+    text: Polytechnic Institute of New York University
+  - id: 4006670
+    text: Pomona College
+  - id: 4006684
+    text: Pontifical Catholic University of Puerto Rico
+  - id: 4006696
+    text: Pontifical College Josephinum
+  - id: 4006710
+    text: Post University
+  - id: 4006723
+    text: Potomac College
+  - id: 4006736
+    text: Pratt Institute
+  - id: 4006747
+    text: Prescott College
+  - id: 4006760
+    text: Presentation College
+  - id: 4006772
+    text: Principia College
+  - id: 4006785
+    text: Providence College
+  - id: 4006798
+    text: Puerto Rico Conservatory of Music
+  - id: 4006811
+    text: Purchase College - SUNY
+  - id: 4006825
+    text: Purdue University - Calumet
+  - id: 4006837
+    text: Purdue University - North Central
+  - id: 4006853
+    text: Queens University of Charlotte
+  - id: 4006867
+    text: Oklahoma State University
+  - id: 4006879
+    text: Oregon State University
+  - id: 4006893
+    text: Portland State University
+  - id: 4006906
+    text: Old Dominion University
+  - id: 4006917
+    text: Prairie View A&M University
+  - id: 4006931
+    text: Presbyterian College
+  - id: 4006942
+    text: Purdue University - West Lafayette
+  - id: 4006953
+    text: Ohio University
+  - id: 4006967
+    text: Princeton University
+  - id: 4006978
+    text: Quincy University
+  - id: 4006991
+    text: Quinnipiac University
+  - id: 4007002
+    text: Radford University
+  - id: 4007016
+    text: Ramapo College of New Jersey
+  - id: 4007028
+    text: Randolph College
+  - id: 4007042
+    text: Randolph-Macon College
+  - id: 4007056
+    text: Ranken Technical College
+  - id: 4007069
+    text: Reed College
+  - id: 4007082
+    text: Regent University
+  - id: 4007095
+    text: Regent's American College London
+  - id: 4007109
+    text: Regis College
+  - id: 4007124
+    text: Regis University
+  - id: 4007137
+    text: Reinhardt University
+  - id: 4007149
+    text: Rensselaer Polytechnic Institute
+  - id: 4007162
+    text: Research College of Nursing
+  - id: 4007177
+    text: Resurrection University
+  - id: 4007191
+    text: Rhode Island College
+  - id: 4007204
+    text: Rhode Island School of Design
+  - id: 4007216
+    text: Rhodes College
+  - id: 4007229
+    text: Richard Stockton College of New Jersey
+  - id: 4007241
+    text: Richmond - The American International University in London
+  - id: 4007252
+    text: Rider University
+  - id: 4007264
+    text: Ringling College of Art and Design
+  - id: 4007274
+    text: Ripon College
+  - id: 4007290
+    text: Rivier University
+  - id: 4007305
+    text: Roanoke College
+  - id: 4007317
+    text: Robert B. Miller College
+  - id: 4007329
+    text: Roberts Wesleyan College
+  - id: 4007341
+    text: Rochester College
+  - id: 4007354
+    text: Rochester Institute of Technology
+  - id: 4007367
+    text: Rockford University
+  - id: 4007378
+    text: Rockhurst University
+  - id: 4007391
+    text: Rocky Mountain College
+  - id: 4007405
+    text: Rocky Mountain College of Art and Design
+  - id: 4007420
+    text: Roger Williams University
+  - id: 4007435
+    text: Rogers State University
+  - id: 4007448
+    text: Rollins College
+  - id: 4007462
+    text: Roosevelt University
+  - id: 4007477
+    text: Rosalind Franklin University of Medicine and Science
+  - id: 4007492
+    text: Rose-Hulman Institute of Technology
+  - id: 4007506
+    text: Rosemont College
+  - id: 4007520
+    text: Rowan University
+  - id: 4007535
+    text: Rush University
+  - id: 4007552
+    text: Rust College
+  - id: 4007569
+    text: Rutgers, the State University of New Jersey - Camden
+  - id: 4007585
+    text: Rutgers, the State University of New Jersey - Newark
+  - id: 4007600
+    text: Ryerson University
+  - id: 4007614
+    text: Sacred Heart Major Seminary
+  - id: 4007633
+    text: Saginaw Valley State University
+  - id: 4007650
+    text: Salem College
+  - id: 4007666
+    text: Salem International University
+  - id: 4007685
+    text: Salem State University
+  - id: 4007702
+    text: Salisbury University
+  - id: 4007717
+    text: Salish Kootenai College
+  - id: 4007736
+    text: Salve Regina University
+  - id: 4007752
+    text: Samuel Merritt University
+  - id: 4007766
+    text: San Diego Christian College
+  - id: 4007784
+    text: San Francisco Art Institute
+  - id: 4007797
+    text: San Francisco Conservatory of Music
+  - id: 4007814
+    text: San Francisco State University
+  - id: 4007830
+    text: Sanford College of Nursing
+  - id: 4007845
+    text: Santa Clara University
+  - id: 4007862
+    text: Santa Fe University of Art and Design
+  - id: 4007878
+    text: Sarah Lawrence College
+  - id: 4007896
+    text: Savannah College of Art and Design
+  - id: 4007910
+    text: School of the Art Institute of Chicago
+  - id: 4007926
+    text: School of Visual Arts
+  - id: 4007943
+    text: Schreiner University
+  - id: 4007958
+    text: Scripps College
+  - id: 4007974
+    text: Seattle Pacific University
+  - id: 4007992
+    text: Seattle University
+  - id: 4008008
+    text: Seton Hall University
+  - id: 4008024
+    text: Seton Hill University
+  - id: 4008039
+    text: Sewanee - University of the South
+  - id: 4008056
+    text: Shaw University
+  - id: 4008082
+    text: Shawnee State University
+  - id: 4008099
+    text: Shenandoah University
+  - id: 4008115
+    text: Shepherd University
+  - id: 4008131
+    text: Shimer College
+  - id: 4008147
+    text: Sacred Heart University
+  - id: 4008164
+    text: Robert Morris University
+  - id: 4008180
+    text: Sam Houston State University
+  - id: 4008199
+    text: Samford University
+  - id: 4008214
+    text: Savannah State University
+  - id: 4008232
+    text: San Jose State University
+  - id: 4008246
+    text: Rutgers, the State University of New Jersey - New Brunswick
+  - id: 4008262
+    text: San Diego State University
+  - id: 4008278
+    text: Shippensburg University of Pennsylvania
+  - id: 4008292
+    text: Shorter University
+  - id: 4008306
+    text: Siena College
+  - id: 4008320
+    text: Siena Heights University
+  - id: 4008333
+    text: Sierra Nevada College
+  - id: 4008345
+    text: Silver Lake College
+  - id: 4008358
+    text: Simmons College
+  - id: 4008372
+    text: Simon Fraser University
+  - id: 4008385
+    text: Simpson College
+  - id: 4008398
+    text: Simpson University
+  - id: 4008411
+    text: Sinte Gleska University
+  - id: 4008428
+    text: Sitting Bull College
+  - id: 4008445
+    text: Skidmore College
+  - id: 4008462
+    text: Slippery Rock University of Pennsylvania
+  - id: 4008480
+    text: Smith College
+  - id: 4008495
+    text: Sojourner-Douglass College
+  - id: 4008515
+    text: Soka University of America
+  - id: 4008533
+    text: Sonoma State University
+  - id: 4008551
+    text: South College
+  - id: 4008569
+    text: South Dakota School of Mines and Technology
+  - id: 4008586
+    text: South Seattle Community College
+  - id: 4008596
+    text: South Texas College
+  - id: 4008617
+    text: South University
+  - id: 4008634
+    text: Southeastern Oklahoma State University
+  - id: 4008746
+    text: Southeastern University
+  - id: 4008768
+    text: Southern Adventist University
+  - id: 4008791
+    text: Southern Arkansas University
+  - id: 4008799
+    text: Southern Baptist Theological Seminary
+  - id: 4008815
+    text: Southern California Institute of Architecture
+  - id: 4008834
+    text: Southern Connecticut State University
+  - id: 4008843
+    text: Southern Illinois University - Edwardsville
+  - id: 4008863
+    text: Southern Nazarene University
+  - id: 4008878
+    text: Southern New Hampshire University
+  - id: 4008890
+    text: Southern Oregon University
+  - id: 4008900
+    text: Southern Polytechnic State University
+  - id: 4008918
+    text: Southern University - New Orleans
+  - id: 4008926
+    text: Southern Vermont College
+  - id: 4008948
+    text: Southern Wesleyan University
+  - id: 4008967
+    text: Southwest Baptist University
+  - id: 4008974
+    text: Southwest Minnesota State University
+  - id: 4008996
+    text: Southwest University of Visual Arts
+  - id: 4009013
+    text: Southwestern Adventist University
+  - id: 4009031
+    text: Southwestern Assemblies of God University
+  - id: 4009052
+    text: Southwestern Christian College
+  - id: 4009063
+    text: Southwestern Christian University
+  - id: 4009080
+    text: Southwestern College
+  - id: 4009097
+    text: Southwestern Oklahoma State University
+  - id: 4009114
+    text: Southwestern University
+  - id: 4009130
+    text: Spalding University
+  - id: 4009146
+    text: Spelman College
+  - id: 4009163
+    text: Spring Arbor University
+  - id: 4009178
+    text: Spring Hill College
+  - id: 4009195
+    text: Springfield College
+  - id: 4009214
+    text: St. Ambrose University
+  - id: 4009230
+    text: St. Anselm College
+  - id: 4009249
+    text: St. Anthony College of Nursing
+  - id: 4009268
+    text: St. Augustine College
+  - id: 4009285
+    text: St. Augustine's University
+  - id: 4009303
+    text: St. Bonaventure University
+  - id: 4009319
+    text: St. Catharine College
+  - id: 4009337
+    text: St. Catherine University
+  - id: 4009350
+    text: St. Charles Borromeo Seminary
+  - id: 4009367
+    text: St. Cloud State University
+  - id: 4009384
+    text: St. Edward's University
+  - id: 4009399
+    text: St. Francis College
+  - id: 4009417
+    text: St. Francis Medical Center College of Nursing
+  - id: 4009434
+    text: St. Gregory's University
+  - id: 4009448
+    text: St. John Fisher College
+  - id: 4009467
+    text: St. John Vianney College Seminary
+  - id: 4009486
+    text: St. John's College
+  - id: 4009504
+    text: St. John's University
+  - id: 4009519
+    text: St. Joseph Seminary College
+  - id: 4009535
+    text: St. Joseph's College
+  - id: 4009554
+    text: St. Joseph's College New York
+  - id: 4009570
+    text: St. Joseph's University
+  - id: 4009587
+    text: St. Lawrence University
+  - id: 4009605
+    text: St. Leo University
+  - id: 4009621
+    text: Southern University and A&M College
+  - id: 4009633
+    text: Southern Methodist University
+  - id: 4009648
+    text: Southeast Missouri State University
+  - id: 4009666
+    text: Southern Utah University
+  - id: 4009682
+    text: South Dakota State University
+  - id: 4009699
+    text: St. Francis University
+  - id: 4009715
+    text: Southeastern Louisiana University
+  - id: 4009730
+    text: Southern Illinois University - Carbondale
+  - id: 4009746
+    text: St. Louis College of Pharmacy
+  - id: 4009765
+    text: St. Louis University
+  - id: 4009782
+    text: St. Luke's College of Health Sciences
+  - id: 4009797
+    text: St. Martin's University
+  - id: 4009819
+    text: St. Mary's College
+  - id: 4009838
+    text: St. Mary's College of California
+  - id: 4009859
+    text: St. Mary's College of Maryland
+  - id: 4009878
+    text: St. Mary's Seminary and University
+  - id: 4009898
+    text: St. Mary's University of Minnesota
+  - id: 4009920
+    text: St. Mary's University of San Antonio
+  - id: 4009939
+    text: St. Mary-of-the-Woods College
+  - id: 4009957
+    text: St. Michael's College
+  - id: 4009979
+    text: St. Norbert College
+  - id: 4009996
+    text: St. Olaf College
+  - id: 4010015
+    text: St. Paul's College
+  - id: 4010031
+    text: St. Peter's University
+  - id: 4010048
+    text: St. Petersburg College
+  - id: 4010066
+    text: St. Thomas Aquinas College
+  - id: 4010080
+    text: St. Thomas University
+  - id: 4010093
+    text: St. Vincent College
+  - id: 4010104
+    text: St. Xavier University
+  - id: 4010118
+    text: Stephens College
+  - id: 4010129
+    text: Sterling College
+  - id: 4010140
+    text: Stevens Institute of Technology
+  - id: 4010154
+    text: Stevenson University
+  - id: 4010167
+    text: Stillman College
+  - id: 4010178
+    text: Stonehill College
+  - id: 4010192
+    text: Strayer University
+  - id: 4010205
+    text: Suffolk University
+  - id: 4010219
+    text: Sul Ross State University
+  - id: 4010233
+    text: Sullivan University
+  - id: 4010248
+    text: SUNY Buffalo State
+  - id: 4010264
+    text: SUNY College of Agriculture and Technology - Cobleskill
+  - id: 4010278
+    text: SUNY College of Environmental Science and Forestry
+  - id: 4010293
+    text: SUNY College of Technology - Alfred
+  - id: 4010309
+    text: SUNY College of Technology - Canton
+  - id: 4010324
+    text: SUNY College of Technology - Delhi
+  - id: 4010338
+    text: SUNY College - Cortland
+  - id: 4010352
+    text: SUNY College - Old Westbury
+  - id: 4010365
+    text: SUNY College - Oneonta
+  - id: 4010379
+    text: SUNY College - Potsdam
+  - id: 4010393
+    text: SUNY Downstate Medical Center
+  - id: 4010409
+    text: SUNY Empire State College
+  - id: 4010425
+    text: SUNY Institute of Technology - Utica/Rome
+  - id: 4010441
+    text: SUNY Maritime College
+  - id: 4010457
+    text: SUNY Upstate Medical University
+  - id: 4010472
+    text: SUNY - Fredonia
+  - id: 4010488
+    text: SUNY - Geneseo
+  - id: 4010505
+    text: SUNY - New Paltz
+  - id: 4010518
+    text: SUNY - Oswego
+  - id: 4010536
+    text: SUNY - Plattsburgh
+  - id: 4010552
+    text: Swarthmore College
+  - id: 4010568
+    text: Sweet Briar College
+  - id: 4010583
+    text: Tabor College
+  - id: 4010600
+    text: Talladega College
+  - id: 4010623
+    text: Tarleton State University
+  - id: 4010642
+    text: Taylor University
+  - id: 4010660
+    text: Tennessee Wesleyan College
+  - id: 4010675
+    text: Texas A&M International University
+  - id: 4010689
+    text: Texas A&M University - Commerce
+  - id: 4010707
+    text: Texas A&M University - Corpus Christi
+  - id: 4010725
+    text: Texas A&M University - Galveston
+  - id: 4010742
+    text: Texas A&M University - Kingsville
+  - id: 4010760
+    text: Texas A&M University - Texarkana
+  - id: 4010779
+    text: Texas College
+  - id: 4010797
+    text: Texas Lutheran University
+  - id: 4010813
+    text: Bucknell University
+  - id: 4010830
+    text: Butler University
+  - id: 4010847
+    text: Stephen F. Austin State University
+  - id: 4010864
+    text: Texas A&M University - College Station
+  - id: 4010880
+    text: Stanford University
+  - id: 4010891
+    text: Stetson University
+  - id: 4010906
+    text: Stony Brook University - SUNY
+  - id: 4010922
+    text: Syracuse University
+  - id: 4010937
+    text: Texas Christian University
+  - id: 4010953
+    text: Temple University
+  - id: 4010970
+    text: Clemson University
+  - id: 4010987
+    text: Texas Southern University
+  - id: 4011004
+    text: Austin Peay State University
+  - id: 4011024
+    text: Tennessee State University
+  - id: 4011042
+    text: Ball State University
+  - id: 4011060
+    text: Texas Tech University Health Sciences Center
+  - id: 4011077
+    text: Texas Wesleyan University
+  - id: 4011095
+    text: Texas Woman's University
+  - id: 4011114
+    text: The Catholic University of America
+  - id: 4011131
+    text: The Sage Colleges
+  - id: 4011151
+    text: Thiel College
+  - id: 4011173
+    text: Thomas Aquinas College
+  - id: 4011191
+    text: Thomas College
+  - id: 4011214
+    text: Thomas Edison State College
+  - id: 4011236
+    text: Thomas Jefferson University
+  - id: 4011261
+    text: Thomas More College
+  - id: 4011283
+    text: Thomas More College of Liberal Arts
+  - id: 4011305
+    text: Thomas University
+  - id: 4011323
+    text: Tiffin University
+  - id: 4011342
+    text: Tilburg University
+  - id: 4011365
+    text: Toccoa Falls College
+  - id: 4011387
+    text: Tougaloo College
+  - id: 4011412
+    text: Touro College
+  - id: 4011434
+    text: Transylvania University
+  - id: 4011457
+    text: Trent University
+  - id: 4011479
+    text: Trevecca Nazarene University
+  - id: 4011502
+    text: Trident University International
+  - id: 4011523
+    text: Trine University
+  - id: 4011545
+    text: Trinity Christian College
+  - id: 4011565
+    text: Trinity College
+  - id: 4011583
+    text: Trinity College of Nursing & Health Sciences
+  - id: 4011605
+    text: Trinity International University
+  - id: 4011625
+    text: Trinity Lutheran College
+  - id: 4011649
+    text: Trinity University
+  - id: 4011668
+    text: Trinity Western University
+  - id: 4011693
+    text: Truett McConnell College
+  - id: 4011710
+    text: Truman State University
+  - id: 4011730
+    text: Tufts University
+  - id: 4011755
+    text: Tusculum College
+  - id: 4011778
+    text: Tuskegee University
+  - id: 4011803
+    text: Union College
+  - id: 4011827
+    text: Union Institute and University
+  - id: 4011849
+    text: Union University
+  - id: 4011924
+    text: United States Coast Guard Academy
+  - id: 4011966
+    text: United States International University - Kenya
+  - id: 4012024
+    text: United States Merchant Marine Academy
+  - id: 4012052
+    text: United States Sports Academy
+  - id: 4012070
+    text: Unity College
+  - id: 4012099
+    text: Universidad Adventista de las Antillas
+  - id: 4012116
+    text: Universidad del Este
+  - id: 4012132
+    text: Universidad del Turabo
+  - id: 4012147
+    text: Universidad Metropolitana
+  - id: 4012163
+    text: Universidad Politecnica De Puerto Rico
+  - id: 4012178
+    text: University of Advancing Technology
+  - id: 4012194
+    text: University of Alabama - Huntsville
+  - id: 4012210
+    text: University of Alaska - Anchorage
+  - id: 4012227
+    text: University of Alaska - Fairbanks
+  - id: 4012247
+    text: University of Alaska - Southeast
+  - id: 4012265
+    text: University of Alberta
+  - id: 4012300
+    text: University of Arkansas for Medical Sciences
+  - id: 4012316
+    text: University of Arkansas - Fort Smith
+  - id: 4012336
+    text: University of Arkansas - Little Rock
+  - id: 4012351
+    text: University of Arkansas - Monticello
+  - id: 4012366
+    text: University of Baltimore
+  - id: 4012382
+    text: University of Bridgeport
+  - id: 4012398
+    text: University of British Columbia
+  - id: 4012412
+    text: University of Calgary
+  - id: 4012424
+    text: University of California - Riverside
+  - id: 4012437
+    text: Holy Cross College
+  - id: 4012453
+    text: Towson University
+  - id: 4012470
+    text: United States Military Academy
+  - id: 4012483
+    text: The Citadel
+  - id: 4012501
+    text: Troy University
+  - id: 4012517
+    text: University of California - Davis
+  - id: 4012532
+    text: Grambling State University
+  - id: 4012547
+    text: University at Albany - SUNY
+  - id: 4012562
+    text: University at Buffalo - SUNY
+  - id: 4012575
+    text: United States Naval Academy
+  - id: 4012591
+    text: University of Arizona
+  - id: 4012603
+    text: University of California - Los Angeles
+  - id: 4012620
+    text: Florida A&M University
+  - id: 4012637
+    text: Texas State University
+  - id: 4012653
+    text: University of Alabama - Birmingham
+  - id: 4012669
+    text: University of California - Santa Cruz
+  - id: 4012701
+    text: University of Central Missouri
+  - id: 4012721
+    text: University of Central Oklahoma
+  - id: 4012739
+    text: University of Charleston
+  - id: 4012756
+    text: University of Chicago
+  - id: 4012774
+    text: University of Cincinnati - UC Blue Ash College
+  - id: 4012792
+    text: University of Colorado - Colorado Springs
+  - id: 4012810
+    text: University of Colorado - Denver
+  - id: 4012827
+    text: University of Dallas
+  - id: 4012844
+    text: University of Denver
+  - id: 4012860
+    text: University of Detroit Mercy
+  - id: 4012876
+    text: University of Dubuque
+  - id: 4012908
+    text: University of Evansville
+  - id: 4012928
+    text: University of Findlay
+  - id: 4012945
+    text: University of Great Falls
+  - id: 4012963
+    text: University of Guam
+  - id: 4012977
+    text: University of Guelph
+  - id: 4012992
+    text: University of Hartford
+  - id: 4013006
+    text: University of Hawaii - Hilo
+  - id: 4013020
+    text: University of Hawaii - Maui College
+  - id: 4013035
+    text: University of Hawaii - West Oahu
+  - id: 4013047
+    text: University of Houston - Clear Lake
+  - id: 4013059
+    text: University of Houston - Downtown
+  - id: 4013070
+    text: University of Houston - Victoria
+  - id: 4013083
+    text: University of Illinois - Chicago
+  - id: 4013095
+    text: University of Illinois - Springfield
+  - id: 4013111
+    text: University of Indianapolis
+  - id: 4013123
+    text: University of Jamestown
+  - id: 4013141
+    text: University of La Verne
+  - id: 4013153
+    text: University of Maine - Augusta
+  - id: 4013173
+    text: University of Maine - Farmington
+  - id: 4013189
+    text: University of Maine - Fort Kent
+  - id: 4013205
+    text: University of Maine - Machias
+  - id: 4013222
+    text: University of Maine - Presque Isle
+  - id: 4013237
+    text: University of Mary
+  - id: 4013253
+    text: University of Mary Hardin-Baylor
+  - id: 4013269
+    text: University of Mary Washington
+  - id: 4013284
+    text: University of Maryland - Baltimore
+  - id: 4013301
+    text: University of Maryland - Baltimore County
+  - id: 4013317
+    text: University of Maryland - Eastern Shore
+  - id: 4013332
+    text: University of Maryland - University College
+  - id: 4013350
+    text: University of Massachusetts - Boston
+  - id: 4013365
+    text: University of Massachusetts - Dartmouth
+  - id: 4013382
+    text: University of Massachusetts - Lowell
+  - id: 4013395
+    text: University of Medicine and Dentistry of New Jersey
+  - id: 4013414
+    text: University of Michigan - Dearborn
+  - id: 4013431
+    text: University of Michigan - Flint
+  - id: 4013449
+    text: University of Minnesota - Crookston
+  - id: 4013467
+    text: University of Minnesota - Duluth
+  - id: 4013483
+    text: University of Minnesota - Morris
+  - id: 4013499
+    text: University of Mississippi Medical Center
+  - id: 4013515
+    text: University of Missouri - Kansas City
+  - id: 4013532
+    text: University of Missouri - St. Louis
+  - id: 4013546
+    text: University of Mobile
+  - id: 4013563
+    text: University of Montana - Western
+  - id: 4013579
+    text: University of Montevallo
+  - id: 4013594
+    text: University of Mount Union
+  - id: 4013611
+    text: University of Nebraska Medical Center
+  - id: 4013625
+    text: University of Nebraska - Kearney
+  - id: 4013642
+    text: University of Dayton
+  - id: 4013666
+    text: University of Delaware
+  - id: 4013684
+    text: University of Florida
+  - id: 4013703
+    text: University of Iowa
+  - id: 4013718
+    text: University of Idaho
+  - id: 4013733
+    text: University of Kentucky
+  - id: 4013747
+    text: University of Massachusetts - Amherst
+  - id: 4013763
+    text: University of Maine
+  - id: 4013779
+    text: University of Michigan - Ann Arbor
+  - id: 4013796
+    text: University of Cincinnati
+  - id: 4013814
+    text: University of Miami
+  - id: 4013829
+    text: University of Louisiana - Monroe
+  - id: 4013924
+    text: University of Missouri
+  - id: 4013942
+    text: University of Mississippi
+  - id: 4013959
+    text: University of Memphis
+  - id: 4013977
+    text: University of Houston
+  - id: 4013995
+    text: University of Colorado - Boulder
+  - id: 4014010
+    text: University of Nebraska - Omaha
+  - id: 4014028
+    text: University of New Brunswick
+  - id: 4014048
+    text: University of New England
+  - id: 4014066
+    text: University of New Haven
+  - id: 4014082
+    text: University of New Orleans
+  - id: 4014099
+    text: University of North Alabama
+  - id: 4014117
+    text: University of North Carolina School of the Arts
+  - id: 4014135
+    text: University of North Carolina - Asheville
+  - id: 4014153
+    text: University of North Carolina - Greensboro
+  - id: 4014169
+    text: University of North Carolina - Pembroke
+  - id: 4014188
+    text: University of North Carolina - Wilmington
+  - id: 4014206
+    text: University of North Florida
+  - id: 4014220
+    text: University of North Georgia
+  - id: 4014240
+    text: University of Northwestern Ohio
+  - id: 4014254
+    text: University of Northwestern - St. Paul
+  - id: 4014271
+    text: University of Ottawa
+  - id: 4014287
+    text: University of Phoenix
+  - id: 4014303
+    text: University of Pikeville
+  - id: 4014320
+    text: University of Portland
+  - id: 4014336
+    text: University of Prince Edward Island
+  - id: 4014353
+    text: University of Puerto Rico - Aguadilla
+  - id: 4014371
+    text: University of Puerto Rico - Arecibo
+  - id: 4014388
+    text: University of Puerto Rico - Bayamon
+  - id: 4014405
+    text: University of Puerto Rico - Cayey
+  - id: 4014421
+    text: University of Puerto Rico - Humacao
+  - id: 4014437
+    text: University of Puerto Rico - Mayaguez
+  - id: 4014453
+    text: University of Puerto Rico - Medical Sciences Campus
+  - id: 4014470
+    text: University of Puerto Rico - Ponce
+  - id: 4014483
+    text: University of Puerto Rico - Rio Piedras
+  - id: 4014496
+    text: University of Puget Sound
+  - id: 4014512
+    text: University of Redlands
+  - id: 4014529
+    text: University of Regina
+  - id: 4014547
+    text: University of Rio Grande
+  - id: 4014562
+    text: University of Rochester
+  - id: 4014579
+    text: University of San Francisco
+  - id: 4014592
+    text: University of Saskatchewan
+  - id: 4014607
+    text: University of Science and Arts of Oklahoma
+  - id: 4014625
+    text: University of Scranton
+  - id: 4014641
+    text: University of Sioux Falls
+  - id: 4014658
+    text: University of South Carolina - Aiken
+  - id: 4014675
+    text: University of South Carolina - Beaufort
+  - id: 4014692
+    text: University of South Carolina - Upstate
+  - id: 4014709
+    text: University of South Florida - St. Petersburg
+  - id: 4014725
+    text: University of Southern Indiana
+  - id: 4014742
+    text: University of Southern Maine
+  - id: 4014755
+    text: University of St. Francis
+  - id: 4014772
+    text: University of St. Joseph
+  - id: 4014788
+    text: University of St. Mary
+  - id: 4014806
+    text: University of St. Thomas
+  - id: 4014823
+    text: University of Tampa
+  - id: 4014840
+    text: University of Texas Health Science Center - Houston
+  - id: 4014853
+    text: University of Texas Health Science Center - San Antonio
+  - id: 4014869
+    text: University of Texas Medical Branch - Galveston
+  - id: 4014887
+    text: University of Texas of the Permian Basin
+  - id: 4014901
+    text: University of Texas - Arlington
+  - id: 4014916
+    text: University of Texas - Brownsville
+  - id: 4014932
+    text: University of Texas - Pan American
+  - id: 4014947
+    text: University of Oregon
+  - id: 4014962
+    text: University of New Mexico
+  - id: 4014977
+    text: University of Pennsylvania
+  - id: 4014994
+    text: University of North Dakota
+  - id: 4015008
+    text: University of Nevada - Reno
+  - id: 4015020
+    text: University of New Hampshire
+  - id: 4015034
+    text: University of Texas - Austin
+  - id: 4015046
+    text: University of Southern Mississippi
+  - id: 4015057
+    text: University of Rhode Island
+  - id: 4015067
+    text: University of South Dakota
+  - id: 4015077
+    text: University of Tennessee
+  - id: 4015088
+    text: University of North Texas
+  - id: 4015099
+    text: University of North Carolina - Charlotte
+  - id: 4015113
+    text: University of Texas - San Antonio
+  - id: 4015123
+    text: University of Notre Dame
+  - id: 4015135
+    text: University of Southern California
+  - id: 4015150
+    text: University of Texas - Tyler
+  - id: 4015163
+    text: University of the Arts
+  - id: 4015179
+    text: University of the Cumberlands
+  - id: 4015195
+    text: University of the District of Columbia
+  - id: 4015210
+    text: University of the Ozarks
+  - id: 4015226
+    text: University of the Pacific
+  - id: 4015237
+    text: University of the Sacred Heart
+  - id: 4015251
+    text: University of the Sciences
+  - id: 4015266
+    text: University of the Southwest
+  - id: 4015281
+    text: University of the Virgin Islands
+  - id: 4015296
+    text: University of the West
+  - id: 4015311
+    text: University of Toronto
+  - id: 4015327
+    text: University of Vermont
+  - id: 4015342
+    text: University of Victoria
+  - id: 4015357
+    text: University of Virginia - Wise
+  - id: 4015370
+    text: University of Waterloo
+  - id: 4015386
+    text: University of West Alabama
+  - id: 4015402
+    text: University of West Florida
+  - id: 4015414
+    text: University of West Georgia
+  - id: 4015430
+    text: University of Windsor
+  - id: 4015444
+    text: University of Winnipeg
+  - id: 4015457
+    text: University of Wisconsin - Eau Claire
+  - id: 4015472
+    text: University of Wisconsin - Green Bay
+  - id: 4015492
+    text: University of Wisconsin - La Crosse
+  - id: 4015510
+    text: University of Wisconsin - Milwaukee
+  - id: 4015524
+    text: University of Wisconsin - Oshkosh
+  - id: 4015540
+    text: University of Wisconsin - Parkside
+  - id: 4015555
+    text: University of Wisconsin - Platteville
+  - id: 4015572
+    text: University of Wisconsin - River Falls
+  - id: 4015674
+    text: University of Wisconsin - Stevens Point
+  - id: 4015695
+    text: University of Wisconsin - Stout
+  - id: 4015708
+    text: University of Wisconsin - Superior
+  - id: 4015725
+    text: University of Wisconsin - Whitewater
+  - id: 4015733
+    text: Upper Iowa University
+  - id: 4015749
+    text: Urbana University
+  - id: 4015765
+    text: Ursinus College
+  - id: 4015781
+    text: Ursuline College
+  - id: 4015799
+    text: Utah Valley University
+  - id: 4015814
+    text: Utica College
+  - id: 4015830
+    text: Valdosta State University
+  - id: 4015846
+    text: Valley City State University
+  - id: 4015861
+    text: Valley Forge Christian College
+  - id: 4015875
+    text: VanderCook College of Music
+  - id: 4015889
+    text: Vanguard University of Southern California
+  - id: 4015903
+    text: Vassar College
+  - id: 4015918
+    text: Vaughn College of Aeronautics and Technology
+  - id: 4015934
+    text: Vermont Technical College
+  - id: 4015950
+    text: Victory University
+  - id: 4015965
+    text: Vincennes University
+  - id: 4015979
+    text: Virginia Commonwealth University
+  - id: 4015992
+    text: Virginia Intermont College
+  - id: 4016009
+    text: Virginia State University
+  - id: 4016026
+    text: Virginia Union University
+  - id: 4016040
+    text: Virginia Wesleyan College
+  - id: 4016056
+    text: Viterbo University
+  - id: 4016073
+    text: Voorhees College
+  - id: 4016090
+    text: Wabash College
+  - id: 4016108
+    text: Walden University
+  - id: 4016125
+    text: Waldorf College
+  - id: 4016141
+    text: Walla Walla University
+  - id: 4016157
+    text: Walsh College of Accountancy and Business Administration
+  - id: 4016175
+    text: Walsh University
+  - id: 4016191
+    text: Warner Pacific College
+  - id: 4016209
+    text: Warner University
+  - id: 4016227
+    text: Warren Wilson College
+  - id: 4016245
+    text: Wartburg College
+  - id: 4016263
+    text: Washburn University
+  - id: 4016277
+    text: Washington Adventist University
+  - id: 4016291
+    text: Washington and Jefferson College
+  - id: 4016307
+    text: Washington and Lee University
+  - id: 4016325
+    text: Washington College
+  - id: 4016341
+    text: Washington University in St. Louis
+  - id: 4016357
+    text: Watkins College of Art, Design & Film
+  - id: 4016375
+    text: Wayland Baptist University
+  - id: 4016394
+    text: Wayne State College
+  - id: 4016412
+    text: Wayne State University
+  - id: 4016430
+    text: Waynesburg University
+  - id: 4016448
+    text: Valparaiso University
+  - id: 4016464
+    text: Villanova University
+  - id: 4016482
+    text: Virginia Tech
+  - id: 4016501
+    text: Washington State University
+  - id: 4016518
+    text: University of Toledo
+  - id: 4016538
+    text: Wagner College
+  - id: 4016555
+    text: University of Wyoming
+  - id: 4016569
+    text: University of Wisconsin - Madison
+  - id: 4016587
+    text: University of Tulsa
+  - id: 4016606
+    text: Webb Institute
+  - id: 4016620
+    text: Webber International University
+  - id: 4016636
+    text: Webster University
+  - id: 4016652
+    text: Welch College
+  - id: 4016669
+    text: Wellesley College
+  - id: 4016685
+    text: Wells College
+  - id: 4016703
+    text: Wentworth Institute of Technology
+  - id: 4016719
+    text: Wesley College
+  - id: 4016734
+    text: Wesleyan College
+  - id: 4016751
+    text: Wesleyan University
+  - id: 4016768
+    text: West Chester University of Pennsylvania
+  - id: 4016784
+    text: West Liberty University
+  - id: 4016799
+    text: West Texas A&M University
+  - id: 4016814
+    text: West Virginia State University
+  - id: 4016828
+    text: West Virginia University Institute of Technology
+  - id: 4016841
+    text: West Virginia University - Parkersburg
+  - id: 4016858
+    text: West Virginia Wesleyan College
+  - id: 4016872
+    text: Western Connecticut State University
+  - id: 4016886
+    text: Western Governors University
+  - id: 4016900
+    text: Western International University
+  - id: 4016914
+    text: Western Nevada College
+  - id: 4016929
+    text: Western New England University
+  - id: 4016944
+    text: Western New Mexico University
+  - id: 4016959
+    text: Western Oregon University
+  - id: 4016973
+    text: Western State Colorado University
+  - id: 4016990
+    text: Western University
+  - id: 4017005
+    text: Western Washington University
+  - id: 4017021
+    text: Westfield State University
+  - id: 4017038
+    text: Westminster College
+  - id: 4017054
+    text: Westmont College
+  - id: 4017069
+    text: Wheaton College
+  - id: 4017093
+    text: Wheeling Jesuit University
+  - id: 4017112
+    text: Wheelock College
+  - id: 4017129
+    text: Whitman College
+  - id: 4017144
+    text: Whittier College
+  - id: 4017163
+    text: Whitworth University
+  - id: 4017179
+    text: Wichita State University
+  - id: 4017198
+    text: Widener University
+  - id: 4017214
+    text: Wilberforce University
+  - id: 4017231
+    text: Wiley College
+  - id: 4017246
+    text: Wilkes University
+  - id: 4017263
+    text: Willamette University
+  - id: 4017280
+    text: William Carey University
+  - id: 4017295
+    text: William Jessup University
+  - id: 4017313
+    text: William Jewell College
+  - id: 4017328
+    text: William Paterson University of New Jersey
+  - id: 4017345
+    text: William Peace University
+  - id: 4017362
+    text: William Penn University
+  - id: 4017374
+    text: William Woods University
+  - id: 4017393
+    text: Williams Baptist College
+  - id: 4017409
+    text: Williams College
+  - id: 4017428
+    text: Wilmington College
+  - id: 4017442
+    text: Wilmington University
+  - id: 4017459
+    text: Wilson College
+  - id: 4017473
+    text: Wingate University
+  - id: 4017490
+    text: Winona State University
+  - id: 4017506
+    text: Winston-Salem State University
+  - id: 4017524
+    text: Winthrop University
+  - id: 4017539
+    text: Wisconsin Lutheran College
+  - id: 4017556
+    text: Wittenberg University
+  - id: 4017573
+    text: Woodbury University
+  - id: 4017590
+    text: Worcester Polytechnic Institute
+  - id: 4017610
+    text: Worcester State University
+  - id: 4017627
+    text: Wright State University
+  - id: 4017646
+    text: Xavier University
+  - id: 4017660
+    text: Xavier University of Louisiana
+  - id: 4017681
+    text: Yeshiva University
+  - id: 4017701
+    text: York College
+  - id: 4017719
+    text: York College of Pennsylvania
+  - id: 4017738
+    text: York University
+  - id: 4017754
+    text: University of Cambridge
+  - id: 4017773
+    text: UCL (University College London)
+  - id: 4017788
+    text: Imperial College London
+  - id: 4017805
+    text: University of Oxford
+  - id: 4017822
+    text: ETH Zurich (Swiss Federal Institute of Technology)
+  - id: 4017839
+    text: University of Edinburgh
+  - id: 4017854
+    text: Ecole Polytechnique Fédérale de Lausanne
+  - id: 4017869
+    text: King's College London (KCL)
+  - id: 4017885
+    text: National University of Singapore (NUS)
+  - id: 4017900
+    text: University of Hong Kong
+  - id: 4017917
+    text: Australian National University
+  - id: 4017930
+    text: Ecole normale supérieure, Paris
+  - id: 4017943
+    text: University of Bristol
+  - id: 4017962
+    text: The University of Melbourne
+  - id: 4017975
+    text: The University of Tokyo
+  - id: 4017993
+    text: The University of Manchester
+  - id: 4018009
+    text: Western Illinois University
+  - id: 4018028
+    text: Wofford College
+  - id: 4018044
+    text: Western Carolina University
+  - id: 4018062
+    text: West Virginia University
+  - id: 4018077
+    text: Yale University
+  - id: 4018092
+    text: The Hong Kong University of Science and Technology
+  - id: 4018108
+    text: Kyoto University
+  - id: 4018125
+    text: Seoul National University
+  - id: 4018140
+    text: The University of Sydney
+  - id: 4018158
+    text: The Chinese University of Hong Kong
+  - id: 4018174
+    text: Ecole Polytechnique
+  - id: 4018188
+    text: Nanyang Technological University (NTU)
+  - id: 4018201
+    text: The University of Queensland
+  - id: 4018218
+    text: University of Copenhagen
+  - id: 4018236
+    text: Peking University
+  - id: 4018252
+    text: Tsinghua University
+  - id: 4018269
+    text: Ruprecht-Karls-Universität Heidelberg
+  - id: 4018287
+    text: University of Glasgow
+  - id: 4018304
+    text: The University of New South Wales
+  - id: 4018321
+    text: Technische Universität München
+  - id: 4018338
+    text: Osaka University
+  - id: 4018354
+    text: University of Amsterdam
+  - id: 4018369
+    text: KAIST - Korea Advanced Institute of Science & Technology
+  - id: 4018386
+    text: Trinity College Dublin
+  - id: 4018404
+    text: University of Birmingham
+  - id: 4018421
+    text: The University of Warwick
+  - id: 4018438
+    text: Ludwig-Maximilians-Universität München
+  - id: 4018453
+    text: Tokyo Institute of Technology
+  - id: 4018468
+    text: Lund University
+  - id: 4018479
+    text: London School of Economics and Political Science (LSE)
+  - id: 4018494
+    text: Monash University
+  - id: 4018515
+    text: University of Helsinki
+  - id: 4018536
+    text: The University of Sheffield
+  - id: 4018555
+    text: University of Geneva
+  - id: 4018572
+    text: Leiden University
+  - id: 4018588
+    text: The University of Nottingham
+  - id: 4018605
+    text: Tohoku University
+  - id: 4018623
+    text: KU Leuven
+  - id: 4018639
+    text: University of Zurich
+  - id: 4018655
+    text: Uppsala University
+  - id: 4018673
+    text: Utrecht University
+  - id: 4018692
+    text: National Taiwan University (NTU)
+  - id: 4018709
+    text: University of St Andrews
+  - id: 4018725
+    text: The University of Western Australia
+  - id: 4018744
+    text: University of Southampton
+  - id: 4018762
+    text: Fudan University
+  - id: 4018781
+    text: University of Oslo
+  - id: 4018799
+    text: Durham University
+  - id: 4018816
+    text: Aarhus University
+  - id: 4018836
+    text: Erasmus University Rotterdam
+  - id: 4018854
+    text: Université de Montréal
+  - id: 4018873
+    text: The University of Auckland
+  - id: 4018892
+    text: Delft University of Technology
+  - id: 4018909
+    text: University of Groningen
+  - id: 4018927
+    text: University of Leeds
+  - id: 4018946
+    text: Nagoya University
+  - id: 4018963
+    text: Universität Freiburg
+  - id: 4018980
+    text: City University of Hong Kong
+  - id: 4018997
+    text: The University of Adelaide
+  - id: 4019015
+    text: Pohang University of Science And Technology (POSTECH)
+  - id: 4019032
+    text: Freie Universität Berlin
+  - id: 4019043
+    text: University of Basel
+  - id: 4019065
+    text: University of Lausanne
+  - id: 4019084
+    text: Université Pierre et Marie Curie (UPMC)
+  - id: 4019101
+    text: Yonsei University
+  - id: 4019122
+    text: University of York
+  - id: 4019145
+    text: Queen Mary, University of London (QMUL)
+  - id: 4019164
+    text: Karlsruhe Institute of Technology (KIT)
+  - id: 4019178
+    text: KTH, Royal Institute of Technology
+  - id: 4019195
+    text: Lomonosov Moscow State University
+  - id: 4019210
+    text: Maastricht University
+  - id: 4019227
+    text: University of Ghent
+  - id: 4019243
+    text: Shanghai Jiao Tong University
+  - id: 4019259
+    text: Humboldt-Universität zu Berlin
+  - id: 4019274
+    text: Universidade de São Paulo (USP)
+  - id: 4019290
+    text: Georg-August-Universität Göttingen
+  - id: 4019305
+    text: Newcastle University
+  - id: 4019318
+    text: University of Liverpool
+  - id: 4019332
+    text: Kyushu University
+  - id: 4019348
+    text: Eberhard Karls Universität Tübingen
+  - id: 4019367
+    text: Technical University of Denmark
+  - id: 4019381
+    text: Cardiff University
+  - id: 4019397
+    text: Université Catholique de Louvain (UCL)
+  - id: 4019412
+    text: University College Dublin
+  - id: 4019428
+    text: McMaster University
+  - id: 4019444
+    text: Hebrew University of Jerusalem
+  - id: 4019458
+    text: Radboud University Nijmegen
+  - id: 4019476
+    text: Hokkaido University
+  - id: 4019493
+    text: Korea University
+  - id: 4019510
+    text: University of Cape Town
+  - id: 4019525
+    text: Rheinisch-Westfälische Technische Hochschule Aachen
+  - id: 4019538
+    text: University of Aberdeen
+  - id: 4019555
+    text: Wageningen University
+  - id: 4019578
+    text: University of Bergen
+  - id: 4019594
+    text: University of Bern
+  - id: 4019611
+    text: University of Otago
+  - id: 4019628
+    text: Lancaster University
+  - id: 4019645
+    text: Eindhoven University of Technology
+  - id: 4019662
+    text: Ecole Normale Supérieure de Lyon
+  - id: 4019680
+    text: University of Vienna
+  - id: 4019696
+    text: The Hong Kong Polytechnic University
+  - id: 4019713
+    text: Sungkyunkwan University
+  - id: 4019730
+    text: Rheinische Friedrich-Wilhelms-Universität Bonn
+  - id: 4019746
+    text: Universidad Nacional Autónoma de México (UNAM)
+  - id: 4019762
+    text: Zhejiang University
+  - id: 4019778
+    text: Pontificia Universidad Católica de Chile
+  - id: 4019796
+    text: Universiti Malaya (UM)
+  - id: 4019816
+    text: Université Libre de Bruxelles (ULB)
+  - id: 4019834
+    text: University of Exeter
+  - id: 4019861
+    text: Stockholm University
+  - id: 4019879
+    text: Queen's University of Belfast
+  - id: 4019896
+    text: Vrije Universiteit Brussel (VUB)
+  - id: 4019915
+    text: University of Science and Technology of China
+  - id: 4019933
+    text: Nanjing University
+  - id: 4019952
+    text: Universitat Autónoma de Barcelona
+  - id: 4019966
+    text: University of Barcelona
+  - id: 4019982
+    text: VU University Amsterdam
+  - id: 4019997
+    text: Technion - Israel Institute of Technology
+  - id: 4020013
+    text: Technische Universität Berlin
+  - id: 4020032
+    text: University of Antwerp
+  - id: 4020047
+    text: Universität Hamburg
+  - id: 4020063
+    text: University of Bath
+  - id: 4020083
+    text: University of Bologna
+  - id: 4020100
+    text: Queen's University, Ontario
+  - id: 4020120
+    text: Université Paris-Sud 11
+  - id: 4020137
+    text: Keio University
+  - id: 4020152
+    text: University of Sussex
+  - id: 4020173
+    text: Universidad Autónoma de Madrid
+  - id: 4020189
+    text: Aalto University
+  - id: 4020205
+    text: Sapienza University of Rome
+  - id: 4020220
+    text: Tel Aviv University
+  - id: 4020237
+    text: National Tsing Hua University
+  - id: 4020255
+    text: Chalmers University of Technology
+  - id: 4020273
+    text: University of Leicester
+  - id: 4020291
+    text: Université Paris Diderot - Paris 7
+  - id: 4020309
+    text: University of Gothenburg
+  - id: 4020327
+    text: University of Turku
+  - id: 4020345
+    text: Universität Frankfurt am Main
+  - id: 4020360
+    text: Universidad de Buenos Aires
+  - id: 4020376
+    text: University College Cork
+  - id: 4020398
+    text: University of Tsukuba
+  - id: 4020416
+    text: University of Reading
+  - id: 4020431
+    text: Sciences Po Paris
+  - id: 4020450
+    text: Universidade Estadual de Campinas
+  - id: 4020469
+    text: King Fahd University of Petroleum & Minerals
+  - id: 4020487
+    text: University Complutense Madrid
+  - id: 4020508
+    text: Université Paris-Sorbonne (Paris IV)
+  - id: 4020525
+    text: University of Dundee
+  - id: 4020544
+    text: Université Joseph Fourier - Grenoble 1
+  - id: 4020561
+    text: Waseda University
+  - id: 4020580
+    text: Indian Institute of Technology Delhi (IITD)
+  - id: 4020596
+    text: Universidad de Chile
+  - id: 4020613
+    text: Université Paris 1 Panthéon-Sorbonne
+  - id: 4020629
+    text: Université de Strasbourg
+  - id: 4020646
+    text: University of Twente
+  - id: 4020664
+    text: University of East Anglia (UEA)
+  - id: 4020681
+    text: National Chiao Tung University
+  - id: 4020698
+    text: Politecnico di Milano
+  - id: 4020715
+    text: Charles University
+  - id: 4020729
+    text: Indian Institute of Technology Bombay (IITB)
+  - id: 4020750
+    text: University of Milano
+  - id: 4020769
+    text: Westfälische Wilhelms-Universität Münster
+  - id: 4020783
+    text: University of Canterbury
+  - id: 4020802
+    text: Chulalongkorn University
+  - id: 4020821
+    text: Saint-Petersburg State University
+  - id: 4020839
+    text: University of Liege
+  - id: 4020859
+    text: Universität zu Köln
+  - id: 4020880
+    text: Loughborough University
+  - id: 4020896
+    text: National Cheng Kung University
+  - id: 4020913
+    text: Universität Stuttgart
+  - id: 4020933
+    text: Hanyang University
+  - id: 4020949
+    text: American University of Beirut (AUB)
+  - id: 4020968
+    text: Norwegian University of Science And Technology
+  - id: 4020985
+    text: Beijing Normal University
+  - id: 4021001
+    text: King Saud University
+  - id: 4021019
+    text: University of Oulu
+  - id: 4021037
+    text: Kyung Hee University
+  - id: 4021055
+    text: University of Strathclyde
+  - id: 4021072
+    text: Universität Ulm
+  - id: 4021090
+    text: University of Pisa
+  - id: 4021108
+    text: Technische Universität Darmstadt
+  - id: 4021126
+    text: Technische Universität Dresden
+  - id: 4021143
+    text: Macquarie University
+  - id: 4021160
+    text: Vienna University of Technology
+  - id: 4021176
+    text: Royal Holloway University of London
+  - id: 4021189
+    text: Victoria University of Wellington
+  - id: 4021202
+    text: University of Padua
+  - id: 4021218
+    text: Universiti Kebangsaan Malaysia (UKM)
+  - id: 4021232
+    text: University of Technology, Sydney
+  - id: 4021244
+    text: Universität Konstanz
+  - id: 4021255
+    text: Universidad de Los Andes Colombia
+  - id: 4021269
+    text: Université Paris Descartes
+  - id: 4021283
+    text: Tokyo Medical and Dental University
+  - id: 4021298
+    text: University of Wollongong
+  - id: 4021312
+    text: Universität Erlangen-Nürnberg
+  - id: 4021325
+    text: Queensland University of Technology
+  - id: 4021339
+    text: Tecnológico de Monterrey (ITESM)
+  - id: 4021353
+    text: Universität Mannheim
+  - id: 4021366
+    text: Universitat Pompeu Fabra
+  - id: 4021381
+    text: Mahidol University
+  - id: 4021394
+    text: Curtin University
+  - id: 4021411
+    text: National University of Ireland, Galway
+  - id: 4021427
+    text: Universidade Federal do Rio de Janeiro
+  - id: 4021445
+    text: University of Surrey
+  - id: 4021462
+    text: Hong Kong Baptist University
+  - id: 4021480
+    text: Umeå University
+  - id: 4021496
+    text: Universität Innsbruck
+  - id: 4021519
+    text: RMIT University
+  - id: 4021539
+    text: University of Eastern Finland
+  - id: 4021555
+    text: Christian-Albrechts-Universität zu Kiel
+  - id: 4021571
+    text: Indian Institute of Technology Kanpur (IITK)
+  - id: 4021586
+    text: National Yang Ming University
+  - id: 4021604
+    text: Johannes Gutenberg Universität Mainz
+  - id: 4021619
+    text: The University of Newcastle
+  - id: 4021636
+    text: Al-Farabi Kazakh National University
+  - id: 4021653
+    text: École des Ponts ParisTech
+  - id: 4021670
+    text: University of Jyväskylä
+  - id: 4021688
+    text: L.N. Gumilyov Eurasian National University
+  - id: 4021704
+    text: Kobe University
+  - id: 4021722
+    text: University of Tromso
+  - id: 4021740
+    text: Hiroshima University
+  - id: 4021756
+    text: Université Bordeaux 1, Sciences Technologies
+  - id: 4021771
+    text: University of Indonesia
+  - id: 4021788
+    text: Universität Leipzig
+  - id: 4021800
+    text: University of Southern Denmark
+  - id: 4021813
+    text: Indian Institute of Technology Madras (IITM)
+  - id: 4021829
+    text: University of The Witwatersrand
+  - id: 4021844
+    text: University of Navarra
+  - id: 4021861
+    text: Universidad Austral - Argentina
+  - id: 4021875
+    text: Universidad Carlos III de Madrid
+  - id: 4021892
+    text: Università¡ degli Studi di Roma - Tor Vergata
+  - id: 4021906
+    text: Pontificia Universidad Católica Argentina Santa María de los Buenos Aires
+  - id: 4021921
+    text: UCA
+  - id: 4021940
+    text: Julius-Maximilians-Universität Würzburg
+  - id: 4021956
+    text: Universidad Nacional de Colombia
+  - id: 4021971
+    text: Laval University
+  - id: 4021986
+    text: Ben Gurion University of The Negev
+  - id: 4022006
+    text: Linköping University
+  - id: 4022013
+    text: Aalborg University
+  - id: 4022032
+    text: Bauman Moscow State Technical University
+  - id: 4022051
+    text: Ecole Normale Supérieure de Cachan
+  - id: 4022058
+    text: SOAS - School of Oriental and African Studies, University of London
+  - id: 4022067
+    text: University of Essex
+  - id: 4022080
+    text: University of Warsaw
+  - id: 4022106
+    text: Griffith University
+  - id: 4022125
+    text: University of South Australia
+  - id: 4022143
+    text: Massey University
+  - id: 4022160
+    text: University of Porto
+  - id: 4022182
+    text: Universitat Politècnica de Catalunya
+  - id: 4022203
+    text: Indian Institute of Technology Kharagpur (IITKGP)
+  - id: 4022215
+    text: City University London
+  - id: 4022225
+    text: Dublin City University
+  - id: 4022240
+    text: Pontificia Universidad Javeriana
+  - id: 4022254
+    text: James Cook University
+  - id: 4022260
+    text: Novosibirsk State University
+  - id: 4022271
+    text: Universidade Nova de Lisboa
+  - id: 4022281
+    text: Université Aix-Marseille
+  - id: 4022295
+    text: Universiti Sains Malaysia (USM)
+  - id: 4022308
+    text: Universiti Teknologi Malaysia (UTM)
+  - id: 4022322
+    text: Université Paris Dauphine
+  - id: 4022338
+    text: University of Coimbra
+  - id: 4022352
+    text: Brunel University
+  - id: 4022367
+    text: King Abdul Aziz University (KAU)
+  - id: 4022381
+    text: Ewha Womans University
+  - id: 4022394
+    text: Nankai University
+  - id: 4022408
+    text: Taipei Medical University
+  - id: 4022422
+    text: Universität Jena
+  - id: 4022440
+    text: Ruhr-Universität Bochum
+  - id: 4022457
+    text: Heriot-Watt University
+  - id: 4022476
+    text: Politecnico di Torino
+  - id: 4022492
+    text: Universität Bremen
+  - id: 4022510
+    text: Xi'an Jiaotong University
+  - id: 4022528
+    text: Birkbeck College, University of London
+  - id: 4022541
+    text: Oxford Brookes University
+  - id: 4022560
+    text: Jagiellonian University
+  - id: 4022577
+    text: University of Tampere
+  - id: 4022591
+    text: University of Florence
+  - id: 4022604
+    text: Deakin University
+  - id: 4022618
+    text: University of the Philippines
+  - id: 4022633
+    text: Universitat Politècnica de València
+  - id: 4022646
+    text: Sun Yat-sen University
+  - id: 4022660
+    text: Université Montpellier 2, Sciences et Techniques du Languedoc
+  - id: 4022676
+    text: Moscow State Institute of International Relations (MGIMO-University)
+  - id: 4022690
+    text: Stellenbosch University
+  - id: 4022705
+    text: Politécnica de Madrid
+  - id: 4022719
+    text: Instituto Tecnológico de Buenos Aires (ITBA)
+  - id: 4022737
+    text: La Trobe University
+  - id: 4022752
+    text: Université Paul Sabatier Toulouse III
+  - id: 4022769
+    text: Karl-Franzens-Universität Graz
+  - id: 4022787
+    text: Universität Düsseldorf
+  - id: 4022802
+    text: University of Naples - Federico Ii
+  - id: 4022818
+    text: Aston University
+  - id: 4022836
+    text: University of Turin
+  - id: 4022853
+    text: Beihang University (former BUAA)
+  - id: 4022870
+    text: Indian Institute of Technology Roorkee (IITR)
+  - id: 4022886
+    text: National Central University
+  - id: 4022902
+    text: Sogang University
+  - id: 4022915
+    text: Universität Regensburg
+  - id: 4022928
+    text: Université Lille 1, Sciences et Technologie
+  - id: 4022941
+    text: University of Tasmania
+  - id: 4022954
+    text: University of Waikato
+  - id: 4022968
+    text: Wuhan University
+  - id: 4022982
+    text: National Taiwan University of Science And Technology
+  - id: 4022995
+    text: Universidade Federal de São Paulo (UNIFESP)
+  - id: 4023006
+    text: Università  degli Studi di Pavia
+  - id: 4023019
+    text: Universität Bayreuth
+  - id: 4023033
+    text: Université Claude Bernard Lyon 1
+  - id: 4023043
+    text: Université du Québec
+  - id: 4023053
+    text: Universiti Putra Malaysia (UPM)
+  - id: 4023069
+    text: University of Kent
+  - id: 4023081
+    text: University of St Gallen (HSG)
+  - id: 4023094
+    text: Bond University
+  - id: 4023107
+    text: United Arab Emirates University
+  - id: 4023123
+    text: Universidad de San AndrÃ©s
+  - id: 4023137
+    text: Universidad Nacional de La Plata
+  - id: 4023153
+    text: Universität des Saarlandes
+  - id: 4023168
+    text: American University of Sharjah (AUS)
+  - id: 4023184
+    text: Bilkent University
+  - id: 4023199
+    text: Flinders University
+  - id: 4023214
+    text: Hankuk (Korea) University of Foreign Studies
+  - id: 4023229
+    text: Middle East Technical University
+  - id: 4023243
+    text: Philipps-Universität Marburg
+  - id: 4023257
+    text: Swansea University
+  - id: 4023287
+    text: Tampere University of Technology
+  - id: 4023305
+    text: Universität Bielefeld
+  - id: 4023322
+    text: University of Manitoba
+  - id: 4023336
+    text: Chiba University
+  - id: 4023350
+    text: Moscow Institute of Physics and Technology State University
+  - id: 4023366
+    text: Tallinn University of Technology
+  - id: 4023381
+    text: Taras Shevchenko National University of Kyiv
+  - id: 4023396
+    text: Tokyo University of Science
+  - id: 4023413
+    text: University of Salamanca
+  - id: 4023428
+    text: University of Trento
+  - id: 4023444
+    text: Université de Sherbrooke
+  - id: 4023460
+    text: Université Panthéon-Assas (Paris 2)
+  - id: 4023476
+    text: University of Delhi
+  - id: 4023493
+    text: Abo Akademi University
+  - id: 4023510
+    text: Czech Technical University In Prague
+  - id: 4023527
+    text: Leibniz Universität Hannover
+  - id: 4023541
+    text: Pusan National University
+  - id: 4023556
+    text: Shanghai University
+  - id: 4023573
+    text: St. Petersburg State Politechnical University
+  - id: 4023589
+    text: Università  Cattolica del Sacro Cuore
+  - id: 4023606
+    text: University of Genoa
+  - id: 4023624
+    text: Bandung Institute of Technology (ITB)
+  - id: 4023639
+    text: Bogazici University
+  - id: 4023655
+    text: Goldsmiths, University of London
+  - id: 4023671
+    text: National Sun Yat-sen University
+  - id: 4023687
+    text: Renmin (People’s) University of China
+  - id: 4023707
+    text: Universidad de Costa Rica
+  - id: 4023728
+    text: Universidad de Santiago de Chile - USACH
+  - id: 4023743
+    text: University of Tartu
+  - id: 4023758
+    text: Aristotle University of Thessaloniki
+  - id: 4023776
+    text: Auckland University of Technology
+  - id: 4023792
+    text: Bangor University
+  - id: 4023807
+    text: Charles Darwin University
+  - id: 4023819
+    text: Kingston University, London
+  - id: 4023836
+    text: Universitat de Valencia
+  - id: 4023853
+    text: Université Montpellier 1
+  - id: 4023869
+    text: University of Pretoria
+  - id: 4023884
+    text: Lincoln University
+  - id: 4023897
+    text: National Taiwan Normal University
+  - id: 4023910
+    text: National University of Sciences And Technology (NUST) Islamabad
+  - id: 4023921
+    text: Swinburne University of Technology
+  - id: 4023932
+    text: Tongji University
+  - id: 4023944
+    text: Universidad de Zaragoza
+  - id: 4023959
+    text: Universidade Federal de Minas Gerais
+  - id: 4023975
+    text: Universität Duisburg-Essen
+  - id: 4023988
+    text: Al-Imam Mohamed Ibn Saud Islamic University
+  - id: 4024136
+    text: Harbin Institute of Technology
+  - id: 4024151
+    text: People's Friendship University of Russia
+  - id: 4024169
+    text: Universidade Estadual PaulistaJúlio de Mesquita Filho' (UNESP)
+  - id: 4024187
+    text: Université Nice Sophia-Antipolis
+  - id: 4024203
+    text: University of Crete
+  - id: 4024222
+    text: University of Milano-Bicocca
+  - id: 4024234
+    text: Ateneo de Manila University
+  - id: 4024247
+    text: Beijing Institute of Technology
+  - id: 4024262
+    text: Chang Gung University
+  - id: 4024272
+    text: hung-Ang University
+  - id: 4024282
+    text: Dublin Institute of Technology
+  - id: 4024297
+    text: Huazhong University of Science and Technology
+  - id: 4024312
+    text: International Islamic University Malaysia (IIUM)
+  - id: 4024325
+    text: Johannes Kepler University Linz
+  - id: 4024345
+    text: Justus-Liebig-Universität Gießen
+  - id: 4024360
+    text: Kanazawa University
+  - id: 4024375
+    text: Keele University
+  - id: 4024392
+    text: Koc University
+  - id: 4024406
+    text: National and Kapodistrian University of Athens
+  - id: 4024420
+    text: National Research University – Higher School of Economics (HSE)
+  - id: 4024436
+    text: National Technical University of Athens
+  - id: 4024453
+    text: Okayama University
+  - id: 4024470
+    text: Sabanci University
+  - id: 4024486
+    text: Southeast University
+  - id: 4024504
+    text: Sultan Qaboos University
+  - id: 4024519
+    text: Technische Universität Braunschweig
+  - id: 4024532
+    text: Technische Universität Dortmund
+  - id: 4024544
+    text: The Catholic University of Korea
+  - id: 4024559
+    text: Tianjin University
+  - id: 4024571
+    text: Tokyo Metropolitan University
+  - id: 4024585
+    text: Universidad de Antioquia
+  - id: 4024597
+    text: University of Granada
+  - id: 4024612
+    text: Universidad de Palermo
+  - id: 4024626
+    text: Universidad Nacional de Córdoba
+  - id: 4024642
+    text: Universidade de Santiago de Compostela
+  - id: 4024656
+    text: Universidade Federal do Rio Grande Do Sul
+  - id: 4024673
+    text: University of Siena
+  - id: 4024694
+    text: University of Trieste
+  - id: 4024712
+    text: Universitas Gadjah Mada
+  - id: 4024726
+    text: Université de Lorraine
+  - id: 4024739
+    text: Université de Rennes 1
+  - id: 4024756
+    text: University of Bradford
+  - id: 4024768
+    text: University of Hull
+  - id: 4024782
+    text: University of Kwazulu-Natal
+  - id: 4024795
+    text: University of Limerick
+  - id: 4024810
+    text: University of Stirling
+  - id: 4024827
+    text: University of Szeged
+  - id: 4024842
+    text: Ural Federal University
+  - id: 4024858
+    text: Xiamen University
+  - id: 4024873
+    text: Yokohama City University
+  - id: 4024888
+    text: Aberystwyth University
+  - id: 4024906
+    text: Belarus State University
+  - id: 4024922
+    text: Cairo University
+  - id: 4024937
+    text: Chiang Mai University
+  - id: 4024952
+    text: Chonbuk National University
+  - id: 4024970
+    text: Eötvös Loránd University
+  - id: 4024985
+    text: Inha University
+  - id: 4025002
+    text: Instituto Politécnico Nacional (IPN)
+  - id: 4025025
+    text: Istanbul Technical University
+  - id: 4025037
+    text: Kumamoto University
+  - id: 4025049
+    text: Kyungpook National University
+  - id: 4025063
+    text: Lingnan University (Hong Kong)
+  - id: 4025073
+    text: Masaryk University
+  - id: 4025084
+    text: Murdoch University
+  - id: 4025098
+    text: Nagasaki University
+  - id: 4025114
+    text: National Chung Hsing University
+  - id: 4025130
+    text: National Taipei University of Technology
+  - id: 4025146
+    text: National University of Ireland Maynooth
+  - id: 4025160
+    text: Osaka City University
+  - id: 4025177
+    text: Pontificia Universidad Católica del Perú
+  - id: 4025201
+    text: Pontificia Universidade Católica de São Paulo (PUC -SP)
+  - id: 4025215
+    text: Pontificia Universidade Católica do Rio de Janeiro (PUC - Rio)
+  - id: 4025228
+    text: Qatar University
+  - id: 4025243
+    text: Rhodes University
+  - id: 4025256
+    text: Tokyo University of Agriculture and Technology
+  - id: 4025269
+    text: Tomsk Polytechnic University
+  - id: 4025282
+    text: Tomsk State University
+  - id: 4025294
+    text: Umm Al-Qura University
+  - id: 4025305
+    text: Universidad Católica Andrés Bello - UCAB
+  - id: 4025316
+    text: Universidad Central de Venezuela - UCV
+  - id: 4025332
+    text: Universidad de Belgrano
+  - id: 4025343
+    text: Universidad de Concepción
+  - id: 4025360
+    text: Universidad de Sevilla
+  - id: 4025375
+    text: Universidade Catolica Portuguesa, Lisboa
+  - id: 4025390
+    text: Universidade de Brasilia (UnB)
+  - id: 4025403
+    text: University of Lisbon
+  - id: 4025414
+    text: University of Ljubljana
+  - id: 4025429
+    text: University of Seoul
+  - id: 4025443
+    text: Abu Dhabi University
+  - id: 4025457
+    text: Ain Shams University
+  - id: 4025471
+    text: Ajou University
+  - id: 4025485
+    text: De La Salle University
+  - id: 4025500
+    text: Dongguk University
+  - id: 4025515
+    text: Gifu University
+  - id: 4025528
+    text: Hacettepe University
+  - id: 4025540
+    text: Indian Institute of Technology Guwahati (IITG)
+  - id: 4025550
+    text: Jilin University
+  - id: 4025562
+    text: Kazan Federal University
+  - id: 4025579
+    text: King Khalid University
+  - id: 4025592
+    text: Martin-Luther-Universität Halle-Wittenberg
+  - id: 4025605
+    text: National Chengchi University
+  - id: 4025615
+    text: National Technical University of UkraineKyiv Polytechnic Institute'
+  - id: 4025630
+    text: Niigata University
+  - id: 4025640
+    text: Osaka Prefecture University
+  - id: 4025654
+    text: Paris Lodron University of Salzburg
+  - id: 4025669
+    text: Sharif University of Technology
+  - id: 4025683
+    text: Southern Federal University
+  - id: 4025698
+    text: Thammasat University
+  - id: 4025710
+    text: Universidad de Guadalajara (UDG)
+  - id: 4025721
+    text: Universidad de la República (UdelaR)
+  - id: 4025735
+    text: Universidad Iberoamericana (UIA)
+  - id: 4025747
+    text: Universidad Torcuato Di Tella
+  - id: 4025758
+    text: Universidade Federal da Bahia
+  - id: 4025770
+    text: Universidade Federal de São Carlos
+  - id: 4025782
+    text: Universidade Federal de Viçosa
+  - id: 4025793
+    text: Perugia University
+  - id: 4025803
+    text: Université de Nantes
+  - id: 4025819
+    text: Université Saint-Joseph de Beyrouth
+  - id: 4025830
+    text: University of Canberra
+  - id: 4025840
+    text: University of Debrecen
+  - id: 4025852
+    text: University of Johannesburg
+  - id: 4025861
+    text: University of Mumbai
+  - id: 4025872
+    text: University of Patras
+  - id: 4025882
+    text: University of Tehran
+  - id: 4025890
+    text: University of Ulsan
+  - id: 4025900
+    text: University of Ulster
+  - id: 4025910
+    text: University of Zagreb
+  - id: 4025920
+    text: Vilnius University
+  - id: 4025932
+    text: Warsaw University of Technology
+  - id: 4025943
+    text: Al Azhar University
+  - id: 4025954
+    text: Bar-Ilan University
+  - id: 4025964
+    text: Brno University of Technology
+  - id: 4025975
+    text: Chonnam National University
+  - id: 4025988
+    text: Chungnam National University
+  - id: 4025996
+    text: Corvinus University of Budapest
+  - id: 4026009
+    text: Gunma University
+  - id: 4026022
+    text: Hallym University
+  - id: 4026033
+    text: Instituto Tecnológico Autonomo de México (ITAM)
+  - id: 4026044
+    text: Istanbul University
+  - id: 4026056
+    text: Jordan University of Science & Technology
+  - id: 4026068
+    text: Kasetsart University
+  - id: 4026078
+    text: Kazakh-British Technical University
+  - id: 4026089
+    text: Khazar University
+  - id: 4026101
+    text: London Metropolitan University
+  - id: 4026112
+    text: Middlesex University
+  - id: 4026123
+    text: Universidad Industrial de Santander
+  - id: 4026136
+    text: Pontificia Universidad Católica de Valparaíso
+  - id: 4026148
+    text: Pontificia Universidade Católica do Rio Grande do Sul
+  - id: 4026160
+    text: Qafqaz University
+  - id: 4026171
+    text: Ritsumeikan University
+  - id: 4026178
+    text: Shandong University
+  - id: 4026189
+    text: University of St. Kliment Ohridski
+  - id: 4026200
+    text: South Kazakhstan State University (SKSU)
+  - id: 4026209
+    text: Universidad Adolfo Ibáñez
+  - id: 4026218
+    text: Universidad Autónoma del Estado de México
+  - id: 4026231
+    text: Universidad Autónoma Metropolitana (UAM)
+  - id: 4026241
+    text: Universidad de Alcalá
+  - id: 4026251
+    text: Universidad Nacional Costa Rica
+  - id: 4026261
+    text: Universidad Nacional de Mar del Plata
+  - id: 4026270
+    text: Universidad Peruana Cayetano Heredia
+  - id: 4026281
+    text: Universidad Simón Bolívar Venezuela
+  - id: 4026291
+    text: Universidade Federal de Santa Catarina
+  - id: 4026301
+    text: Universidade Federal do Paraná (UFPR)
+  - id: 4026311
+    text: Universidade Federal Fluminense
+  - id: 4026321
+    text: University of Modena
+  - id: 4026331
+    text: Université Lumière Lyon 2
+  - id: 4026341
+    text: Université Toulouse 1, Capitole
+  - id: 4026357
+    text: University of Economics Prague
+  - id: 4026370
+    text: University of Hertfordshire
+  - id: 4026383
+    text: University of Plymouth
+  - id: 4026397
+    text: University of Salford
+  - id: 4026412
+    text: University of Science and Technology Beijing
+  - id: 4026424
+    text: University of Western Sydney
+  - id: 4026436
+    text: Yamaguchi University
+  - id: 4026448
+    text: Yokohama National University
+  - id: 4026461
+    text: Airlangga University
+  - id: 4026476
+    text: Alexandria University
+  - id: 4026490
+    text: Alexandru Ioan Cuza University
+  - id: 4026505
+    text: Alpen-Adria-Universität Klagenfurt
+  - id: 4026519
+    text: Aoyama Gakuin University
+  - id: 4026534
+    text: Athens University of Economy And Business
+  - id: 4026544
+    text: Babes-Bolyai University
+  - id: 4026558
+    text: Baku State University
+  - id: 4026572
+    text: Belarusian National Technical University
+  - id: 4026583
+    text: Benemérita Universidad Autónoma de Puebla
+  - id: 4026594
+    text: Bogor Agricultural University
+  - id: 4026604
+    text: Coventry University
+  - id: 4026614
+    text: Cukurova University
+  - id: 4026627
+    text: Diponegoro University
+  - id: 4026638
+    text: Donetsk National University
+  - id: 4026648
+    text: Doshisha University
+  - id: 4026660
+    text: E.A.Buketov Karaganda State University
+  - id: 4026670
+    text: Far Eastern Federal University
+  - id: 4026681
+    text: Fu Jen Catholic University
+  - id: 4026692
+    text: Kagoshima University
+  - id: 4026702
+    text: Kaunas University of Technology
+  - id: 4026714
+    text: Kazakh Ablai khan University of International Relations and World Languages
+  - id: 4026726
+    text: Kazakh National Pedagogical University Abai
+  - id: 4026739
+    text: Kazakh National Technical University
+  - id: 4026749
+    text: Khon Kaen University
+  - id: 4026761
+    text: King Faisal University
+  - id: 4026776
+    text: King Mongkut''s University of Technology Thonburi
+  - id: 4026787
+    text: Kuwait University
+  - id: 4026797
+    text: Lodz University
+  - id: 4026808
+    text: Manchester Metropolitan University
+  - id: 4026818
+    text: Lobachevsky State University of Nizhni Novgorod
+  - id: 4026827
+    text: National Technical UniversityKharkiv Polytechnic Institute'
+  - id: 4026837
+    text: Nicolaus Copernicus University
+  - id: 4026847
+    text: Northumbria University at Newcastle
+  - id: 4026859
+    text: Nottingham Trent University
+  - id: 4026869
+    text: Ochanomizu University
+  - id: 4026879
+    text: Plekhanov Russian University of Economics
+  - id: 4026889
+    text: Pontificia Universidad Catolica del Ecuador
+  - id: 4026899
+    text: Prince of Songkla University
+  - id: 4026910
+    text: S.Seifullin Kazakh Agro Technical University
+  - id: 4026921
+    text: Saitama University
+  - id: 4026933
+    text: Sepuluh Nopember Institute of Technology
+  - id: 4026943
+    text: Shinshu University
+  - id: 4026952
+    text: The Robert Gordon University
+  - id: 4026961
+    text: Tokai University
+  - id: 4026972
+    text: Universidad ANAHUAC
+  - id: 4026984
+    text: Universidad Austral de Chile
+  - id: 4026996
+    text: University Autónoma de Nuevo León (UANL)
+  - id: 4027007
+    text: Universidad de la Habana
+  - id: 4027017
+    text: Universidad de La Sabana
+  - id: 4027028
+    text: Universidad de las Américas Puebla (UDLAP)
+  - id: 4027040
+    text: Universidad de los Andes Mérida
+  - id: 4027050
+    text: University of Murcia
+  - id: 4027061
+    text: Universidad de Puerto Rico
+  - id: 4027072
+    text: Universidad de San Francisco de Quito
+  - id: 4027082
+    text: Universidad de Talca
+  - id: 4027093
+    text: Universidad del Norte
+  - id: 4027105
+    text: Universidad del Rosario
+  - id: 4027116
+    text: Universidad del Valle
+  - id: 4027125
+    text: Universidad Nacional de Cuyo
+  - id: 4027136
+    text: Universidad Nacional de Rosario
+  - id: 4027145
+    text: Universidad Nacional de Tucumán
+  - id: 4027157
+    text: Universidad Nacional del Sur
+  - id: 4027170
+    text: Universidad Nacional Mayor de San Marcos
+  - id: 4027181
+    text: Universidad Técnica Federico Santa María
+  - id: 4027192
+    text: Universidad Tecnológica Nacional (UTN)
+  - id: 4027206
+    text: Universidade do Estado do Rio de Janeiro (UERJ)
+  - id: 4027221
+    text: Universidade Estadual de Londrina (UEL)
+  - id: 4027235
+    text: Universidade Federal de Santa Maria
+  - id: 4027249
+    text: Universidade Federal do Ceará (UFC)
+  - id: 4027264
+    text: Universidade Federal do Pernambuco
+  - id: 4027281
+    text: Università  Ca'' Foscari Venezia
+  - id: 4027296
+    text: Catania University
+  - id: 4027311
+    text: Università degli Studi Roma Tre
+  - id: 4027328
+    text: Université Charles-de-Gaulle Lille 3
+  - id: 4027345
+    text: Université de Caen Basse-Normandie
+  - id: 4027360
+    text: Université de Cergy-Pontoise
+  - id: 4027376
+    text: Université de Poitiers
+  - id: 4027401
+    text: Université Jean Moulin Lyon 3
+  - id: 4027416
+    text: Université Lille 2 Droit et Santé
+  - id: 4027432
+    text: Université Paris Ouest Nanterre La Défense
+  - id: 4027449
+    text: Université Paul-Valéry Montpellier 3
+  - id: 4027466
+    text: Université Pierre Mendès France - Grenoble 2
+  - id: 4027485
+    text: Université Stendhal Grenoble 3
+  - id: 4027503
+    text: Université Toulouse II, Le Mirail
+  - id: 4027519
+    text: Universiti Teknologi MARA - UiTM
+  - id: 4027532
+    text: University of Baghdad
+  - id: 4027546
+    text: University of Bahrain
+  - id: 4027561
+    text: University of Bari
+  - id: 4027577
+    text: University of Belgrade
+  - id: 4027589
+    text: University of Brawijaya
+  - id: 4027604
+    text: University of Brescia
+  - id: 4027618
+    text: University of Bucharest
+  - id: 4027634
+    text: University of Calcutta
+  - id: 4027653
+    text: University of Central Lancashire
+  - id: 4027665
+    text: University of Colombo
+  - id: 4027675
+    text: University of Dhaka
+  - id: 4027686
+    text: University of East London
+  - id: 4027698
+    text: University of Engineering & Technology (UET) Lahore
+  - id: 4027707
+    text: University of Greenwich
+  - id: 4027718
+    text: University of Jordan
+  - id: 4027728
+    text: University of Karachi
+  - id: 4027738
+    text: University of Lahore
+  - id: 4027749
+    text: University of Latvia
+  - id: 4027759
+    text: University of New England
+  - id: 4027769
+    text: University of Pune
+  - id: 4027779
+    text: University of Santo Tomas
+  - id: 4027792
+    text: University of Southern Queensland
+  - id: 4027804
+    text: University of Wroclaw
+  - id: 4027814
+    text: Verona University
+  - id: 4027824
+    text: Victoria University
+  - id: 4027832
+    text: Vilnius Gediminas Technical University
+  - id: 4027841
+    text: Voronezh State University
+  - id: 4027851
+    text: Vytautas Magnus University
+  - id: 4027860
+    text: West University of Timisoara
+  - id: 4027869
+    text: University of South Alabama
+  - id: 4027877
+    text: University of Arkansas
+  - id: 4027887
+    text: University of California - Berkeley
+  - id: 4027895
+    text: University of Connecticut
+  - id: 4027903
+    text: University of South Florida
+  - id: 4027913
+    text: University of Georgia
+  - id: 4027921
+    text: University of Hawaii - Manoa
+  - id: 4027931
+    text: Iowa State University
+  - id: 4027941
+    text: Murray State University
+  - id: 4027951
+    text: University of Louisville
+  - id: 4027963
+    text: Western Kentucky University
+  - id: 4027975
+    text: Louisiana State University - Baton Rouge
+  - id: 4027985
+    text: University of Maryland - College Park
+  - id: 4027995
+    text: University of Minnesota - Twin Cities
+  - id: 4028006
+    text: University of Montana
+  - id: 4028020
+    text: East Carolina University
+  - id: 4028031
+    text: University of North Carolina - Chapel Hill
+  - id: 4028041
+    text: Wake Forest University
+  - id: 4028053
+    text: University of Nebraska - Lincoln
+  - id: 4028063
+    text: New Mexico State University
+  - id: 4028073
+    text: Ohio State University - Columbus
+  - id: 4028083
+    text: University of Oklahoma
+  - id: 4028092
+    text: Pennsylvania State University - University Park
+  - id: 4028101
+    text: University of Pittsburgh
+  - id: 4028111
+    text: University of Tennessee - Chattanooga
+  - id: 4028119
+    text: Vanderbilt University
+  - id: 4028132
+    text: Rice University
+  - id: 4028143
+    text: University of Utah
+  - id: 4028154
+    text: University of Richmond
+  - id: 4028165
+    text: University of Arkansas - Pine Bluff
+  - id: 4028175
+    text: University of Central Florida
+  - id: 4028184
+    text: Florida Atlantic University
+  - id: 4028195
+    text: Hampton University
+  - id: 4028240
+    text: Liberty University
+  - id: 4028250
+    text: Mercer University
+  - id: 4028261
+    text: Middle Tennessee State University
+  - id: 4028272
+    text: University of Nevada - Las Vegas
+  - id: 4028285
+    text: South Carolina State University
+  - id: 4028295
+    text: University of Tennessee - Martin
+  - id: 4028307
+    text: Weber State University

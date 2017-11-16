@@ -21,9 +21,12 @@ class AttributeMessage(messages.Message):
 
 class GreenhousePreprocessor(grow.Preprocessor):
     KIND = 'greenhouse'
+    DEGREES_URL = 'https://api.greenhouse.io/v1/boards/{board_token}/education/degrees'
+    DEPARTMENTS_URL = 'https://api.greenhouse.io/v1/boards/{board_token}/departments'
+    DISCIPLINES_URL = 'https://api.greenhouse.io/v1/boards/{board_token}/education/disciplines'
     JOBS_URL = 'https://api.greenhouse.io/v1/boards/{board_token}/jobs?content=true'
     JOB_URL = 'https://api.greenhouse.io/v1/boards/{board_token}/jobs/{job_id}?questions=true'
-    DEPARTMENTS_URL = 'https://api.greenhouse.io/v1/boards/{board_token}/departments'
+    SCHOOLS_URL = 'https://api.greenhouse.io/v1/boards/{board_token}/education/schools'
 
     class Config(messages.Message):
         board_token = messages.StringField(1)
@@ -31,6 +34,7 @@ class GreenhousePreprocessor(grow.Preprocessor):
         departments_collection = messages.StringField(3)
         allowed_html_tags = messages.StringField(4, repeated=True)
         allowed_html_attributes = messages.MessageField(AttributeMessage, 5, repeated=True)
+        education_path = messages.StringField(6)
 
     def bind_jobs(self, board_token, collection_path):
         url = GreenhousePreprocessor.JOBS_URL.format(board_token=board_token)
@@ -39,6 +43,48 @@ class GreenhousePreprocessor(grow.Preprocessor):
             raise Error('Error requesting -> {}'.format(url))
         content = resp.json()
         self._bind(collection_path, content['jobs'])
+
+    def _download_schools(self, board_token):
+        schools = {'items': []}
+        total = 0
+        has_run = False
+        items_so_far = 0
+        page = 0
+        while has_run is False or total > items_so_far:
+            self.pod.logger.info('Downloading schools (page {})'.format(page))
+            url = GreenhousePreprocessor.SCHOOLS_URL.format(board_token=board_token) + '?page={}'.format(page)
+            resp = requests.get(url)
+            if resp.status_code != 200:
+                raise Error('Error requesting -> {}'.format(url))
+            resp = resp.json()
+            if has_run is False:
+                total = resp.get('meta', {}).get('total_count', 0)
+                has_run = True
+            schools['items'] += resp['items']
+            items_so_far += len(resp['items'])
+            page += 1
+        return schools
+
+    def bind_education(self, board_token, education_path):
+        schools = self._download_schools(board_token)
+        url = GreenhousePreprocessor.DEGREES_URL.format(board_token=board_token)
+        resp = requests.get(url)
+	if resp.status_code != 200:
+            raise Error('Error requesting -> {}'.format(url))
+        degrees = resp.json()
+        url = GreenhousePreprocessor.DISCIPLINES_URL.format(board_token=board_token)
+        resp = requests.get(url)
+	if resp.status_code != 200:
+            raise Error('Error requesting -> {}'.format(url))
+        disciplines = resp.json()
+        item = {
+            'degrees': degrees,
+            'disciplines': disciplines,
+            'schools': schools,
+        }
+        path = os.path.join(education_path)
+        self.pod.write_yaml(path, item)
+        self.pod.logger.info('Saving -> {}'.format(path))
 
     def bind_departments(self, board_token, collection_path):
         url = GreenhousePreprocessor.DEPARTMENTS_URL.format(board_token=board_token)
@@ -107,3 +153,7 @@ class GreenhousePreprocessor(grow.Preprocessor):
             self.bind_jobs(
                 self.config.board_token,
                 self.config.jobs_collection)
+        if self.config.education_path:
+            self.bind_education(
+                self.config.board_token,
+                self.config.education_path)
