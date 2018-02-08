@@ -25,7 +25,9 @@ class SubmitApplicationHandler(webapp2.RequestHandler):
         content = []
         for key, val in self.request.POST.iteritems():
             if hasattr(val, 'file'):
-                file_tuple = (val.filename, val.file)
+                # Fixes an issue when spaces are in the filename.
+                filename = val.filename.replace(' ', '-')
+                file_tuple = (filename, val.file)
                 files.append((key, file_tuple))
             else:
                 content.append((key, val))
