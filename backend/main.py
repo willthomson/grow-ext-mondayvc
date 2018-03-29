@@ -6,6 +6,9 @@ import os
 import requests
 import webapp2
 
+from requests_toolbelt.adapters import appengine
+appengine.monkeypatch()
+
 SUBMIT_URL = 'https://api.greenhouse.io/v1/boards/{board_token}/jobs/{job_id}'
 
 
@@ -14,6 +17,10 @@ def submit_application(board_token, job_id, data, files=None):
     auth = (os.getenv('GREENHOUSE_API_KEY'), '')
     resp = requests.post(url, auth=auth, data=data, files=files)
     return resp
+
+
+def clean_filename(name):
+    return ''.join([i for i in name if ord(i) < 128])
 
 
 class SubmitApplicationHandler(webapp2.RequestHandler):
@@ -25,8 +32,7 @@ class SubmitApplicationHandler(webapp2.RequestHandler):
         content = []
         for key, val in self.request.POST.iteritems():
             if hasattr(val, 'file'):
-                # Fixes an issue when spaces are in the filename.
-                filename = val.filename.replace(' ', '-')
+                filename = clean_filename(val.filename)
                 file_tuple = (filename, val.file)
                 files.append((key, file_tuple))
             else:
