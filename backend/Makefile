@@ -6,7 +6,7 @@ develop:
 deploy:
 	gcloud app deploy \
 	  -q \
-		--promote \
+	  --promote \
 	  --project=$(project) \
 	  app.yaml
 
