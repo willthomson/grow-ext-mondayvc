@@ -41,6 +41,7 @@ class SubmitApplicationHandler(webapp2.RequestHandler):
         try:
             resp.raise_for_status()
         except Exception as e:
+            logging.exception('Error submitting to board {} for job {}'.format(board_token, job_id))
             self.response.set_status(resp.status_code)
             self.response.out.write(resp.text)
             return
