@@ -3,13 +3,13 @@
 [![Build
 Status](https://travis-ci.org/grow/grow-ext-greenhouse.svg?branch=master)](https://travis-ci.org/grow/grow-ext-greenhouse)
 
-(WIP) An extension to integrate Greenhouse data with Grow. Provides a way to
+An extension to integrate Greenhouse data with Grow. Provides a way to
 serialize Greenhouse jobs into YAML files and a backend proxy for submitting
 job applications.
 
 ## Concept
 
-(WIP)
+Greenhouse is an applicant tracking system and hiring tool for organizations to recruit and hire candidates. The Grow extension leverages the Greenhouse API so job listings can be embedded within a Grow website.
 
 ## Usage
 
@@ -34,8 +34,7 @@ preprocessors:
 ### Configuration
 
 1. Acquire the `board_token` from the
-   [https://app.greenhouse.io/configure/dev_center/config/](Greenhouse Dev
-   Center).
+   (Greenhouse Dev Center)[https://app.greenhouse.io/configure/dev_center/config/].
 
 ### Developer notes
 
