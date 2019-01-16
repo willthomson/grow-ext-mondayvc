@@ -31,6 +31,9 @@ preprocessors:
   jobs_collection: /content/jobs
 ```
 
+The preprocessor accepts a few additional configuration options, see
+`example/podspec.yaml` for examples.
+
 ### Configuration
 
 1. Acquire the `board_token` from the

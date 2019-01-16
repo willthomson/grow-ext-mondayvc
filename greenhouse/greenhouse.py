@@ -35,6 +35,7 @@ class GreenhousePreprocessor(grow.Preprocessor):
         allowed_html_tags = messages.StringField(4, repeated=True)
         allowed_html_attributes = messages.MessageField(AttributeMessage, 5, repeated=True)
         education_path = messages.StringField(6)
+        departments_blacklist = messages.StringField(7, repeated=True)
 
     def bind_jobs(self, board_token, collection_path):
         url = GreenhousePreprocessor.JOBS_URL.format(board_token=board_token)
@@ -86,14 +87,6 @@ class GreenhousePreprocessor(grow.Preprocessor):
         self.pod.write_yaml(path, item)
         self.pod.logger.info('Saving -> {}'.format(path))
 
-    def bind_departments(self, board_token, collection_path):
-        url = GreenhousePreprocessor.DEPARTMENTS_URL.format(board_token=board_token)
-        resp = requests.get(url)
-	if resp.status_code != 200:
-            raise Error('Error requesting -> {}'.format(url))
-        content = resp.json()
-        self._bind(collection_path, content['departments'])
-
     def _parse_entry(self, item):
         if item.get('title'):
             item['$title'] = item.pop('title')
@@ -131,8 +124,20 @@ class GreenhousePreprocessor(grow.Preprocessor):
     def _bind(self, collection_path, items):
         existing_paths = self.pod.list_dir(collection_path)
         existing_basenames = [path.lstrip('/') for path in existing_paths]
+        departments_blacklist = self.config.departments_blacklist or []
+        departments_blacklist = [name.lower() for name in departments_blacklist]
         new_basenames = []
         for item in items:
+            # Skip departments added to the blacklist.
+            department_names = [department.get('name', '').lower()
+                    for department in item.get('departments', [])]
+            skip = False
+            for name in department_names:
+                if name in departments_blacklist:
+                   self.pod.logger.info('Skipping department -> {}'.format(name))
+                   skip = True
+            if skip:
+                continue
             item = self._get_single_job(item)
             item = self._parse_entry(item)
             path = os.path.join(collection_path, '{}.yaml'.format(item['id']))

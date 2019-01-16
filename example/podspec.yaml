@@ -11,6 +11,8 @@ preprocessors:
   board_token: vaulttec
   jobs_collection: /content/jobs
   departments_collection: /content/departments
+  departments_blacklist:
+  - Finance
   education_path: /content/partials/education.yaml
   allowed_html_tags:
   - b

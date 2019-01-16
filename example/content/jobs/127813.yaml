@@ -89,7 +89,7 @@ compliance:
 
     <p>Federal law requires employers to provide reasonable accommodation to qualified individuals with disabilities.    Please tell us if you require a reasonable accommodation to apply for a job or to perform your job.  Examples of reasonable accommodation include making a change to the application process or work procedures, providing documents in an alternate format, using a sign language interpreter, or using specialized equipment.</p>
 
-    <p>1Section 503 of the Rehabilitation Act of 1973, as amended.  For more information about this form or the equal employment obligations of Federal contractors, visit the U.S. Department of Labors Office of Federal Contract Compliance Programs (OFCCP) website at www.dol.gov/ofccp.</p>
+    <p>1Section 503 of the Rehabilitation Act of 1973, as amended.  For more information about this form or the equal employment obligations of Federal contractors, visit the U.S. Department of Labor’s Office of Federal Contract Compliance Programs (OFCCP) website at www.dol.gov/ofccp.</p>
 
     <p>PUBLIC BURDEN STATEMENT:  According to the Paperwork Reduction Act of 1995 no persons are required to respond to a collection of information unless such collection displays a valid OMB control number. This survey should take about 5 minutes to complete.</p>
 
@@ -99,6 +99,7 @@ compliance:
 content: '<p>The Rule Enforcement team is dedicated to keeping all employees in line.  Rule enforcers use various tactics such as physical intimidation, awkward pauses, and dramatic coffee sips in order to make sure everyone does what they''re told.</p>
 
   <p>As a Good Cop, you''ll work closely with Bad Cops in order to extract information from employees. Don''t let the name of the role fool you however -- you are going to be just as ''bad'' as Bad Cops, but you''ll preferably have experience playing the part of the kind, compassionate and fair cop.</p>'
+demographic_questions: null
 departments:
 - child_ids: []
   id: 13585
@@ -109,19 +110,22 @@ internal_job_id: 144371
 location:
   name: NYC
 location_questions:
-- fields:
+- description: null
+  fields:
   - name: location
     type: input_text
     values: []
   label: Location
   required: true
-- fields:
+- description: null
+  fields:
   - name: latitude
     type: input_hidden
     values: []
   label: Latitude
   required: true
-- fields:
+- description: null
+  fields:
   - name: longitude
     type: input_hidden
     values: []
@@ -135,31 +139,36 @@ offices:
   name: New York City
   parent_id: null
 questions:
-- fields:
+- description: null
+  fields:
   - name: first_name
     type: input_text
     values: []
   label: First Name
   required: true
-- fields:
+- description: null
+  fields:
   - name: last_name
     type: input_text
     values: []
   label: Last Name
   required: true
-- fields:
+- description: null
+  fields:
   - name: email
     type: input_text
     values: []
   label: Email
   required: true
-- fields:
+- description: null
+  fields:
   - name: phone
     type: input_text
     values: []
   label: Phone
   required: true
-- fields:
+- description: null
+  fields:
   - name: resume
     type: input_file
     values: []
@@ -168,7 +177,8 @@ questions:
     values: []
   label: Resume/CV
   required: true
-- fields:
+- description: null
+  fields:
   - name: cover_letter
     type: input_file
     values: []
@@ -177,37 +187,43 @@ questions:
     values: []
   label: Cover Letter
   required: true
-- fields:
+- description: null
+  fields:
   - name: question_789749
     type: input_text
     values: []
   label: LinkedIn Profile
   required: true
-- fields:
+- description: null
+  fields:
   - name: question_789750
     type: input_text
     values: []
   label: Website
   required: false
-- fields:
+- description: null
+  fields:
   - name: question_789751
     type: input_text
     values: []
   label: How did you hear about this job?
   required: true
-- fields:
+- description: null
+  fields:
   - name: question_789773
     type: input_text
     values: []
   label: Foobar?
   required: true
-- fields:
+- description: null
+  fields:
   - name: question_794510
     type: textarea
     values: []
   label: What?
   required: true
-- fields:
+- description: null
+  fields:
   - name: question_794511
     type: multi_value_single_select
     values:
@@ -217,7 +233,8 @@ questions:
       value: 1
   label: Huh?
   required: true
-- fields:
+- description: null
+  fields:
   - name: question_794512
     type: multi_value_single_select
     values:
@@ -229,7 +246,8 @@ questions:
       value: 310710
   label: Yeah?
   required: true
-- fields:
+- description: null
+  fields:
   - name: question_794513[]
     type: multi_value_multi_select
     values:
@@ -241,10 +259,11 @@ questions:
       value: 310713
   label: So?
   required: true
-- fields:
+- description: null
+  fields:
   - name: question_794514
     type: input_file
     values: []
   label: Passport?
   required: true
-updated_at: '2017-08-15T04:35:35-04:00'
+updated_at: '2018-12-14T08:47:35-05:00'
