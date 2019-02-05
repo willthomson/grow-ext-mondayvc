@@ -48,19 +48,19 @@ class GreenhousePreprocessor(grow.Preprocessor):
     def _download_schools(self, board_token):
         schools = {'items': []}
         total = 0
-        has_run = False
         items_so_far = 0
-        page = 0
-        while has_run is False or total > items_so_far:
+        page = 1
+        has_run = False
+        while not has_run or items_so_far < total:
             self.pod.logger.info('Downloading schools (page {})'.format(page))
             url = GreenhousePreprocessor.SCHOOLS_URL.format(board_token=board_token) + '?page={}'.format(page)
             resp = requests.get(url)
             if resp.status_code != 200:
                 raise Error('Error requesting -> {}'.format(url))
             resp = resp.json()
-            if has_run is False:
-                total = resp.get('meta', {}).get('total_count', 0)
+            if not has_run:
                 has_run = True
+                total = resp.get('meta', {}).get('total_count', 0)
             schools['items'] += resp['items']
             items_so_far += len(resp['items'])
             page += 1

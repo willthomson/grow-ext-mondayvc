@@ -372,206 +372,6 @@ schools:
     text: Barton College
   - id: 3992543
     text: Bastyr University
-  - id: 3991274
-    text: Abraham Baldwin Agricultural College
-  - id: 3991289
-    text: Academy of Art University
-  - id: 3991302
-    text: Acadia University
-  - id: 3991317
-    text: Adams State University
-  - id: 3991333
-    text: Adelphi University
-  - id: 3991349
-    text: Adrian College
-  - id: 3991365
-    text: Adventist University of Health Sciences
-  - id: 3991383
-    text: Agnes Scott College
-  - id: 3991400
-    text: AIB College of Business
-  - id: 3991415
-    text: Alaska Pacific University
-  - id: 3991432
-    text: Albany College of Pharmacy and Health Sciences
-  - id: 3991446
-    text: Albany State University
-  - id: 3991461
-    text: Albertus Magnus College
-  - id: 3991471
-    text: Albion College
-  - id: 3991482
-    text: Albright College
-  - id: 3991495
-    text: Alderson Broaddus University
-  - id: 3991501
-    text: Alfred University
-  - id: 3991514
-    text: Alice Lloyd College
-  - id: 3991528
-    text: Allegheny College
-  - id: 3991540
-    text: Allen College
-  - id: 3991551
-    text: Allen University
-  - id: 3991562
-    text: Alliant International University
-  - id: 3991574
-    text: Alma College
-  - id: 3991585
-    text: Alvernia University
-  - id: 3991597
-    text: Alverno College
-  - id: 3991608
-    text: Amberton University
-  - id: 3991620
-    text: American Academy of Art
-  - id: 3991636
-    text: American Indian College of the Assemblies of God
-  - id: 3991650
-    text: American InterContinental University
-  - id: 3991661
-    text: American International College
-  - id: 3991672
-    text: American Jewish University
-  - id: 3991685
-    text: American Public University System
-  - id: 3991698
-    text: American University
-  - id: 3991709
-    text: American University in Bulgaria
-  - id: 3991718
-    text: American University in Cairo
-  - id: 3991732
-    text: American University of Beirut
-  - id: 3991742
-    text: American University of Paris
-  - id: 3991754
-    text: American University of Puerto Rico
-  - id: 3991769
-    text: Amherst College
-  - id: 3991781
-    text: Amridge University
-  - id: 3991793
-    text: Anderson University
-  - id: 3991805
-    text: Andrews University
-  - id: 3991817
-    text: Angelo State University
-  - id: 3991830
-    text: Anna Maria College
-  - id: 3991840
-    text: Antioch University
-  - id: 3991851
-    text: Appalachian Bible College
-  - id: 3991863
-    text: Aquinas College
-  - id: 3991875
-    text: Arcadia University
-  - id: 3991889
-    text: Argosy University
-  - id: 3991901
-    text: Arizona Christian University
-  - id: 3991913
-    text: Arizona State University - West
-  - id: 3991935
-    text: Arkansas Baptist College
-  - id: 3991950
-    text: Arkansas Tech University
-  - id: 3991962
-    text: Armstrong Atlantic State University
-  - id: 3991975
-    text: Art Academy of Cincinnati
-  - id: 3991985
-    text: Art Center College of Design
-  - id: 3991998
-    text: Art Institute of Atlanta
-  - id: 3992010
-    text: Art Institute of Colorado
-  - id: 3992024
-    text: Art Institute of Houston
-  - id: 3992036
-    text: Art Institute of Pittsburgh
-  - id: 3992048
-    text: Art Institute of Portland
-  - id: 3992060
-    text: Art Institute of Seattle
-  - id: 3992071
-    text: Asbury University
-  - id: 3992084
-    text: Ashford University
-  - id: 3992095
-    text: Ashland University
-  - id: 3992106
-    text: Assumption College
-  - id: 3992120
-    text: Athens State University
-  - id: 3992132
-    text: Auburn University - Montgomery
-  - id: 3992154
-    text: Augsburg College
-  - id: 3992167
-    text: Augustana College
-  - id: 3992180
-    text: Aurora University
-  - id: 3992193
-    text: Austin College
-  - id: 3992206
-    text: Alcorn State University
-  - id: 3992219
-    text: Ave Maria University
-  - id: 3992231
-    text: Averett University
-  - id: 3992243
-    text: Avila University
-  - id: 3992254
-    text: Azusa Pacific University
-  - id: 3992268
-    text: Babson College
-  - id: 3992280
-    text: Bacone College
-  - id: 3992291
-    text: Baker College of Flint
-  - id: 3992305
-    text: Baker University
-  - id: 3992318
-    text: Baldwin Wallace University
-  - id: 3992330
-    text: Christian Brothers University
-  - id: 3992344
-    text: Abilene Christian University
-  - id: 3992355
-    text: Arizona State University
-  - id: 3992365
-    text: Auburn University
-  - id: 3992377
-    text: Alabama A&M University
-  - id: 3992389
-    text: Alabama State University
-  - id: 3992401
-    text: Arkansas State University
-  - id: 3992414
-    text: Baptist Bible College
-  - id: 3992424
-    text: Baptist Bible College and Seminary
-  - id: 3992436
-    text: Baptist College of Florida
-  - id: 3992446
-    text: Baptist Memorial College of Health Sciences
-  - id: 3992460
-    text: Baptist Missionary Association Theological Seminary
-  - id: 3992474
-    text: Bard College
-  - id: 3992487
-    text: Bard College at Simon's Rock
-  - id: 3992500
-    text: Barnard College
-  - id: 3992514
-    text: Barry University
-  - id: 3992528
-    text: Barton College
-  - id: 3992543
-    text: Bastyr University
   - id: 3992555
     text: Bates College
   - id: 3992568
@@ -5172,3 +4972,131 @@ schools:
     text: University of Tennessee - Martin
   - id: 4028307
     text: Weber State University
+  - id: 4028319
+    text: Youngstown State University
+  - id: 4028331
+    text: University of the Incarnate Word
+  - id: 4028345
+    text: University of Washington
+  - id: 4028356
+    text: University of Louisiana - Lafayette
+  - id: 4028370
+    text: Coastal Carolina University
+  - id: 4028384
+    text: Utah State University
+  - id: 4028403
+    text: University of Alabama
+  - id: 4028416
+    text: University of Illinois - Urbana-Champaign
+  - id: 4028429
+    text: United States Air Force Academy
+  - id: 4028452
+    text: University of Akron
+  - id: 4028466
+    text: University of Central Arkansas
+  - id: 4028478
+    text: University of Kansas
+  - id: 4028491
+    text: University of Northern Colorado
+  - id: 4028503
+    text: University of Northern Iowa
+  - id: 4028515
+    text: University of South Carolina
+  - id: 4028529
+    text: Tennessee Technological University
+  - id: 4028541
+    text: University of Texas - El Paso
+  - id: 4028558
+    text: Texas Tech University
+  - id: 4028753
+    text: Tulane University
+  - id: 4028834
+    text: Virginia Military Institute
+  - id: 4028850
+    text: Western Michigan University
+  - id: 4028864
+    text: Wilfrid Laurier University
+  - id: 4028877
+    text: University of San Diego
+  - id: 4028893
+    text: University of California - San Diego
+  - id: 4028936
+    text: Brooks Institute of Photography
+  - id: 4028957
+    text: Acupuncture and Integrative Medicine College - Berkeley
+  - id: 4028973
+    text: Southern Alberta Institute of Technology
+  - id: 4028986
+    text: Susquehanna University
+  - id: 4028998
+    text: University of Texas - Dallas
+  - id: 4029012
+    text: Thunderbird School of Global Management
+  - id: 4029025
+    text: Presidio Graduate School
+  - id: 4029036
+    text: École supérieure de commerce de Dijon
+  - id: 4029045
+    text: University of California - San Francisco
+  - id: 4029054
+    text: Hack Reactor
+  - id: 4029062
+    text: St. Mary''s College of California
+  - id: 4029073
+    text: New England Law
+  - id: 4029083
+    text: University of California, Merced
+  - id: 4029094
+    text: University of California, Hastings College of the Law
+  - id: 4029101
+    text: V.N. Karazin Kharkiv National University
+  - id: 4029110
+    text: SIM University (UniSIM)
+  - id: 4029118
+    text: Singapore Management University (SMU)
+  - id: 4029138
+    text: Singapore University of Technology and Design (SUTD)
+  - id: 4029147
+    text: Singapore Institute of Technology (SIT)
+  - id: 4029157
+    text: Nanyang Polytechnic (NYP)
+  - id: 4029167
+    text: Ngee Ann Polytechnic (NP)
+  - id: 4029176
+    text: Republic Polytechnic (RP)
+  - id: 4029186
+    text: Singapore Polytechnic (SP)
+  - id: 4029194
+    text: Temasek Polytechnic (TP)
+  - id: 4029201
+    text: INSEAD
+  - id: 4029207
+    text: Fundação Getúlio Vargas
+  - id: 4029215
+    text: Acharya Nagarjuna University
+  - id: 4029223
+    text: University of California - Santa Barbara
+  - id: 4029230
+    text: University of California - Irvine
+  - id: 4029236
+    text: California State University - Long Beach
+  - id: 4029243
+    text: Robert Morris University Illinois
+  - id: 4029253
+    text: Harold Washington College - City Colleges of Chicago
+  - id: 4029260
+    text: Harry S Truman College - City Colleges of Chicago
+  - id: 4029268
+    text: Kennedy-King College - City Colleges of Chicago
+  - id: 4029275
+    text: Malcolm X College - City Colleges of Chicago
+  - id: 4029289
+    text: Olive-Harvey College - City Colleges of Chicago
+  - id: 4029305
+    text: Richard J Daley College -  City Colleges of Chicago
+  - id: 4029320
+    text: Wilbur Wright College - City Colleges of Chicago
+  - id: 4029337
+    text: Abertay University
+  - id: 4029354
+    text: Pontifícia Universidade Católica de Minas Gerais
