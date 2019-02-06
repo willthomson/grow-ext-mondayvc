@@ -39,6 +39,8 @@ class SubmitApplicationHandler(webapp2.RequestHandler):
                 content.append((key, val))
         resp = submit_application(board_token, job_id, data=content, files=files)
         try:
+            logging.error('Error submitting to board {} for job {}'.format(board_token, job_id))
+            logging.error(resp.text)
             resp.raise_for_status()
         except Exception as e:
             logging.exception('Error submitting to board {} for job {}'.format(board_token, job_id))
