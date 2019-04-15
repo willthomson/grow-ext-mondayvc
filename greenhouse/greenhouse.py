@@ -36,6 +36,7 @@ class GreenhousePreprocessor(grow.Preprocessor):
         allowed_html_attributes = messages.MessageField(AttributeMessage, 5, repeated=True)
         education_path = messages.StringField(6)
         departments_blacklist = messages.StringField(7, repeated=True)
+        job_title_filter = messages.StringField(8)
 
     def bind_jobs(self, board_token, collection_path):
         url = GreenhousePreprocessor.JOBS_URL.format(board_token=board_token)
@@ -140,6 +141,11 @@ class GreenhousePreprocessor(grow.Preprocessor):
                 continue
             item = self._get_single_job(item)
             item = self._parse_entry(item)
+            # If using a filter against job titles, and if the filter isn't
+            # present in the title, skip.
+            if self.config.job_title_filter \
+                    and self.config.job_title_filter not in item['$title']:
+                continue
             path = os.path.join(collection_path, '{}.yaml'.format(item['id']))
             self.pod.write_yaml(path, item)
             self.pod.logger.info('Saving -> {}'.format(path))
