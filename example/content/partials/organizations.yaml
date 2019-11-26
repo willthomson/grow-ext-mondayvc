@@ -1,0 +1,39 @@
+items:
+- description: 'Algorithmia is an open marketplace for algorithms, enabling developers to create tomorrows smart applications today.
+
+    '
+  domain: algorithmia.com
+  id: 9110
+  locations: []
+  logo_url: https://cdn.filepicker.io/api/file/nklnODHRTSuHcSw5hXZf
+  name: Algorithmia
+  slug: algorithmia
+  topics: []
+- description: NumberAI allows small businesses to connect landline numbers digitally and interact the same ways consumers expect today.
+  domain: numberai.com
+  id: 12986
+  locations: []
+  logo_url: https://cdn.filestackcontent.com/UNhkoAuTG6dFRPYvO8Rw
+  name: NumberAI
+  slug: numberai
+  topics: []
+- description: OnScale Computer-Aided Engineering tools are based on proprietary multiphysics solvers that were developed and validated over 30 years by one of the largest engineering consulting firms in the world for DARPA, the U.S. Department of Defense (DOD), and large commercial customers.
+  domain: onscale.com
+  id: 16686
+  locations:
+  - Redwood City, CA, USA
+  logo_url: https://cdn.filepicker.io/api/file/33LknSc1R8u1Tfwj2c9D
+  name: OnScale
+  slug: onscale
+  topics: []
+- description: Test.ai (formerly Appdiff) is the world's first truly AI-powered test automation solution that improves the speed and quality of testing to meet the demands of today's agile development environment. Our test bots have been trained on tens of thousands of the top apps and have learned how to recognize and execute test scenarios automatically, dramatically reducing the need for human intervention. Test.ai provides automated test coverage and eliminates the mundane aspects of testing so testers can apply their skills to creative problem solving, and provide greater value to their organizations.
+  domain: test.ai
+  id: 15002
+  locations:
+  - San Francisco, CA, USA
+  logo_url: https://cdn.filepicker.io/api/file/xG8M921BTTO42BxzH85d
+  name: Test.ai
+  slug: test-ai
+  topics: []
+meta:
+  total: 4

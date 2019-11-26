@@ -2,13 +2,13 @@ from setuptools import setup
 
 
 setup(
-    name='grow-ext-greenhouse',
-    version='1.0.8',
+    name='grow-ext-mondayvc',
+    version='1.0.0',
     license='MIT',
     author='Grow SDK Authors',
     author_email='hello@grow.io',
     packages=[
-        'greenhouse',
+        'mondayvc',
     ],
     install_requires = [
         'bleach',

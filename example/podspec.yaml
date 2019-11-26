@@ -3,28 +3,14 @@ localization:
 
 extensions:
   preprocessors:
-  - extensions.greenhouse.GreenhousePreprocessor
+  - extensions.mondayvc.MondayVCPreprocessor
 
 preprocessors:
-- kind: greenhouse
+- kind: mondayvc
   autorun: true
-  board_token: vaulttec
-  jobs_collection: /content/jobs
-  departments_collection: /content/departments
-  departments_blacklist:
-  - Finance
-  education_path: /content/partials/education.yaml
-  allowed_html_tags:
-  - b
-  - br
-  - em
-  - i
-  - li
-  - ol
-  - p
-  - strong
-  - u
-  - ul
-  allowed_html_attributes:
-  - tag: a
-    attributes: [href, src]
+  api_user:
+  api_key:
+  collections_id: 
+  jobs_path: /content/partials/jobs.yaml
+  collections_path: /content/partials/collections.yaml
+  organizations_path: /content/partials/organizations.yaml

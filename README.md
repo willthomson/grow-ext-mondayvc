@@ -1,34 +1,30 @@
-# grow-ext-greenhouse
+# grow-ext-mondayvc
 
-[![Build
-Status](https://travis-ci.org/grow/grow-ext-greenhouse.svg?branch=master)](https://travis-ci.org/grow/grow-ext-greenhouse)
-
-An extension to integrate Greenhouse data with Grow. Provides a way to
-serialize Greenhouse jobs into YAML files and a backend proxy for submitting
-job applications.
+An extension to integrate Monday.vc data with Grow. Provides a way to serialize Monday.vc jobs into YAML files.
 
 ## Concept
 
-Greenhouse is an applicant tracking system and hiring tool for organizations to recruit and hire candidates. The Grow extension leverages the Greenhouse API so job listings can be embedded within a Grow website.
+Monday.vc is an applicant tracking system and hiring tool for organizations to recruit and hire candidates. The Grow extension leverages the Monday.vc API so job listings can be embedded within a Grow website.
 
 ## Usage
 
 ### Grow setup
 
 1. Create an `extensions.txt` file within your pod.
-1. Add to the file: `git+git://github.com/grow/grow-ext-greenhouse`
+1. Add to the file: `git+git://github.com/grow/grow-ext-mondayvc`
 1. Run `grow install`.
 1. Add the following section to `podspec.yaml`:
 
 ```
 extensions:
   preprocessors:
-  - extensions.greenhouse.GreenhousePreprocessor
+  - extensions.mondayvc.MondayVCPreprocessor
 
 preprocessors:
-- kind: greenhouse
-  board_token: <token>
-  jobs_collection: /content/jobs
+- kind: mondayvc
+  jobs_path: /content/partials/jobs.yaml
+  collections_path: /content/partials/collections.yaml
+  organizations_path: /content/partials/organizations.yaml
 ```
 
 The preprocessor accepts a few additional configuration options, see
@@ -36,11 +32,16 @@ The preprocessor accepts a few additional configuration options, see
 
 ### Configuration
 
-1. Acquire the `board_token` from the
-   (Greenhouse Dev Center)[https://app.greenhouse.io/configure/dev_center/config/].
+1. Monday expects for the User email and the API key to be included in all API requests to the server in a header that looks like the following:
+```
+X-User-Email: test@email.com
+X-User-Token: <password>
+Content-Type: application/json
+Accept: application/json
+```
 
 ### Developer notes
 
-- See [Greenhouse Job Board API
-  documentation](https://developers.greenhouse.io/job-board.html) for more
+- See [Monday.vc API
+  documentation](https://docs.monday.vc/) for more
   details.
