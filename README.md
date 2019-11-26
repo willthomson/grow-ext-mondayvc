@@ -24,7 +24,7 @@ preprocessors:
 - kind: mondayvc
   api_user: test@gmail.com
   api_key: <mondayvc-api-key>
-  collections_id: <collection-id>  # Required for jobs & organizations API calls
+  collections_id: <collection-id>  // Required for jobs & organizations API calls
   jobs_path: /content/partials/jobs.yaml
   collections_path: /content/partials/collections.yaml
   organizations_path: /content/partials/organizations.yaml
