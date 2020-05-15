@@ -24,7 +24,7 @@ class MondayVCPreprocessor(grow.Preprocessor):
     JOBS_URL = 'https://api.monday.vc/v2/collections/{collections_id}/jobs'
     COLLECTIONS_URL = 'https://api.monday.vc/v2/collections'
     ORGANIZATIONS_URL = 'https://api.monday.vc/v2/collections/{collections_id}/organizations'
-    QUERY_PARAM = '?page=1&per_page=100'
+    QUERY_PARAM = '?page={number_of_page}&per_page=100'
 
     class Config(messages.Message):
         api_user = messages.StringField(1)
@@ -35,12 +35,23 @@ class MondayVCPreprocessor(grow.Preprocessor):
         organizations_path = messages.StringField(6)
 
     def bind_jobs(self, collections_id, jobs_path):
+        jobs = {}
         headers = { 'X-User-Email': self.config.api_user, 'X-User-Token': self.config.api_key, 'Content-Type': 'application/json', 'Accept': 'application/json'}
-        url = MondayVCPreprocessor.JOBS_URL.format(collections_id=collections_id) + MondayVCPreprocessor.QUERY_PARAM
-        resp = requests.get(url, headers=headers)
-    	if resp.status_code != 200:
+        def get_jobs(number_of_page=1):
+            url = MondayVCPreprocessor.JOBS_URL.format(collections_id=collections_id) + MondayVCPreprocessor.QUERY_PARAM.format(number_of_page=number_of_page)
+            resp = requests.get(url, headers=headers)
+            if resp.status_code != 200:
                 raise Error('Error requesting -> {}'.format(url))
-        jobs = resp.json()
+            return resp.json()
+        # TODO (@micjamking): retrieve meta information
+        def get_all_jobs(number_of_page=1):
+            results = get_jobs(number_of_page)
+            self.pod.logger.info('Retreiving data from API for page {}'.format(number_of_page))
+            if len(results['items']) > 0:
+                return results['items'] + get_all_jobs(number_of_page+1)
+            else:
+                return results['items']
+        jobs['items'] = get_all_jobs()
         path = os.path.join(jobs_path)
         self.pod.write_yaml(path, jobs)
         self.pod.logger.info('Saving -> {}'.format(path))
@@ -58,7 +69,7 @@ class MondayVCPreprocessor(grow.Preprocessor):
 
     def bind_organizations(self, collections_id, organizations_path):
         headers = { 'X-User-Email': self.config.api_user, 'X-User-Token': self.config.api_key, 'Content-Type': 'application/json', 'Accept': 'application/json'}
-        url = MondayVCPreprocessor.ORGANIZATIONS_URL.format(collections_id=collections_id) + MondayVCPreprocessor.QUERY_PARAM
+        url = MondayVCPreprocessor.ORGANIZATIONS_URL.format(collections_id=collections_id) + MondayVCPreprocessor.QUERY_PARAM.format(number_of_page=1)
         resp = requests.get(url, headers=headers)
     	if resp.status_code != 200:
                 raise Error('Error requesting -> {}'.format(url))
