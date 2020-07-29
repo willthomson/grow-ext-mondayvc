@@ -1,1 +1,1 @@
-from mondayvc import *
+from .mondayvc import *
